@@ -49,7 +49,7 @@
         Ruc: {{ company.ruc }}<br>
         Celular: {{ company.phone }}<br>
         Web: {{ company.website }}<br><br>
-        <h4 class="text-center"><b>Solicitud de Pedido de Compra</b></h4>
+        <h4 class="text-center"><b>Solicitud Transferencia de Mercaderia</b></h4>
     </p>
 
 
@@ -57,7 +57,7 @@
         <div class="row">
             <div class="col-6">
                 <p>
-                    <b>Nº Solicitud:</b> {{sale.sucursal.serie}}-00000{{ sale.id }}<br>
+                    <b>Nº Transferencia:</b> {{sale.borigen.serie}}-00000{{ sale.id }}<br>
                     <b>Realizada por:</b>{{ sale.employee.get_full_name }}<br>
                     <!--<b>Vendedor/a:</b> {{ sale.employee.get_full_name }}<br>
                     <b>Cliente:</b> {{ sale.client.user.get_full_name }}<br>
@@ -68,7 +68,11 @@
             <div class="col-6">
                     <b>Fecha de Solicitud:</b> {{ sale.date_joined|date:'c' }}<br>
                     <!--<b>Forma de pago:</b> {{ sale.get_payment_condition_display }}<br>-->
-                    <b>Sucursal:</b>{{sale.sucursal.name}}<br>
+                    <b>Bodega Origen:</b>{{sale.borigen.name}}<br>
+                    <b>Bodega Destino:</b>{{sale.bodestino.name}}<br>
+                    <b>Observacion:</b>{{sale.concepto}}<br>
+
+
 
                    <!--{% if sale.payment_condition == 'contado' %}
                     {% else %}
@@ -95,7 +99,7 @@
         </tr>
         </thead>
         <tbody>
-        {% for det in sale.purchaserequestdetail_set.all %}
+        {% for det in sale.stockmovementdetail_set.all %}
             <tr>
                 <td class="text-center">{{ det.cant }}</td>
                 <td>{{ det.product.name }}</td>

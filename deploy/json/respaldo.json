@@ -1,0 +1,7557 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 4,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 4,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 4,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 4,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 5,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 5,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 5,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 5,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can view Acceso del usuario",
+    "content_type": 6,
+    "codename": "view_accessusers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can delete Acceso del usuario",
+    "content_type": 6,
+    "codename": "delete_accessusers"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can view Dashboard",
+    "content_type": 7,
+    "codename": "view_dashboard"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view Respaldos de BD",
+    "content_type": 8,
+    "codename": "view_databasebackups"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add Respaldos de BD",
+    "content_type": 8,
+    "codename": "add_databasebackups"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can delete Respaldos de BD",
+    "content_type": 8,
+    "codename": "delete_databasebackups"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can add Tipo de Módulo",
+    "content_type": 9,
+    "codename": "add_moduletype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can change Tipo de Módulo",
+    "content_type": 9,
+    "codename": "change_moduletype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can delete Tipo de Módulo",
+    "content_type": 9,
+    "codename": "delete_moduletype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can view Tipo de Módulo",
+    "content_type": 9,
+    "codename": "view_moduletype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can add Módulo",
+    "content_type": 10,
+    "codename": "add_module"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can change Módulo",
+    "content_type": 10,
+    "codename": "change_module"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can delete Módulo",
+    "content_type": 10,
+    "codename": "delete_module"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can view Módulo",
+    "content_type": 10,
+    "codename": "view_module"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 13,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 13,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 13,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 13,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can add Categoria",
+    "content_type": 14,
+    "codename": "add_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can change Categoria",
+    "content_type": 14,
+    "codename": "change_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 41,
+  "fields": {
+    "name": "Can delete Categoria",
+    "content_type": 14,
+    "codename": "delete_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 42,
+  "fields": {
+    "name": "Can view Categoria",
+    "content_type": 14,
+    "codename": "view_category"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 43,
+  "fields": {
+    "name": "Can add Cliente",
+    "content_type": 15,
+    "codename": "add_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 44,
+  "fields": {
+    "name": "Can change Cliente",
+    "content_type": 15,
+    "codename": "change_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can delete Cliente",
+    "content_type": 15,
+    "codename": "delete_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can view Cliente",
+    "content_type": 15,
+    "codename": "view_client"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can view Company",
+    "content_type": 16,
+    "codename": "view_company"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view Cuentas por cobrar",
+    "content_type": 17,
+    "codename": "view_ctascollect"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 49,
+  "fields": {
+    "name": "Can add Cuentas por cobrar",
+    "content_type": 17,
+    "codename": "add_ctascollect"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 50,
+  "fields": {
+    "name": "Can delete Cuentas por cobrar",
+    "content_type": 17,
+    "codename": "delete_ctascollect"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 51,
+  "fields": {
+    "name": "Can view Cuentas por pagar",
+    "content_type": 18,
+    "codename": "view_debtspay"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 52,
+  "fields": {
+    "name": "Can add Cuentas por pagar",
+    "content_type": 18,
+    "codename": "add_debtspay"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 53,
+  "fields": {
+    "name": "Can delete Cuentas por pagar",
+    "content_type": 18,
+    "codename": "delete_debtspay"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 54,
+  "fields": {
+    "name": "Can view Devoluciones",
+    "content_type": 19,
+    "codename": "view_devolution"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 55,
+  "fields": {
+    "name": "Can add Devoluciones",
+    "content_type": 19,
+    "codename": "add_devolution"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 56,
+  "fields": {
+    "name": "Can delete Devoluciones",
+    "content_type": 19,
+    "codename": "delete_devolution"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 57,
+  "fields": {
+    "name": "Can add Gasto",
+    "content_type": 20,
+    "codename": "add_expenses"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 58,
+  "fields": {
+    "name": "Can change Gasto",
+    "content_type": 20,
+    "codename": "change_expenses"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 59,
+  "fields": {
+    "name": "Can delete Gasto",
+    "content_type": 20,
+    "codename": "delete_expenses"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 60,
+  "fields": {
+    "name": "Can view Gasto",
+    "content_type": 20,
+    "codename": "view_expenses"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 61,
+  "fields": {
+    "name": "Can add Producto",
+    "content_type": 23,
+    "codename": "add_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 62,
+  "fields": {
+    "name": "Can change Producto",
+    "content_type": 23,
+    "codename": "change_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 63,
+  "fields": {
+    "name": "Can delete Producto",
+    "content_type": 23,
+    "codename": "delete_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 64,
+  "fields": {
+    "name": "Can view Producto",
+    "content_type": 23,
+    "codename": "view_product"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 65,
+  "fields": {
+    "name": "Can add Promoción",
+    "content_type": 24,
+    "codename": "add_promotions"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 66,
+  "fields": {
+    "name": "Can change Promoción",
+    "content_type": 24,
+    "codename": "change_promotions"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 67,
+  "fields": {
+    "name": "Can delete Promoción",
+    "content_type": 24,
+    "codename": "delete_promotions"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 68,
+  "fields": {
+    "name": "Can view Promoción",
+    "content_type": 24,
+    "codename": "view_promotions"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 69,
+  "fields": {
+    "name": "Can add Detalle Promoción",
+    "content_type": 25,
+    "codename": "add_promotionsdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 70,
+  "fields": {
+    "name": "Can change Detalle Promoción",
+    "content_type": 25,
+    "codename": "change_promotionsdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 71,
+  "fields": {
+    "name": "Can delete Detalle Promoción",
+    "content_type": 25,
+    "codename": "delete_promotionsdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 72,
+  "fields": {
+    "name": "Can view Detalle Promoción",
+    "content_type": 25,
+    "codename": "view_promotionsdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 73,
+  "fields": {
+    "name": "Can add Proveedor",
+    "content_type": 26,
+    "codename": "add_provider"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 74,
+  "fields": {
+    "name": "Can change Proveedor",
+    "content_type": 26,
+    "codename": "change_provider"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 75,
+  "fields": {
+    "name": "Can delete Proveedor",
+    "content_type": 26,
+    "codename": "delete_provider"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 76,
+  "fields": {
+    "name": "Can view Proveedor",
+    "content_type": 26,
+    "codename": "view_provider"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 77,
+  "fields": {
+    "name": "Can view Compras",
+    "content_type": 27,
+    "codename": "view_purchase"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 78,
+  "fields": {
+    "name": "Can add Compras",
+    "content_type": 27,
+    "codename": "add_purchase"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 79,
+  "fields": {
+    "name": "Can delete Compras",
+    "content_type": 27,
+    "codename": "delete_purchase"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 80,
+  "fields": {
+    "name": "Can add Detalle de Compra",
+    "content_type": 28,
+    "codename": "add_purchasedetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 81,
+  "fields": {
+    "name": "Can change Detalle de Compra",
+    "content_type": 28,
+    "codename": "change_purchasedetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 82,
+  "fields": {
+    "name": "Can delete Detalle de Compra",
+    "content_type": 28,
+    "codename": "delete_purchasedetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 83,
+  "fields": {
+    "name": "Can view Detalle de Compra",
+    "content_type": 28,
+    "codename": "view_purchasedetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 84,
+  "fields": {
+    "name": "Can view Ventas",
+    "content_type": 29,
+    "codename": "view_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 85,
+  "fields": {
+    "name": "Can add Ventas",
+    "content_type": 29,
+    "codename": "add_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 86,
+  "fields": {
+    "name": "Can delete Ventas",
+    "content_type": 29,
+    "codename": "delete_sale"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 87,
+  "fields": {
+    "name": "Can add Tipo de Gasto",
+    "content_type": 30,
+    "codename": "add_typeexpense"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 88,
+  "fields": {
+    "name": "Can change Tipo de Gasto",
+    "content_type": 30,
+    "codename": "change_typeexpense"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 89,
+  "fields": {
+    "name": "Can delete Tipo de Gasto",
+    "content_type": 30,
+    "codename": "delete_typeexpense"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 90,
+  "fields": {
+    "name": "Can view Tipo de Gasto",
+    "content_type": 30,
+    "codename": "view_typeexpense"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 91,
+  "fields": {
+    "name": "Can add Sucursal",
+    "content_type": 32,
+    "codename": "add_sucursal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 92,
+  "fields": {
+    "name": "Can change Sucursal",
+    "content_type": 32,
+    "codename": "change_sucursal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 93,
+  "fields": {
+    "name": "Can delete Sucursal",
+    "content_type": 32,
+    "codename": "delete_sucursal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 94,
+  "fields": {
+    "name": "Can view Sucursal",
+    "content_type": 32,
+    "codename": "view_sucursal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 95,
+  "fields": {
+    "name": "Can add Modelo",
+    "content_type": 33,
+    "codename": "add_exemplar"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 96,
+  "fields": {
+    "name": "Can change Modelo",
+    "content_type": 33,
+    "codename": "change_exemplar"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 97,
+  "fields": {
+    "name": "Can delete Modelo",
+    "content_type": 33,
+    "codename": "delete_exemplar"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 98,
+  "fields": {
+    "name": "Can view Modelo",
+    "content_type": 33,
+    "codename": "view_exemplar"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 99,
+  "fields": {
+    "name": "Can add Marca",
+    "content_type": 34,
+    "codename": "add_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 100,
+  "fields": {
+    "name": "Can change Marca",
+    "content_type": 34,
+    "codename": "change_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 101,
+  "fields": {
+    "name": "Can delete Marca",
+    "content_type": 34,
+    "codename": "delete_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 102,
+  "fields": {
+    "name": "Can view Marca",
+    "content_type": 34,
+    "codename": "view_brand"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 103,
+  "fields": {
+    "name": "Can add Plazo de Pago",
+    "content_type": 35,
+    "codename": "add_paymentterms"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 104,
+  "fields": {
+    "name": "Can change Plazo de Pago",
+    "content_type": 35,
+    "codename": "change_paymentterms"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 105,
+  "fields": {
+    "name": "Can delete Plazo de Pago",
+    "content_type": 35,
+    "codename": "delete_paymentterms"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 106,
+  "fields": {
+    "name": "Can view Plazo de Pago",
+    "content_type": 35,
+    "codename": "view_paymentterms"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 107,
+  "fields": {
+    "name": "Can add Plazo",
+    "content_type": 36,
+    "codename": "add_term"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 108,
+  "fields": {
+    "name": "Can change Plazo",
+    "content_type": 36,
+    "codename": "change_term"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 109,
+  "fields": {
+    "name": "Can delete Plazo",
+    "content_type": 36,
+    "codename": "delete_term"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 110,
+  "fields": {
+    "name": "Can view Plazo",
+    "content_type": 36,
+    "codename": "view_term"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 111,
+  "fields": {
+    "name": "Can add Movimiento",
+    "content_type": 37,
+    "codename": "add_movement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 112,
+  "fields": {
+    "name": "Can change Movimiento",
+    "content_type": 37,
+    "codename": "change_movement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 113,
+  "fields": {
+    "name": "Can delete Movimiento",
+    "content_type": 37,
+    "codename": "delete_movement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 114,
+  "fields": {
+    "name": "Can view Movimiento",
+    "content_type": 37,
+    "codename": "view_movement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 115,
+  "fields": {
+    "name": "Can add Plazo de Pago",
+    "content_type": 38,
+    "codename": "add_payment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 116,
+  "fields": {
+    "name": "Can change Plazo de Pago",
+    "content_type": 38,
+    "codename": "change_payment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 117,
+  "fields": {
+    "name": "Can delete Plazo de Pago",
+    "content_type": 38,
+    "codename": "delete_payment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 118,
+  "fields": {
+    "name": "Can view Plazo de Pago",
+    "content_type": 38,
+    "codename": "view_payment"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 119,
+  "fields": {
+    "name": "Can add Detalle de Compra",
+    "content_type": 39,
+    "codename": "add_purchaseorderdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 120,
+  "fields": {
+    "name": "Can change Detalle de Compra",
+    "content_type": 39,
+    "codename": "change_purchaseorderdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 121,
+  "fields": {
+    "name": "Can delete Detalle de Compra",
+    "content_type": 39,
+    "codename": "delete_purchaseorderdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 122,
+  "fields": {
+    "name": "Can view Detalle de Compra",
+    "content_type": 39,
+    "codename": "view_purchaseorderdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 123,
+  "fields": {
+    "name": "Can add Detalle de solicitud de Compra",
+    "content_type": 40,
+    "codename": "add_purchaserequestdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 124,
+  "fields": {
+    "name": "Can change Detalle de solicitud de Compra",
+    "content_type": 40,
+    "codename": "change_purchaserequestdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 125,
+  "fields": {
+    "name": "Can delete Detalle de solicitud de Compra",
+    "content_type": 40,
+    "codename": "delete_purchaserequestdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 126,
+  "fields": {
+    "name": "Can view Detalle de solicitud de Compra",
+    "content_type": 40,
+    "codename": "view_purchaserequestdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 127,
+  "fields": {
+    "name": "Can add Orden de Compra",
+    "content_type": 41,
+    "codename": "add_purchaseorder"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 128,
+  "fields": {
+    "name": "Can change Orden de Compra",
+    "content_type": 41,
+    "codename": "change_purchaseorder"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 129,
+  "fields": {
+    "name": "Can delete Orden de Compra",
+    "content_type": 41,
+    "codename": "delete_purchaseorder"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 130,
+  "fields": {
+    "name": "Can view Orden de Compra",
+    "content_type": 41,
+    "codename": "view_purchaseorder"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 131,
+  "fields": {
+    "name": "Can add Solicitud de Compra",
+    "content_type": 42,
+    "codename": "add_purchaserequest"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 132,
+  "fields": {
+    "name": "Can change Solicitud de Compra",
+    "content_type": 42,
+    "codename": "change_purchaserequest"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 133,
+  "fields": {
+    "name": "Can delete Solicitud de Compra",
+    "content_type": 42,
+    "codename": "delete_purchaserequest"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 134,
+  "fields": {
+    "name": "Can view Solicitud de Compra",
+    "content_type": 42,
+    "codename": "view_purchaserequest"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 135,
+  "fields": {
+    "name": "Can add Solicitud de Transferencia",
+    "content_type": 43,
+    "codename": "add_stockmovement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 136,
+  "fields": {
+    "name": "Can change Solicitud de Transferencia",
+    "content_type": 43,
+    "codename": "change_stockmovement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 137,
+  "fields": {
+    "name": "Can delete Solicitud de Transferencia",
+    "content_type": 43,
+    "codename": "delete_stockmovement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 138,
+  "fields": {
+    "name": "Can view Solicitud de Transferencia",
+    "content_type": 43,
+    "codename": "view_stockmovement"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 139,
+  "fields": {
+    "name": "Can add Detall de Solicitud de Transferencia",
+    "content_type": 44,
+    "codename": "add_stockmovementdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 140,
+  "fields": {
+    "name": "Can change Detall de Solicitud de Transferencia",
+    "content_type": 44,
+    "codename": "change_stockmovementdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 141,
+  "fields": {
+    "name": "Can delete Detall de Solicitud de Transferencia",
+    "content_type": 44,
+    "codename": "delete_stockmovementdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 142,
+  "fields": {
+    "name": "Can view Detall de Solicitud de Transferencia",
+    "content_type": 44,
+    "codename": "view_stockmovementdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 143,
+  "fields": {
+    "name": "Can add Transportista",
+    "content_type": 45,
+    "codename": "add_transportista"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 144,
+  "fields": {
+    "name": "Can change Transportista",
+    "content_type": 45,
+    "codename": "change_transportista"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 145,
+  "fields": {
+    "name": "Can delete Transportista",
+    "content_type": 45,
+    "codename": "delete_transportista"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 146,
+  "fields": {
+    "name": "Can view Transportista",
+    "content_type": 45,
+    "codename": "view_transportista"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 147,
+  "fields": {
+    "name": "Can add Pricelist",
+    "content_type": 46,
+    "codename": "add_pricelist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 148,
+  "fields": {
+    "name": "Can change Pricelist",
+    "content_type": 46,
+    "codename": "change_pricelist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 149,
+  "fields": {
+    "name": "Can delete Pricelist",
+    "content_type": 46,
+    "codename": "delete_pricelist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 150,
+  "fields": {
+    "name": "Can view Pricelist",
+    "content_type": 46,
+    "codename": "view_pricelist"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 151,
+  "fields": {
+    "name": "Can add Transferencia",
+    "content_type": 47,
+    "codename": "add_stockmovementoperation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 152,
+  "fields": {
+    "name": "Can change Transferencia",
+    "content_type": 47,
+    "codename": "change_stockmovementoperation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 153,
+  "fields": {
+    "name": "Can delete Transferencia",
+    "content_type": 47,
+    "codename": "delete_stockmovementoperation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 154,
+  "fields": {
+    "name": "Can view Transferencia",
+    "content_type": 47,
+    "codename": "view_stockmovementoperation"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 155,
+  "fields": {
+    "name": "Can add Detalle de Transferencia",
+    "content_type": 48,
+    "codename": "add_stockmovementoperationdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 156,
+  "fields": {
+    "name": "Can change Detalle de Transferencia",
+    "content_type": 48,
+    "codename": "change_stockmovementoperationdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 157,
+  "fields": {
+    "name": "Can delete Detalle de Transferencia",
+    "content_type": 48,
+    "codename": "delete_stockmovementoperationdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 158,
+  "fields": {
+    "name": "Can view Detalle de Transferencia",
+    "content_type": 48,
+    "codename": "view_stockmovementoperationdetail"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 159,
+  "fields": {
+    "name": "Can add product by sucursal",
+    "content_type": 50,
+    "codename": "add_productbysucursal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 160,
+  "fields": {
+    "name": "Can change product by sucursal",
+    "content_type": 50,
+    "codename": "change_productbysucursal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 161,
+  "fields": {
+    "name": "Can delete product by sucursal",
+    "content_type": 50,
+    "codename": "delete_productbysucursal"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 162,
+  "fields": {
+    "name": "Can view product by sucursal",
+    "content_type": 50,
+    "codename": "view_productbysucursal"
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 1,
+  "fields": {
+    "name": "Administrador",
+    "permissions": [
+      9,
+      10,
+      11,
+      12,
+      99,
+      100,
+      101,
+      102,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      49,
+      50,
+      48,
+      52,
+      53,
+      51,
+      55,
+      56,
+      54,
+      95,
+      96,
+      97,
+      98,
+      57,
+      58,
+      59,
+      60,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      147,
+      148,
+      149,
+      150,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      73,
+      74,
+      75,
+      76,
+      78,
+      79,
+      77,
+      127,
+      128,
+      129,
+      130,
+      119,
+      120,
+      121,
+      122,
+      131,
+      132,
+      133,
+      134,
+      123,
+      124,
+      125,
+      126,
+      85,
+      86,
+      84,
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142,
+      91,
+      92,
+      93,
+      94,
+      87,
+      88,
+      89,
+      90,
+      22,
+      21,
+      25,
+      26,
+      24,
+      31,
+      32,
+      33,
+      34,
+      27,
+      28,
+      29,
+      30,
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 2,
+  "fields": {
+    "name": "Cliente",
+    "permissions": []
+  }
+},
+{
+  "model": "auth.group",
+  "pk": 3,
+  "fields": {
+    "name": "Fernando Quito",
+    "permissions": [
+      131,
+      132,
+      133,
+      134
+    ]
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "security",
+    "model": "accessusers"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "security",
+    "model": "dashboard"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "security",
+    "model": "databasebackups"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "security",
+    "model": "moduletype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "security",
+    "model": "module"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 11,
+  "fields": {
+    "app_label": "security",
+    "model": "grouppermission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 12,
+  "fields": {
+    "app_label": "security",
+    "model": "groupmodule"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 13,
+  "fields": {
+    "app_label": "user",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 14,
+  "fields": {
+    "app_label": "pos",
+    "model": "category"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 15,
+  "fields": {
+    "app_label": "pos",
+    "model": "client"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 16,
+  "fields": {
+    "app_label": "pos",
+    "model": "company"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 17,
+  "fields": {
+    "app_label": "pos",
+    "model": "ctascollect"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 18,
+  "fields": {
+    "app_label": "pos",
+    "model": "debtspay"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 19,
+  "fields": {
+    "app_label": "pos",
+    "model": "devolution"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 20,
+  "fields": {
+    "app_label": "pos",
+    "model": "expenses"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 21,
+  "fields": {
+    "app_label": "pos",
+    "model": "paymentsctacollect"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 22,
+  "fields": {
+    "app_label": "pos",
+    "model": "paymentsdebtspay"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 23,
+  "fields": {
+    "app_label": "pos",
+    "model": "product"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 24,
+  "fields": {
+    "app_label": "pos",
+    "model": "promotions"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 25,
+  "fields": {
+    "app_label": "pos",
+    "model": "promotionsdetail"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 26,
+  "fields": {
+    "app_label": "pos",
+    "model": "provider"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 27,
+  "fields": {
+    "app_label": "pos",
+    "model": "purchase"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 28,
+  "fields": {
+    "app_label": "pos",
+    "model": "purchasedetail"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 29,
+  "fields": {
+    "app_label": "pos",
+    "model": "sale"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 30,
+  "fields": {
+    "app_label": "pos",
+    "model": "typeexpense"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 31,
+  "fields": {
+    "app_label": "pos",
+    "model": "saledetail"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 32,
+  "fields": {
+    "app_label": "pos",
+    "model": "sucursal"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 33,
+  "fields": {
+    "app_label": "pos",
+    "model": "exemplar"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 34,
+  "fields": {
+    "app_label": "pos",
+    "model": "brand"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 35,
+  "fields": {
+    "app_label": "pos",
+    "model": "paymentterms"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 36,
+  "fields": {
+    "app_label": "pos",
+    "model": "term"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 37,
+  "fields": {
+    "app_label": "pos",
+    "model": "movement"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 38,
+  "fields": {
+    "app_label": "pos",
+    "model": "payment"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 39,
+  "fields": {
+    "app_label": "pos",
+    "model": "purchaseorderdetail"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 40,
+  "fields": {
+    "app_label": "pos",
+    "model": "purchaserequestdetail"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 41,
+  "fields": {
+    "app_label": "pos",
+    "model": "purchaseorder"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 42,
+  "fields": {
+    "app_label": "pos",
+    "model": "purchaserequest"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 43,
+  "fields": {
+    "app_label": "pos",
+    "model": "stockmovement"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 44,
+  "fields": {
+    "app_label": "pos",
+    "model": "stockmovementdetail"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 45,
+  "fields": {
+    "app_label": "security",
+    "model": "transportista"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 46,
+  "fields": {
+    "app_label": "pos",
+    "model": "pricelist"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 47,
+  "fields": {
+    "app_label": "pos",
+    "model": "stockmovementoperation"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 48,
+  "fields": {
+    "app_label": "pos",
+    "model": "stockmovementoperationdetail"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 49,
+  "fields": {
+    "app_label": "pos",
+    "model": "productbysucursaldetail"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 50,
+  "fields": {
+    "app_label": "pos",
+    "model": "productbysucursal"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "0duqk68wodjlcp7y20ahdko86mf3ce3z",
+  "fields": {
+    "session_data": ".eJxtks1OFEEQx2FhYQWBSORkNKNGAwkMO7PfNz9COBCM0QeY1HT3bDfMxzrdTbIHEj1oIOkb5ZP4CL6YNTNAODiXTlX9q_L_Vc339u8XSwv1d4m7biMCa2RktSgjxdEtBui2H-RiYOcip8IeP4N8WvisyE2pYr-S-LdV7Z8WXKQf7rRbDwZI0BLdu5An_bAXTPgkGAOMRuMu8CQJYcgHPAjZMB6M-KQbjAZ8yJLRZBCHMBqwZBhDGHS74xhdR-VJEc_VDCvfj9QMOC-F1ug2g3Hg9yZ-0O_7QTggaVowMKrI0e0cW5jDN6vSfe943ztiFnhRoltSeoZu9ZMwqUoEunVWWAKbMwJB1zr6iNa1p2VhSbVzi85jP6s4NXFrUm3WUWTzmWLnqcAbdMsVOLr2cd35C3_il9ruSqQNGIFy263Vu_pahze496OpE4zKp3jtWpxYV7lIwKYG3eNEiZTriAGTgqQ2di2608miW84hIxMb73mmcqVN2YBtRY3b6EKUul5Bu-eHflh1rpBhS0blU9fRgtlSmTm6ldMme-9WPpPPG1_y9SVK71q-lK9sLN-ctNySLVN0Tw7v2g-bkYco37rO6d8_FBR0ko0mbeYzETV217nQrFSz5iz7n0WZKSM8uHdfetTpZbcjPNqRp6kgMqC1KlZ1bSWgvQQOjDxIoZwSfVtlUL0LdEGlK2ajGKR4RT-IjoAZdSEoWKtqSquYMK_krtyjZXSIJEpBm__iWP8fUqMyzw:1mlDhe:5TGFdIB7a_f7-LkyzD8dnta5LOsVeTTqyVZbI2pFlBA",
+    "expire_date": "2021-11-25T17:17:34.186Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "1m7cobkhxk0s756pf7y9sea20c6prlcf",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOldL2UiTIbgL76qkPIQ6ICrUfIJrYzsYlidPYRt0DUntoVSTfmH7fThK2Qiq-zfv_m_H37p83K0vNu8HXbjsCa9LIalFFkqNbDtDtPfDFwK5EQYED_gWKmfKZKkwlY79O8e-j2r9QXGTvF7m7DxqkoFN0b0OenITHwZRPgwnAeDwZAE-SEEZ8yIOQjeLhmE8HwXjIRywZT4dxCOMhS0YxhMFgMInRbcgiUfFclljr3pQlcF4JrdHtBJPAP576wcmJH4RDSs0UAyNVgW7_zMIcvlqZHXpnh94ps8BVhW5F6hLd-kdhMpkIdFtMWQKbMwJB1zn9gNZ1Z5WylLV_j85jP685NXFrytpprMgWpWRXmcA7dKs1OLruWVP5C3_ip0buWqQNGIHpnus1u_rcmHd48KONE4wsZnjrOpxY17lIwGYG3ZNEiozriAFLBaXa2HXoTufLbrWAnERsv-O5LKQ2VQu2G7Vqo2tR6WYF3WM_9MO6co0EWxKaPnMbWjBbSTNHt3bReh9R-7yVl766wdS7TV-kLxfze27FVhm6p_1S6b5meb-sqA0zfVwo27xsPYpOtN1ONvNS1N_svOO2uNCskmV7pqNLUeXSCA_-0VReprRXLnp4tDRPU0TkQCMkq8t6CWgvgaNYfSNOmcOM5i7RNaWu-Y1kkOFv-iw6AmbktSCjV8eklnFWW_-tKz0gxA1iizLQ5lFA6_8F5X89-A:1mnOHH:rukAJiz7Pg7ZoJaOiQ41swzJu9EXzQ-mkYGw6PPB_Q8",
+    "expire_date": "2021-12-01T16:59:19.516Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "23b4txsowcp2ulkkw25qxs4ojsx3dyw8",
+  "fields": {
+    "session_data": ".eJx9kk1PFEEQhmFhAUEgQTkYYrJqVEhwdmdgv24qIRwIHuQHTGq6e7YLZmeG_iDZA4keNJD0jfL_2jODhoNxbtXvWz3vU9Xf2r92Fubq74Z23XoM1sjYaqFi5OTmQ3Jbj84SYJci98Iev4B8UgSsyI3CJKgswYOqg7OCi-zzH-_mowskaEnuY8TTw-ggHPNxOAIYDkc94GkawYD3eRixQdIf8nEvHPb5gKXDcT-JYNhn6SCBKOz1Rgm5FczTIplhSVXuJ1gC50poTW4jHIXBwTgIDw-DMOp7a1YwMFjk5LZPLMzgymK23znZ7xwzC7xQ5BZQl-SWvwiTYSrIrbHCerAZ8yDkWsdHZF17ogrrXdsP6DwJphWn9tzauzbqKrZ5iewyE3RPbrECJ9c-qTt_0g_6WsddirUBI0huudV6Vud1eU973xvdw2A-oTvX4p51mYsUbGbIPU1RZFzHDJgU3moT1_J7Op13izlMfYj1T3yKOWqjGrDNuEkbXwul6xG0D4IoiKrOJR_Y-qDyuVvRglmFZkZu6aw5_ZtW7siXTS755oZk506-kq9tIt-evncLVmXkXnTLQnc1m3ZLq5hfsVDiygptuiTfuWfnRYYMjeUdLjpHxbRU4IM2PzezUlQv7bTl1rjQTGHZbOrfXYvIKnE1hU4KHzLP6YFwChOPPufXhroCNcggo1v_KnQMzOC18MVqpaHGxLPdyl255yew4uPHGVS3_IfBBr8BtbEwLQ:1moRNI:yuAhHOM4rkYLrEH5jRnNc0GFFZCJFYMlb_8Iyfadntw",
+    "expire_date": "2021-12-04T14:29:52.262Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "2ihwsen9l85uja4dd0jqb1143v28ayse",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOlVJ6KRJkN4F93foQ4oBaofYDRBPb2bgkcRrbtHtAag-tiuQb0-_bScJWSNS3ef9_M_7e_XOxstS8G3zltiOwJo2sFlUkObrlAN3eA18M7EoUFDjkn6GYKZ-pwlQy9usU_z6q_feKi-ztInf3QYMUdIrudciT0_AkmPJpMAEYjycD4EkSwogPeRCyUTwc8-kgGA_5iCXj6TAOYTxkySiGMBgMJjG6DVkkKp7LEmvdm7IEziuhNbqdYBL4J1M_OD31g3BIqZliYKQq0O2fW5jDFyuzI-_8yDtjFriq0K1IXaJb_yBMJhOBbospS2BzRiDoOmfv0LrurFKWsvbv0Xns5zWnJm5NWTuNFdmilOwqE3iHbrUGR9c9byp_4U_82Mhdi7QBIzDdc71mV58a8w4Pf7RxgpHFDG9dhxPrOhcJ2Myge5JIkXEdMWCpoFQbuw7d6WLZrRaQk4jtNzyXhdSmasF2o1ZtdC0q3ayge-KHflhXrpFgS0LTZ25DC2Yraebo1t633v-ofd7KS1_eYOrdpi_Sg8X8nluxVYbuab9Uuq9Z3i8rasNMHxfKNi9bj6ITbbeTzbwU9Te76LgtLjSrZNme6fhSVLk0woN_NJWXKe2Vix4eLc3TFBE50AjJ6rJeAtpL4DhW34hT5jCjuUt0TalrfiMZZPibPouOgBl5Lcjo1TGpZZzV1qN1pYeEuEFsUQaaDnDwCFAbxa7i-VeoRKroj_fR-n8Bf9JFGw:1mqi31:Ve6htizSXWh6CGbSjAW_EyNZJjBPPVa4zj97TnxSZ_U",
+    "expire_date": "2021-12-10T20:42:19.453Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3q0xljbg2s9ejjiulsc92md5gfa3alcu",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOlVJ6KRJkN4F93foQ4oBaofYDRBPb2bgkcRrbtHtAag-tiuQb0-_bScJWSNS3ef9_M_7e_XOxstS8G3zltiOwJo2sFlUkObrlAN3eA18M7EoUFDjkn6GYKZ-pwlQy9usU_z6q_feKi-ztInf3QYMUdIrudciT0_AkmPJpMAEYjycD4EkSwogPeRCyUTwc8-kgGA_5iCXj6TAOYTxkySiGMBgMJjG6DVkkKp7LEmvdm7IEziuhNbqdYBL4J1M_OD31g3BIqZliYKQq0O2fW5jDFyuzI-_8yDtjFriq0K1IXaJb_yBMJhOBbospS2BzRiDoOmfv0LrurFKWsvbv0Xns5zWnJm5NWTuNFdmilOwqE3iHbrUGR9c9byp_4U_82Mhdi7QBIzDdc71mV58a8w4Pf7RxgpHFDG9dhxPrOhcJ2Myge5JIkXEdMWCpoFQbuw7d6WLZrRaQk4jtNzyXhdSmasF2o1ZtdC0q3ayge-KHflhXrpFgS0LTZ25DC2Yraebo1t633v-ofd7KS1_eYOrdpi_Sg8X8nluxVYbuab9Uuq9Z3i8rasNMHxfKNi9bj6ITbbeTzbwU9Te76LgtLjSrZNme6fhSVLk0woN_NJWXKe2Vix4eLc3TFBE50AjJ6rJeAtpL4DhW34hT5jCjuUt0TalrfiMZZPibPouOgBl5Lcjo1TGpZZzV1qN1pYeEuEFsUQaaDnDwCFAbxa7i-VeoRKroj_fR-n8Bf9JFGw:1mqhkT:WMpdq7SnlA2Zpuq4NX5qCcnIeObe1oKgSHnwEqWZzec",
+    "expire_date": "2021-12-10T20:23:09.367Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "3xnuvb4ce1k7wli3uhs289tbg3mk6lii",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOldL2UiTIbgL76qkPIQ6ICrUfIJrYzsYlidPYRt0DUntoVSTfmH7fThK2Qiq-zfv_m_H37p83K0vNu8HXbjsCa9LIalFFkqNbDtDtPfDFwK5EQYED_gWKmfKZKkwlY79O8e-j2r9QXGTvF7m7DxqkoFN0b0OenITHwZRPgwnAeDwZAE-SEEZ8yIOQjeLhmE8HwXjIRywZT4dxCOMhS0YxhMFgMInRbcgiUfFclljr3pQlcF4JrdHtBJPAP576wcmJH4RDSs0UAyNVgW7_zMIcvlqZHXpnh94ps8BVhW5F6hLd-kdhMpkIdFtMWQKbMwJB1zn9gNZ1Z5WylLV_j85jP685NXFrytpprMgWpWRXmcA7dKs1OLruWVP5C3_ip0buWqQNGIHpnus1u_rcmHd48KONE4wsZnjrOpxY17lIwGYG3ZNEiozriAFLBaXa2HXoTufLbrWAnERsv-O5LKQ2VQu2G7Vqo2tR6WYF3WM_9MO6co0EWxKaPnMbWjBbSTNHt3bReh9R-7yVl766wdS7TV-kLxfze27FVhm6p_1S6b5meb-sqA0zfVwo27xsPYpOtN1ONvNS1N_svOO2uNCskmV7pqNLUeXSCA_-0VReprRXLnp4tDRPU0TkQCMkq8t6CWgvgaNYfSNOmcOM5i7RNaWu-Y1kkOFv-iw6AmbktSCjV8eklnFWW_-tKz0gxA1iizLQ5lFA6_8F5X89-A:1mt7xS:M7XrOXHiAGtj782HAGmspX6ErtzKUCoXzpN-MXTrnv0",
+    "expire_date": "2021-12-17T12:46:34.243Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "4hsq6ekr70ysw8lz2ogu4yijmu7z25yj",
+  "fields": {
+    "session_data": ".eJx9kstvEzEQxtu8GhrSShUVJ6QAF4LaTXbzvvFQlUNVDsB9NWt7s272hR-RcqgEBxCVfOvw_-LdbaRKRfg2M9_Y32_G35t_zut75bnBN6brg1aRryUTPqdo9l00Jw9yAZA1S22hT68hXWUOyVIleOAUEue-Kp2rjLL4w057_OCCCGSE5p1Hw7E3chd04c4BZrP5EGgYejClE-p6ZBpMZnQxdGcTOiXhbDEJPJhNSDgNwHOHw3mAps3TMAu2PMfC9xOeA6WCSYnmyJ27zmjhuOOx43oTK40zAopnKZrTpYYtfNM8Pustz3oXRAPNBJo6lzmag09MxTxkaDok0xZsSywImtrFR9SmuRKZtqrTe3QaOEnBKS23tKqjMvJ1mnOyjhneoWkU4Giay7LzF_7Ez6Xdli8VKIbRiTksZ_WlDO-w_6OqWxiervDW1KhlPaAsBB0rNE9DzmIqfQIkYlaqA1Oze7rcN40UEmui-54mPOVSiQrs2K_c-hsmZDmC5sjxHK_obFnD2hqNnpm2ZEQLrrZoWldV9h9uX1T2otc3GPVuo5fRq937b01dixjN80GeyYEkyUCqjKyTbMMSlqoB7vwdfRWQypAJlhIOdlvdyoTa5qz4cZc106FMEsHzamOPGhqcFPlOCL0QzpXQZG2heAIre_2eLXBZwCpOIMbf9mdIH4jiG2aDw6LGJQ_iIno0m6hvedoWxI9Bqv_QaOcvRXY5xA:1mpZMw:FR4ZyyfpC_hri0OnwdIAA3HQBKVO3f0VW-mVAO4eaSE",
+    "expire_date": "2021-12-07T17:14:10.082Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "6xvo6eal0m1qxospun85xhmbnpbsnqxd",
+  "fields": {
+    "session_data": ".eJxtkktPFEEQgHktIAgkROLJZNELJDi7M7Cvm0oIB4Im-gMmNd09Oy2902M_SPZAogeNJH2j_L_WzEAkwblVV1XP91X1986f8fJC893gQdhKwbsi9VaYVHIMizGG3UdnGbArUVLikH-FcqojpktnZBbVJdF91kaXmgv14aF259EFBdgCw7uE5yfJcTzhk3gMMBqN-8DzPIEhH_A4YcNsMOKTfjwa8CHLR5NBlsBowPJhBknc748zDOuyzHU2lxXW3M9kBZwbYS2G7XgcR8eTKD45ieJkQKVKM3BSlxj2zj3M4ZuX6qh7ftQ9Yx64NhiWpa0wrH0UTslcYNhk2pPYnJEIhqWzU_ShMzXaU9XevTrPolntacnbUtV2E6W-rCS7UgLvMKzU4hg6503nL_yJnxvc1dQ6cAKL3bDRzOpLE97h4Y82TzKynOJtWOLkusZFDl45DM9zKRS3KQNWCCr1WViiPV0shpUSZgSx9Z7PZCmtM63YTtrSptfC2GYEneMoiZK6c5WAPYEWL8K6Fcwb6eYYVi_b0__Qvmrxijc3WHRvi_3i9cP_D8KyNwrDy16lbc-yWa_yhtGyhTZcmB4-8O18orjsctE91bPKABG3FG5eifrJXayFTS4sM7JqV_a0Y0WyOrGRQzeHt4pkyUrOYEr3L9DupK1tnWSg8Dc9DZsCc_JaULBR56SVmaqjJ8MpDklonUxSBfWt-_90DFEy17NOs6tsbj2Ny4LqoY_-AuVWPMA:1mt5F0:XzRgaVVgp2JBKR5P-IZzaTHueQbnj6GtASh_9CENxMY",
+    "expire_date": "2021-12-17T09:52:30.120Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "86xmfprjtluxma4w8h4logm88hq9b73b",
+  "fields": {
+    "session_data": ".eJxtks9L3UAQx9X3Q6tVQRR6KaTtpYImL9H369YfiAexlBZ6DZPdzcvWvCTdHw_eQWgPLRX25vT_7STRItS9zc53Zr-fmf3e-3PZWWnONb522zFYk8VWCxVLjm41RLf34C4BdiUKShzyr1DMSp-VhVEy8WuJf5fV_mXJRf7uXrv7oEEGOkP3JuLpaXQSTvk0nACMx5MB8DSNYMSHPIzYKBmO-XQQjod8xNLxdJhEMB6ydJRAFA4GkwTdhizSMlnKCmvfT2QFnCuhNbqdcBL6J1M_PD31w2hI0rxkYGRZoDs4t7CEb1bmR975kXfGLPBSoetIXaFb_yBMLlOBbouVlsCWjEDQrZ29R-t6M1VaUh3cofPEn9ecmrg1qXaaKLZFJdlVLvAWXbcGR9c7byp_4U_81Njtx9qAEZjtuc1mVp-b8BYPf7R5gpHFDG_cGifWdS5SsLlB9zSVIuc6ZsAyQVKbuDXa08Wq6xYwJxPbb_lcFlIb1YLtxq3beCGUbkbQO_EjP6or-2TYktFs321owaySZomuf9nePuL2eWsve3WNmXeTvche3r-_5zpW5ej2g6rUAVPzQEMuAqjNBHhvrv9FFAZoRdvty2ZZifqbXXTdFheaKVm1awo-CjWXRnjwj0Z5OWhv0TTwuPDyUnuVojbMlNSxK1lduJ9SNoVjnZVVRRM8ZqBobD05hxkZWKHNSl3PwkgGOf6mj6NjYEYuBAWbdU5qmeR19N_oskPC3SDOmKxQ12ePwdLmArT-X3OWRGk:1mlZz6:YWljPRWqI2v6tUSrhFdhKC5lYPIBKrHhAFhFu4GjmIA",
+    "expire_date": "2021-11-26T17:05:04.868Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8ikpp8h30h6nw5h8u84ypx0joatjjk54",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOlVJ6KRJkN4F93foQ4oBaofYDRBPb2bgkcRrbtHtAag-tiuQb0-_bScJWSNS3ef9_M_7e_XOxstS8G3zltiOwJo2sFlUkObrlAN3eA18M7EoUFDjkn6GYKZ-pwlQy9usU_z6q_feKi-ztInf3QYMUdIrudciT0_AkmPJpMAEYjycD4EkSwogPeRCyUTwc8-kgGA_5iCXj6TAOYTxkySiGMBgMJjG6DVkkKp7LEmvdm7IEziuhNbqdYBL4J1M_OD31g3BIqZliYKQq0O2fW5jDFyuzI-_8yDtjFriq0K1IXaJb_yBMJhOBbospS2BzRiDoOmfv0LrurFKWsvbv0Xns5zWnJm5NWTuNFdmilOwqE3iHbrUGR9c9byp_4U_82Mhdi7QBIzDdc71mV58a8w4Pf7RxgpHFDG9dhxPrOhcJ2Myge5JIkXEdMWCpoFQbuw7d6WLZrRaQk4jtNzyXhdSmasF2o1ZtdC0q3ayge-KHflhXrpFgS0LTZ25DC2Yraebo1t633v-ofd7KS1_eYOrdpi_Sg8X8nluxVYbuab9Uuq9Z3i8rasNMHxfKNi9bj6ITbbeTzbwU9Te76LgtLjSrZNme6fhSVLk0woN_NJWXKe2Vix4eLc3TFBE50AjJ6rJeAtpL4DhW34hT5jCjuUt0TalrfiMZZPibPouOgBl5Lcjo1TGpZZzV1qN1pYeEuEFsUQaaDnDwCFAbxa7i-VeoRKroj_fR-n8Bf9JFGw:1mqzpU:HE98BdJlSrkLmM_NoqbajLs_Qq7k3e1k0TACeBUBznY",
+    "expire_date": "2021-12-11T15:41:32.013Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8mgl956y9i8kxv2fl8xsskdxtkwuz9kc",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOlVJ6KRJkN4F93foQ4oBaofYDRBPb2bgkcRrbtHtAag-tiuQb0-_bScJWSNS3ef9_M_7e_XOxstS8G3zltiOwJo2sFlUkObrlAN3eA18M7EoUFDjkn6GYKZ-pwlQy9usU_z6q_feKi-ztInf3QYMUdIrudciT0_AkmPJpMAEYjycD4EkSwogPeRCyUTwc8-kgGA_5iCXj6TAOYTxkySiGMBgMJjG6DVkkKp7LEmvdm7IEziuhNbqdYBL4J1M_OD31g3BIqZliYKQq0O2fW5jDFyuzI-_8yDtjFriq0K1IXaJb_yBMJhOBbospS2BzRiDoOmfv0LrurFKWsvbv0Xns5zWnJm5NWTuNFdmilOwqE3iHbrUGR9c9byp_4U_82Mhdi7QBIzDdc71mV58a8w4Pf7RxgpHFDG9dhxPrOhcJ2Myge5JIkXEdMWCpoFQbuw7d6WLZrRaQk4jtNzyXhdSmasF2o1ZtdC0q3ayge-KHflhXrpFgS0LTZ25DC2Yraebo1t633v-ofd7KS1_eYOrdpi_Sg8X8nluxVYbuab9Uuq9Z3i8rasNMHxfKNi9bj6ITbbeTzbwU9Te76LgtLjSrZNme6fhSVLk0woN_NJWXKe2Vix4eLc3TFBE50AjJ6rJeAtpL4DhW34hT5jCjuUt0TalrfiMZZPibPouOgBl5Lcjo1TGpZZzV1qN1pYeEuEFsUQaaDnDwCFAbxa7i-VeoRKroj_fR-n8Bf9JFGw:1mqzBd:HMJ2tj9itHwmahvqNqVm4JwgSI0ME4xyH9vV8ks1fqA",
+    "expire_date": "2021-12-11T15:00:21.021Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8waef2t377mwiiy2vhafewcibcmvnkl3",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOlVJ6KRJkN4F93foQ4oBaofYDRBPb2bgkcRrbtHtAag-tiuQb0-_bScJWSNS3ef9_M_7e_XOxstS8G3zltiOwJo2sFlUkObrlAN3eA18M7EoUFDjkn6GYKZ-pwlQy9usU_z6q_feKi-ztInf3QYMUdIrudciT0_AkmPJpMAEYjycD4EkSwogPeRCyUTwc8-kgGA_5iCXj6TAOYTxkySiGMBgMJjG6DVkkKp7LEmvdm7IEziuhNbqdYBL4J1M_OD31g3BIqZliYKQq0O2fW5jDFyuzI-_8yDtjFriq0K1IXaJb_yBMJhOBbospS2BzRiDoOmfv0LrurFKWsvbv0Xns5zWnJm5NWTuNFdmilOwqE3iHbrUGR9c9byp_4U_82Mhdi7QBIzDdc71mV58a8w4Pf7RxgpHFDG9dhxPrOhcJ2Myge5JIkXEdMWCpoFQbuw7d6WLZrRaQk4jtNzyXhdSmasF2o1ZtdC0q3ayge-KHflhXrpFgS0LTZ25DC2Yraebo1t633v-ofd7KS1_eYOrdpi_Sg8X8nluxVYbuab9Uuq9Z3i8rasNMHxfKNi9bj6ITbbeTzbwU9Te76LgtLjSrZNme6fhSVLk0woN_NJWXKe2Vix4eLc3TFBE50AjJ6rJeAtpL4DhW34hT5jCjuUt0TalrfiMZZPibPouOgBl5Lcjo1TGpZZzV1qN1pYeEuEFsUQaaDnDwCFAbxa7i-VeoRKroj_fR-n8Bf9JFGw:1mqzi6:bJh0Liz1OAVbs7_xC3vSrIdjrcozro4YKiBwTQrBSNA",
+    "expire_date": "2021-12-11T15:33:54.628Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "91r8dn5rqsu055tidga5mphpimpk4ad9",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOlVJ6KRJkN4F93foQ4oBaofYDRBPb2bgkcRrbtHtAag-tiuQb0-_bScJWSNS3ef9_M_7e_XOxstS8G3zltiOwJo2sFlUkObrlAN3eA18M7EoUFDjkn6GYKZ-pwlQy9usU_z6q_feKi-ztInf3QYMUdIrudciT0_AkmPJpMAEYjycD4EkSwogPeRCyUTwc8-kgGA_5iCXj6TAOYTxkySiGMBgMJjG6DVkkKp7LEmvdm7IEziuhNbqdYBL4J1M_OD31g3BIqZliYKQq0O2fW5jDFyuzI-_8yDtjFriq0K1IXaJb_yBMJhOBbospS2BzRiDoOmfv0LrurFKWsvbv0Xns5zWnJm5NWTuNFdmilOwqE3iHbrUGR9c9byp_4U_82Mhdi7QBIzDdc71mV58a8w4Pf7RxgpHFDG9dhxPrOhcJ2Myge5JIkXEdMWCpoFQbuw7d6WLZrRaQk4jtNzyXhdSmasF2o1ZtdC0q3ayge-KHflhXrpFgS0LTZ25DC2Yraebo1t633v-ofd7KS1_eYOrdpi_Sg8X8nluxVYbuab9Uuq9Z3i8rasNMHxfKNi9bj6ITbbeTzbwU9Te76LgtLjSrZNme6fhSVLk0woN_NJWXKe2Vix4eLc3TFBE50AjJ6rJeAtpL4DhW34hT5jCjuUt0TalrfiMZZPibPouOgBl5Lcjo1TGpZZzV1qN1pYeEuEFsUQaaDnDwCFAbxa7i-VeoRKroj_fR-n8Bf9JFGw:1mrhCW:mFzs2eXQtlHElMd_yKiP9yBeEBI4H_DhnA_UAO5QTTY",
+    "expire_date": "2021-12-13T14:00:12.385Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "bb38ducxmyuuijrxd8o7jrhunlvb9xrh",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOldL2UiTIbgL7ulR9CHFAVKj9ANHEdjYuSZzGNuoekNpDqyL5xvT7dpKwFRL1bd7_34y_d_-8WVlq3g2-dtsRWJNGVosqkhzdcoBu74EvBnYlCgoc8C9QzJTPVGEqGft1in8f1f6F4iJ7v8jdfdAgBZ2iexvy5CQ8DqZ8GkwAxuPJAHiShDDiQx6EbBQPx3w6CMZDPmLJeDqMQxgPWTKKIQwGg0mMbkMWiYrnssRa96YsgfNKaI1uJ5gE_vHUD05O_CAcUmqmGBipCnT7Zxbm8NXK7NA7O_ROmQWuKnQrUpfo1j8Kk8lEoNtiyhLYnBEIus7pB7SuO6uUpaz9e3Qe-3nNqYlbU9ZOY0W2KCW7ygTeoVutwdF1z5rKX_gTPzVy1yJtwAhM91yv2dXnxrzDgx9tnGBkMcNb1-HEus5FAjYz6J4kUmRcRwxYKijVxq5DdzpfdqsF5CRi-x3PZSG1qVqw3ahVG12LSjcr6B77oR_WlWsk2JLQ9Jnb0ILZSpo5urWL1vsftc9beemrG0y92_RF-nIxv-dWbJWhe9ovle5rlvfLitow08eFss3L1qPoRNvtZDMvRf3NzjtuiwvNKlm2Zzq6FFUujfDgH03lZUp75aKHR0vzNEVEDjRCsrqsl4D2EjiK1TfilDnMaO4SXVPqmt9IBhn-ps-iI2BGXgsyenVMahlntfVoXekBIW4QW5SBpgPsPwKkU_XR-n8B7b0_WA:1mlARs:XRZfJ-tPQmJ5bzcfNXQ6YBT83SM1ueU8UuRJycaHeus",
+    "expire_date": "2021-11-25T13:49:04.767Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "e4cwnz1t7je4bdk55qjzi20ovo4x0y4i",
+  "fields": {
+    "session_data": ".eJxtkk1P3DAQhmGXBQoFJATHSml7KRJkN4H9urVFaA-Iqmp_QDSxnY2LEwd_IO0BqT20KpJvuP-3k4StkIpv43k9fp-Z-d77M-uuNOfOv3M7CViTJ1YzlXDq3Wrk3f6TuxTINSsxcUS_QTmXIZGlUTwNa0n4mNXhlaRMfFxq954UyEHn3r2PaXYWn0ZTOo0mAOPxZAA0y2IY0SGNYjJKh2M6HUTjIR2RbDwdpjGMhyQbpRBHg8Ek9W6Tl5lMF7zyte8XvAJKFdPau91oEoWn0zA6OwujeIhSIQkYLkvvDmcWFnBjuTgOZsfBBbFApfKuy3Xl3cYnZgTPmHfbRFoEWxAE8a5zce6t682VtKg6fESnaVjUnBq5Nap2myixZcXJtWD-wbu1Gty73qx5-cv_9F8au-uJNmCYz_fdVtOrr0344I9-tHmE4eXc37sORdYNyjKwwnj3MuNMUJ0QIDlDqU1dB-d0uerWSijQxM4HWvCSa6NasL2kdZvcMqWbFvROwziM65fraNii0fzAbWpGrOJm4d36VXv7jNtXrb387Z3Pg_v8df5m-f-261olcFf6ldR9TYp-ZRXBYbO-X1rbOJdFpQAntNN-bBYVq7fssuO2KdNE8aqd0uAzUwU3LIB_MCoQoAPSVggoC4TUQaWwDjESS65xUr88yDCbwQmVQixOMgEmZbiBPV7AHC2s4GS5rnthOAHhf-Pi6ASI4bcMg606xzVPRR3917r8CHE3kTNBL-Z5WBv-BfpKQqY:1mlKh0:0UEDRVTqlzakk7BWiWQBM2YTYNG3OkWEoKcamQ9Yq2E",
+    "expire_date": "2021-11-26T00:45:22.910Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "f0av8j7l0tnqhd07pzl13wylwd5dg3fc",
+  "fields": {
+    "session_data": ".eJxtUltP1EAUhoUFBJGEwKNJ1cRIAt22S7fdfVIJ4YFgjP6A5nQu24HpxbmQ7AOJPmgkmTfG_-u0BUMi83bmO5fv-875PvyTrSx178a-M9sZaFVkWhKRMWzNcmjN7qO_HNAVqRxwgC-hmtc-qislWO63Kf49Kv2LGhP-8SF351GDAmRhzfsI0-NoHE7xNEwBkiQNAFMawQTHOIzQJI8TPA3CJMYTRJNpnEeQxIhOcojCIEhzazZYRet8wRrb8n7GGsBYECmteRulQTDLaTBLA5LOwmOgszAdj2cYJXRGpzGdJQHErgWvEShWV9bsn2lYwDfN-KF3duidIg24FtasMNlYs_6JKM4osWYL1doJXiAn0JrB6YnVZjgXtXZZ-_eW4NwvW_3S-SFd1osuynTVMHTFib2zZrU1xJrhWVf5y_60XzoZa5lUoIgtds1m5-HXLryzBz963Ilk1dzemgF2HqxjQkFzZc1zygjHMkOACuJSdW4Gbn_ny2a1gtKR2P6AS1YxqUQvbCfr2WbXRMjOguHYj_yorVxzhLUjWuyZDUmQFkwtrFm76H-fYPuyp1e8ubGFd1u8Kl4_zN8yK1pwd0OjppYjicpRowVyR0BG9oHa-kldNgLc5rb7wWrRkPb6zgdmCxOJBGv6LQWfiSiZIh78EyM8DtJDfQcPE4_X0muE64NU7VquMtRW7lGHUjjCNeeLI8pB5cRd5pCVMHcUltxmmWy9UAwBt7_dQckMkGLXxAWbLcYky3kb_WddceDkbjidmeOinhar_b-kVEoI:1mlMOn:_5vXA9UlUZ61iPMtArByJePCwpuAcfVs1X6noMUJX1E",
+    "expire_date": "2021-11-26T02:34:41.623Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "f10di363bge8r0daaldu496mh4xvid0w",
+  "fields": {
+    "session_data": ".eJxtks1OFEEQx2GXRQQXEtSjyagXSbB3Z5b9uomGEENIjDzApKa7Z6dhvjLdTbIHEj1oJOkb5YP4DL6YNTNASKRv9dX1_1XVt97vk-5K867wneuHYE0SWi2rUAl0qz663Qe-CPiFzCmwJ84hXxSMF7mpVMTqFHYb1ey0EDL9eJe78-CDBHSC7kMg4oNg5M_F3J8BTKezIYg4DmAixsIP-CQaT8V86E_HYsLj6XwcBTAd83gSQeAPh7MI3YbK4yJaqhJr3U9VCUJUUmtq549mzA8C5g_nzJ8fUG5acDCqyNE9P1UpLKpi3zve9464BVFU6LpKl-i2P-esTCGXxjtj3iG6LV5YwltywkHXOfqE1vWo2FLyy9sBiIhlNa0mek1Z240V2rxU_CKVeINurcZH1ztuKn_iD_zaiF4PtQEjMdl1m83EzhrzBve-t3FCUvkCr11HEPETIWOwqUH3LFYyFTrkwBNJqTZyHdrWyapbyyEjEf1DkalcaVO1fDthqza8lJVu5tAbsYAFdeU6CbYkNHnhNrTktlJmiW79tPU-ovZVKy95e4WJd528Tt7c9fdc11YpXcygLPRA82ygLX2oIR3gnbTNs1uXpFX1295mWcr63E46bktIzStVttsKvsgqU0Z6cM9TeSloT99_4glJHo8XWQl__yigRorXtf2Y8mJ4T1dH1ESsMliQgBXaq9L1JIzikOIvOh4dAjfqUpKxWceUVlFaW_8NLtkj2A2iDEmGeRzVsn-Cx0Po:1mfo29:46aBZ-Ut0tIi4KcjJb_U4W5O8dXkWw1yWuniB1bfGdI",
+    "expire_date": "2021-11-10T18:52:21.992Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fas84vptdyg5nysqw54hxbq88su9vcds",
+  "fields": {
+    "session_data": ".eJxtkktv00AUhdu8mra0RRUVC4QUYEOk4sTOe0epqiyqsoAfYF3PjOMhjsfMo1KQKsECRKXZ9fJ_GdsNqkS9u3PO9Zzv3vne_DOob5XfDb61ByEYnYRGMRlyinbbR3v84CwCsmSZE7r0C2QL4RGRackjr7B496ryrgRl6YeN9-jBDxJQCdr3AY2HwcCf0Zk_BZhMpn2gcRzAmI6oH5BxNJrQWd-fjOiYxJPZKApgMiLxOILA7_enEdo2z2IRrXmORe5dngOlkimF9tCf-t5g5vnDoecHI2dNBQHNRYb2ZG5gDV8NT08789POBTFAhURb5ypHu_OR6ZTHDO0-EcaBrYkDQVu7OEdjmwspjHOd3KPTyFsVnMpxK-c6LKvQZDkny5ThHdpGAY62OS87f-FP_FTGbYVKg2aYHNu9clafy_IOuz8q3cHwbIG3tkYd6w5lMZhUo30Sc5ZSFRIgCXNWE9ma29Pltm1ksHIhDs7oimdcaVmBHYVV2vCaSVWOoDnwAi8oOlsusHFBk2e2rRgxkus12tZVdfpI2pdVvOTNDSad2-RV8npzf9fWjUzRvujlQvUUWfUKciH5N5YbSdzWWQ83GZ-eGV1IIDvnYpVLcLGrKHqds-LdXdbsPmWKSJ5Xe3ukpcFJoezG0Inh3ZK56E2-goW7YMstkKsCWXMCKf5270OFQDS_Zq7YKzSueJQW1X8TSrqOqu1wwhSUm_nzf0wbFCEpkz003l9tMTuU:1moUgA:jN7hm8WDXbKE5pFhP5LmYDL4ZIypL-ifxllaMHA1p3U",
+    "expire_date": "2021-12-04T18:01:34.519Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fdakmobowti0dlqzcy8zjibbslgatmln",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOldL2UiTIbgL76qkPIQ6ICrUfIJrYzsYlidPYRt0DUntoVSTfmH7fThK2Qiq-zfv_m_H37p83K0vNu8HXbjsCa9LIalFFkqNbDtDtPfDFwK5EQYED_gWKmfKZKkwlY79O8e-j2r9QXGTvF7m7DxqkoFN0b0OenITHwZRPgwnAeDwZAE-SEEZ8yIOQjeLhmE8HwXjIRywZT4dxCOMhS0YxhMFgMInRbcgiUfFclljr3pQlcF4JrdHtBJPAP576wcmJH4RDSs0UAyNVgW7_zMIcvlqZHXpnh94ps8BVhW5F6hLd-kdhMpkIdFtMWQKbMwJB1zn9gNZ1Z5WylLV_j85jP685NXFrytpprMgWpWRXmcA7dKs1OLruWVP5C3_ip0buWqQNGIHpnus1u_rcmHd48KONE4wsZnjrOpxY17lIwGYG3ZNEiozriAFLBaXa2HXoTufLbrWAnERsv-O5LKQ2VQu2G7Vqo2tR6WYF3WM_9MO6co0EWxKaPnMbWjBbSTNHt3bReh9R-7yVl766wdS7TV-kLxfze27FVhm6p_1S6b5meb-sqA0zfVwo27xsPYpOtN1ONvNS1N_svOO2uNCskmV7pqNLUeXSCA_-0VReprRXLnp4tDRPU0TkQCMkq8t6CWgvgaNYfSNOmcOM5i7RNaWu-Y1kkOFv-iw6AmbktSCjV8eklnFWW_-tKz0gxA1iizLQ5lFA6_8F5X89-A:1mlYLN:4FzP_xzG9YGyaY2W3Ov8iIIOcZ6d9YFTN3tIrfyuzsI",
+    "expire_date": "2021-11-26T15:19:57.106Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "ffpz225gamdudxlx9o4xtojrmsqmhhe9",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOldL2UiTIbgL76qkPIQ6ICrUfIJrYzsYlidPYRt0DUntoVSTfmH7fThK2Qiq-zfv_m_H37p83K0vNu8HXbjsCa9LIalFFkqNbDtDtPfDFwK5EQYED_gWKmfKZKkwlY79O8e-j2r9QXGTvF7m7DxqkoFN0b0OenITHwZRPgwnAeDwZAE-SEEZ8yIOQjeLhmE8HwXjIRywZT4dxCOMhS0YxhMFgMInRbcgiUfFclljr3pQlcF4JrdHtBJPAP576wcmJH4RDSs0UAyNVgW7_zMIcvlqZHXpnh94ps8BVhW5F6hLd-kdhMpkIdFtMWQKbMwJB1zn9gNZ1Z5WylLV_j85jP685NXFrytpprMgWpWRXmcA7dKs1OLruWVP5C3_ip0buWqQNGIHpnus1u_rcmHd48KONE4wsZnjrOpxY17lIwGYG3ZNEiozriAFLBaXa2HXoTufLbrWAnERsv-O5LKQ2VQu2G7Vqo2tR6WYF3WM_9MO6co0EWxKaPnMbWjBbSTNHt3bReh9R-7yVl766wdS7TV-kLxfze27FVhm6p_1S6b5meb-sqA0zfVwo27xsPYpOtN1ONvNS1N_svOO2uNCskmV7pqNLUeXSCA_-0VReprRXLnp4tDRPU0TkQCMkq8t6CWgvgaNYfSNOmcOM5i7RNaWu-Y1kkOFv-iw6AmbktSCjV8eklnFWW_-tKz0gxA1iizLQ5lFA6_8F5X89-A:1mlaPV:wuFTVyY9udGt4z-ncIODLN26lfjFyGOZrEtAERUL1UU",
+    "expire_date": "2021-11-26T17:32:21.217Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "fqk861d0jwny0bh0trk1bb7wiwguiwgk",
+  "fields": {
+    "session_data": ".eJx1kktP3DAUhXnMAIUCEoJVVSlt1QokyEzCZB67PoRYICrU_oDIsZ2xIYlTP5BmgdQuWoHkHbf_tzcZStk0u-t77Jzv3Pu9-ztZXmi_G9j3mylxVqTOcJ1KBn4xAr_z5Cwj9IpX2Dhgl6SaqpCqymqZhY0kfOia8FwxXnz8q91-8oAgRoB_H7N8EB9HEzaJxoSMRuM-YXkekyFLWBTTYZaM2KQfjRI2pPlokmQxGSU0H2Ykjvr9cQZ-TVa5ymayhsb3M1kTxjQ3BvxWNI7C40kYDQZhFCcoLRQlVqoK_N6pIzPyzcniMDg9DE6oI0xp8MvS1OBXP3NbyJyD36DKIdiMIgj4pZNP4Hx3qpVD1d4DOsvCsuE0yG1QtdVWqatqSa8KDvfgOw04-O5pe_MX_IQvrd2V1FhiOYgdv95m9bUt7-Hgx7yPMLKawp1fYsi6ynhOXGHBP88lL5hJKaGCo9RlfgnndLboOxUp0cTmB1bKShqr52Db6dxtes21aSPoHodxGDc3V9CwQ6Ni168ZTp2WdgZ-5Xx--uhWvBAv577EmxsQwZ14JV67TLw92_XLThfgd3u1Mj2qy16tVamaqE0PxDu_cdHUFGuOg9mc_8_Oat4s11nHbzBuqJb1fDiDC65LaXlAHhl0UBAT1P9eCRgPCtUeMUetwmc7krajzVGdkyNKCtw6oo8wIXqFvLIkU0xmAacqTZODlaiBW1wakxJq5TXHYr3pSSMzRL8V--IAA1pDuhQN2P8huvAPvr86yQ:1moWyz:XOxZrJoBJOQaxzn-4LzT7yt4FCAsHejhS3jUGmWT-UI",
+    "expire_date": "2021-12-04T20:29:09.569Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "h7ibw3bey7d9x5z2kwtk6k7k4zibmpd3",
+  "fields": {
+    "session_data": ".eJxtkltP1EAUx2FhuSwikcijSdEXSaC7LeztzUsIiQRD9AM0pzPT7UjbqZ0Z4j6Q6INGknnj-H09bVlDgvN27v_fOfO9--fDylLzbvC1247AmjSyWlSR5OiWA3S7D3wxsCtRUOCAf4FipnymClPJ2K9T_Puo9i8UF9m7Re7OgwYp6BTdm5AnJ-FxMOXTYAIwHk8GwJMkhBEf8iBko3g45tNBMB7yEUvG02EcwnjIklEMYTAYTGJ0G7JIVDyXJda6N2UJnFdCa3RPg0ngH0_94OTED8IhpWaKgZGqQLd3ZmEOX63MDr2zQ--UWeCqQrcidYlu_aMwmUwEui2mLIHNGYGg65y-R-u6s0pZytq7R-exn9ecmrg1ZT1trMgWpWRXmcA7dKs1OLruWVP5C3_ip0buWqQNGIHprus1u_rcmHd48KONE4wsZnjrOpxY17lIwGYG3ZNEiozriAFLBaXa2HXoTufLbrWAnERsv-W5LKQ2VQu2E7Vqo2tR6WYF3WM_9MO6co0EWxKaPncbWjBbSTNHt3bRev-j9kUrL311g6l3m-6nLxfze27FVhm6Z_1S6b5meb-sqA0zfVwo27xsPYpOtN1ONvNS1N_svOO2uNCskmV7pqNLUeXSCA_-0VReprRXLnp4tDRPU0TkQCMkq8t6CWgvgaNYfSNOmcOM5i7RNaWu-Y1kkOFv-iw6AmbktSCjV8eklnFWW4_WlR4Q4gaxRRloOsD-I0BtFLuK59rSAjVkfbT-XzeJRLg:1mt6si:guDeEITBnlHY2T7T3hpIbB6_-pXq502voNgjYWOtJ1o",
+    "expire_date": "2021-12-17T11:37:36.283Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "i5ttbgh901fq65ofsghksqfu4nm7isgx",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOlVJ6KRJkN4F93foQ4oBaofYDRBPb2bgkcRrbtHtAag-tiuQb0-_bScJWSNS3ef9_M_7e_XOxstS8G3zltiOwJo2sFlUkObrlAN3eA18M7EoUFDjkn6GYKZ-pwlQy9usU_z6q_feKi-ztInf3QYMUdIrudciT0_AkmPJpMAEYjycD4EkSwogPeRCyUTwc8-kgGA_5iCXj6TAOYTxkySiGMBgMJjG6DVkkKp7LEmvdm7IEziuhNbqdYBL4J1M_OD31g3BIqZliYKQq0O2fW5jDFyuzI-_8yDtjFriq0K1IXaJb_yBMJhOBbospS2BzRiDoOmfv0LrurFKWsvbv0Xns5zWnJm5NWTuNFdmilOwqE3iHbrUGR9c9byp_4U_82Mhdi7QBIzDdc71mV58a8w4Pf7RxgpHFDG9dhxPrOhcJ2Myge5JIkXEdMWCpoFQbuw7d6WLZrRaQk4jtNzyXhdSmasF2o1ZtdC0q3ayge-KHflhXrpFgS0LTZ25DC2Yraebo1t633v-ofd7KS1_eYOrdpi_Sg8X8nluxVYbuab9Uuq9Z3i8rasNMHxfKNi9bj6ITbbeTzbwU9Te76LgtLjSrZNme6fhSVLk0woN_NJWXKe2Vix4eLc3TFBE50AjJ6rJeAtpL4DhW34hT5jCjuUt0TalrfiMZZPibPouOgBl5Lcjo1TGpZZzV1qN1pYeEuEFsUQaaDnDwCFAbxa7i-VeoRKroj_fR-n8Bf9JFGw:1mqzbH:E2li71rJ-jhaHhH-CUTAnS-7-uUKo5NfU89VdvRemUI",
+    "expire_date": "2021-12-11T15:26:51.222Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "j18ta0arscht1fy7i3f1zvwatynoeprv",
+  "fields": {
+    "session_data": ".eJxtkk1v00AQhvuRtKWlLRR64IBk4EKl1omd7xtQVT1URRX8AGu8u463dWyzH5VyqAQHEJX21uH_MrYbKRL4YGlm3p193pn93v5ztb5Sf3f43u1GYE0aWS1UJDm61QDdwVIuBnYjcioc8WvIp4XPitwoGfuVxH-sav-y4CL7tNDuLzVIQafoPoQ86Ye9YMInwRhgNBp3gSdJCEM-4EHIhvFgxCfdYDTgQ5aMJoM4hNGAJcMYwqDbHcfotmSeFPFcllhxP5ElcK6E1uj2gnHg9yZ-0O_7QTggaVYwMLLI0R2eW5jDNyuzY-_82DtjFnih0K1LXaLb_CxMJhOBbocVlozNGRlBt3Z2ita1p6qwpDp8tM5jf1b51ORbk2qvjiKbl5LdZAIf0LUq4-ja5_XJX_gTv9S4G5E2YASmB267ntXXOnzAox9NnczIfIr3bo2T100uErCZQfc0kSLjOmLAUkFSG7s12tPFqmvlMCOI3Y98JnOpjWqM7UcNbXQrlK5H0O75oR9WJzcI2BJo-tJtacGskmaObuOyyf6H9nWDl767w9S7T9-kbxf3v3LrVmXoXnSUKAtldIeLmP4lzDu4YHt-akVuQHuk8K5gCsS32zCYeSmqB3fRdjtcaKZk2SwsuBJqJo3wiN_LCu01_YX2uPAy6sWWepZNz5Zk1dFnCaUTOGEpKHMSV5W2nMGUSFZow1JXMzGSQYa_6QHpCJiRt4KC7aomtYyzKvpnhOkR2d4ivxEBmMp0WehOombLpq3_F-cRRRs:1mmxCF:DjaavoQYwmLZIjtO1jPWJ_mbOTwQ8ygMGfmDNFcVuno",
+    "expire_date": "2021-11-30T12:04:19.746Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "j9z4rytyfphcxl2xpw1ojiufifjuzsvj",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOlVJ6KRJkN4F93foQ4oBaofYDRBPb2bgkcRrbtHtAag-tiuQb0-_bScJWSNS3ef9_M_7e_XOxstS8G3zltiOwJo2sFlUkObrlAN3eA18M7EoUFDjkn6GYKZ-pwlQy9usU_z6q_feKi-ztInf3QYMUdIrudciT0_AkmPJpMAEYjycD4EkSwogPeRCyUTwc8-kgGA_5iCXj6TAOYTxkySiGMBgMJjG6DVkkKp7LEmvdm7IEziuhNbqdYBL4J1M_OD31g3BIqZliYKQq0O2fW5jDFyuzI-_8yDtjFriq0K1IXaJb_yBMJhOBbospS2BzRiDoOmfv0LrurFKWsvbv0Xns5zWnJm5NWTuNFdmilOwqE3iHbrUGR9c9byp_4U_82Mhdi7QBIzDdc71mV58a8w4Pf7RxgpHFDG9dhxPrOhcJ2Myge5JIkXEdMWCpoFQbuw7d6WLZrRaQk4jtNzyXhdSmasF2o1ZtdC0q3ayge-KHflhXrpFgS0LTZ25DC2Yraebo1t633v-ofd7KS1_eYOrdpi_Sg8X8nluxVYbuab9Uuq9Z3i8rasNMHxfKNi9bj6ITbbeTzbwU9Te76LgtLjSrZNme6fhSVLk0woN_NJWXKe2Vix4eLc3TFBE50AjJ6rJeAtpL4DhW34hT5jCjuUt0TalrfiMZZPibPouOgBl5Lcjo1TGpZZzV1qN1pYeEuEFsUQaaDnDwCFAbxa7i-VeoRKroj_fR-n8Bf9JFGw:1mrdZo:SxWangOjgOC691HbBwYw1vZuCIavj2BKcZ9oKp7inO8",
+    "expire_date": "2021-12-13T10:08:00.814Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jkz3hh9lmqcle34kcbr6e6614okso0b2",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOldL2UiTIbgL76qkPIQ6ICrUfIJrYzsYlidPYRt0DUntoVSTfmH7fThK2Qiq-zfv_m_H37p83K0vNu8HXbjsCa9LIalFFkqNbDtDtPfDFwK5EQYED_gWKmfKZKkwlY79O8e-j2r9QXGTvF7m7DxqkoFN0b0OenITHwZRPgwnAeDwZAE-SEEZ8yIOQjeLhmE8HwXjIRywZT4dxCOMhS0YxhMFgMInRbcgiUfFclljr3pQlcF4JrdHtBJPAP576wcmJH4RDSs0UAyNVgW7_zMIcvlqZHXpnh94ps8BVhW5F6hLd-kdhMpkIdFtMWQKbMwJB1zn9gNZ1Z5WylLV_j85jP685NXFrytpprMgWpWRXmcA7dKs1OLruWVP5C3_ip0buWqQNGIHpnus1u_rcmHd48KONE4wsZnjrOpxY17lIwGYG3ZNEiozriAFLBaXa2HXoTufLbrWAnERsv-O5LKQ2VQu2G7Vqo2tR6WYF3WM_9MO6co0EWxKaPnMbWjBbSTNHt3bReh9R-7yVl766wdS7TV-kLxfze27FVhm6p_1S6b5meb-sqA0zfVwo27xsPYpOtN1ONvNS1N_svOO2uNCskmV7pqNLUeXSCA_-0VReprRXLnp4tDRPU0TkQCMkq8t6CWgvgaNYfSNOmcOM5i7RNaWu-Y1kkOFv-iw6AmbktSCjV8eklnFWW_-tKz0gxA1iizLQ5lFA6_8F5X89-A:1mpwpg:gZL2sEB44bRJHQxM_mvoQL6ilo22vnFKN434AzY8Rvw",
+    "expire_date": "2021-12-08T18:17:24.332Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "kq9j1a0za56tuedrj1ouqq2y82ge45a4",
+  "fields": {
+    "session_data": ".eJx9kstvEzEQxtu8GhrSShUVJ6QAF4LaTXbzvvFQlUNVDsB9NWt7s272hR-RcqgEBxCVfOvw_-LdbaRKRfg2M9_Y32_G35t_zut75bnBN6brg1aRryUTPqdo9l00Jw9yAZA1S22hT68hXWUOyVIleOAUEue-Kp2rjLL4w057_OCCCGSE5p1Hw7E3chd04c4BZrP5EGgYejClE-p6ZBpMZnQxdGcTOiXhbDEJPJhNSDgNwHOHw3mAps3TMAu2PMfC9xOeA6WCSYnmyJ27zmjhuOOx43oTK40zAopnKZrTpYYtfNM8Pustz3oXRAPNBJo6lzmag09MxTxkaDok0xZsSywImtrFR9SmuRKZtqrTe3QaOEnBKS23tKqjMvJ1mnOyjhneoWkU4Giay7LzF_7Ez6Xdli8VKIbRiTksZ_WlDO-w_6OqWxiervDW1KhlPaAsBB0rNE9DzmIqfQIkYlaqA1Oze7rcN40UEmui-54mPOVSiQrs2K_c-hsmZDmC5sjxHK_obFnD2hqNnpm2ZEQLrrZoWldV9h9uX1T2otc3GPVuo5fRq937b01dixjN80GeyYEkyUCqjKyTbMMSlqoB7vwdfRWQypAJlhIOdlvdyoTa5qz4cZc106FMEsHzamOPGhqcFPlOCL0QzpXQZG2heAIre_2eLXBZwCpOIMbf9mdIH4jiG2aDw6LGJQ_iIno0m6hvedoWxI9Bqv_QaOcvRXY5xA:1mpYZs:J66-kEcS61V2mwS44cHsgHf0qyA2CwwYx1LRxzKnnFk",
+    "expire_date": "2021-12-07T16:23:28.106Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "l5wvy798r82pol1j4r9a4gcfj94urg47",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOlVJ6KRJkN4F93foQ4oBaofYDRBPb2bgkcRrbtHtAag-tiuQb0-_bScJWSNS3ef9_M_7e_XOxstS8G3zltiOwJo2sFlUkObrlAN3eA18M7EoUFDjkn6GYKZ-pwlQy9usU_z6q_feKi-ztInf3QYMUdIrudciT0_AkmPJpMAEYjycD4EkSwogPeRCyUTwc8-kgGA_5iCXj6TAOYTxkySiGMBgMJjG6DVkkKp7LEmvdm7IEziuhNbqdYBL4J1M_OD31g3BIqZliYKQq0O2fW5jDFyuzI-_8yDtjFriq0K1IXaJb_yBMJhOBbospS2BzRiDoOmfv0LrurFKWsvbv0Xns5zWnJm5NWTuNFdmilOwqE3iHbrUGR9c9byp_4U_82Mhdi7QBIzDdc71mV58a8w4Pf7RxgpHFDG9dhxPrOhcJ2Myge5JIkXEdMWCpoFQbuw7d6WLZrRaQk4jtNzyXhdSmasF2o1ZtdC0q3ayge-KHflhXrpFgS0LTZ25DC2Yraebo1t633v-ofd7KS1_eYOrdpi_Sg8X8nluxVYbuab9Uuq9Z3i8rasNMHxfKNi9bj6ITbbeTzbwU9Te76LgtLjSrZNme6fhSVLk0woN_NJWXKe2Vix4eLc3TFBE50AjJ6rJeAtpL4DhW34hT5jCjuUt0TalrfiMZZPibPouOgBl5Lcjo1TGpZZzV1qN1pYeEuEFsUQaaDnDwCFAbxa7i-VeoRKroj_fR-n8Bf9JFGw:1mqhkE:OtVELrqTKgKw-QJ2LxobTqwBRYaWSn3F-ZGE8Ulo4R0",
+    "expire_date": "2021-12-10T20:22:54.806Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "lrycu5mt043kerr1e1l25htl05kzckri",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOlVJ6KRJkN4F93foQ4oBaofYDRBPb2bgkcRrbtHtAag-tiuQb0-_bScJWSNS3ef9_M_7e_XOxstS8G3zltiOwJo2sFlUkObrlAN3eA18M7EoUFDjkn6GYKZ-pwlQy9usU_z6q_feKi-ztInf3QYMUdIrudciT0_AkmPJpMAEYjycD4EkSwogPeRCyUTwc8-kgGA_5iCXj6TAOYTxkySiGMBgMJjG6DVkkKp7LEmvdm7IEziuhNbqdYBL4J1M_OD31g3BIqZliYKQq0O2fW5jDFyuzI-_8yDtjFriq0K1IXaJb_yBMJhOBbospS2BzRiDoOmfv0LrurFKWsvbv0Xns5zWnJm5NWTuNFdmilOwqE3iHbrUGR9c9byp_4U_82Mhdi7QBIzDdc71mV58a8w4Pf7RxgpHFDG9dhxPrOhcJ2Myge5JIkXEdMWCpoFQbuw7d6WLZrRaQk4jtNzyXhdSmasF2o1ZtdC0q3ayge-KHflhXrpFgS0LTZ25DC2Yraebo1t633v-ofd7KS1_eYOrdpi_Sg8X8nluxVYbuab9Uuq9Z3i8rasNMHxfKNi9bj6ITbbeTzbwU9Te76LgtLjSrZNme6fhSVLk0woN_NJWXKe2Vix4eLc3TFBE50AjJ6rJeAtpL4DhW34hT5jCjuUt0TalrfiMZZPibPouOgBl5Lcjo1TGpZZzV1qN1pYeEuEFsUQaaDnDwCFAbxa7i-VeoRKroj_fR-n8Bf9JFGw:1mqz7h:ptrrvL0RLHCiK-CBA7tHnqv4YpVQ3AG4DYP3Ts9qN5w",
+    "expire_date": "2021-12-11T14:56:17.204Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "m5fg12zqoeytov1meqb4iy48b8dg1wh4",
+  "fields": {
+    "session_data": ".eJx9kstvEzEQxtu8GhrSShUVJ6QAF4LaTXbzvvFQlUNVDsB9NWt7s272hR-RcqgEBxCVfOvw_-LdbaRKRfg2M9_Y32_G35t_zut75bnBN6brg1aRryUTPqdo9l00Jw9yAZA1S22hT68hXWUOyVIleOAUEue-Kp2rjLL4w057_OCCCGSE5p1Hw7E3chd04c4BZrP5EGgYejClE-p6ZBpMZnQxdGcTOiXhbDEJPJhNSDgNwHOHw3mAps3TMAu2PMfC9xOeA6WCSYnmyJ27zmjhuOOx43oTK40zAopnKZrTpYYtfNM8Pustz3oXRAPNBJo6lzmag09MxTxkaDok0xZsSywImtrFR9SmuRKZtqrTe3QaOEnBKS23tKqjMvJ1mnOyjhneoWkU4Giay7LzF_7Ez6Xdli8VKIbRiTksZ_WlDO-w_6OqWxiervDW1KhlPaAsBB0rNE9DzmIqfQIkYlaqA1Oze7rcN40UEmui-54mPOVSiQrs2K_c-hsmZDmC5sjxHK_obFnD2hqNnpm2ZEQLrrZoWldV9h9uX1T2otc3GPVuo5fRq937b01dixjN80GeyYEkyUCqjKyTbMMSlqoB7vwdfRWQypAJlhIOdlvdyoTa5qz4cZc106FMEsHzamOPGhqcFPlOCL0QzpXQZG2heAIre_2eLXBZwCpOIMbf9mdIH4jiG2aDw6LGJQ_iIno0m6hvedoWxI9Bqv_QaOcvRXY5xA:1moB67:athcw_5o3mWEfkS1zQ9NPnb-wNzSB3g8xbyp-RQI8yw",
+    "expire_date": "2021-12-03T21:07:03.639Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "njx5iksv1atslig48cx4couycj6sn0nq",
+  "fields": {
+    "session_data": ".eJxtkktv00AUhdu8mra0RRUVC4QUYEOk4sTOe0epqiyqsoAfYF3PjOMhjsfMo1KQKsECRKXZ9fJ_GdsNqkS9u3PO9Zzv3vne_DOob5XfDb61ByEYnYRGMRlyinbbR3v84CwCsmSZE7r0C2QL4RGRackjr7B496ryrgRl6YeN9-jBDxJQCdr3AY2HwcCf0Zk_BZhMpn2gcRzAmI6oH5BxNJrQWd-fjOiYxJPZKApgMiLxOILA7_enEdo2z2IRrXmORe5dngOlkimF9tCf-t5g5vnDoecHI2dNBQHNRYb2ZG5gDV8NT08789POBTFAhURb5ypHu_OR6ZTHDO0-EcaBrYkDQVu7OEdjmwspjHOd3KPTyFsVnMpxK-c6LKvQZDkny5ThHdpGAY62OS87f-FP_FTGbYVKg2aYHNu9clafy_IOuz8q3cHwbIG3tkYd6w5lMZhUo30Sc5ZSFRIgCXNWE9ma29Pltm1ksHIhDs7oimdcaVmBHYVV2vCaSVWOoDnwAi8oOlsusHFBk2e2rRgxkus12tZVdfpI2pdVvOTNDSad2-RV8npzf9fWjUzRvujlQvUUWfUKciH5N5YbSdzWWQ83GZ-eGV1IIDvnYpVLcLGrKHqds-LdXdbsPmWKSJ5Xe3ukpcFJoezG0Inh3ZK56E2-goW7YMstkKsCWXMCKf5270OFQDS_Zq7YKzSueJQW1X8TSrqOqu1wwhSUm_nzf0wbFCEpkz003l9tMTuU:1moV8e:6_IvE4jfYf7MbZ92whJ5EQGJAg8n4fXB3miTtNHVw9g",
+    "expire_date": "2021-12-04T18:31:00.167Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "nlx5lh480n0pybxkzp2vd8nn0zwyi962",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOlVJ6KRJkN4F93foQ4oBaofYDRBPb2bgkcRrbtHtAag-tiuQb0-_bScJWSNS3ef9_M_7e_XOxstS8G3zltiOwJo2sFlUkObrlAN3eA18M7EoUFDjkn6GYKZ-pwlQy9usU_z6q_feKi-ztInf3QYMUdIrudciT0_AkmPJpMAEYjycD4EkSwogPeRCyUTwc8-kgGA_5iCXj6TAOYTxkySiGMBgMJjG6DVkkKp7LEmvdm7IEziuhNbqdYBL4J1M_OD31g3BIqZliYKQq0O2fW5jDFyuzI-_8yDtjFriq0K1IXaJb_yBMJhOBbospS2BzRiDoOmfv0LrurFKWsvbv0Xns5zWnJm5NWTuNFdmilOwqE3iHbrUGR9c9byp_4U_82Mhdi7QBIzDdc71mV58a8w4Pf7RxgpHFDG9dhxPrOhcJ2Myge5JIkXEdMWCpoFQbuw7d6WLZrRaQk4jtNzyXhdSmasF2o1ZtdC0q3ayge-KHflhXrpFgS0LTZ25DC2Yraebo1t633v-ofd7KS1_eYOrdpi_Sg8X8nluxVYbuab9Uuq9Z3i8rasNMHxfKNi9bj6ITbbeTzbwU9Te76LgtLjSrZNme6fhSVLk0woN_NJWXKe2Vix4eLc3TFBE50AjJ6rJeAtpL4DhW34hT5jCjuUt0TalrfiMZZPibPouOgBl5Lcjo1TGpZZzV1qN1pYeEuEFsUQaaDnDwCFAbxa7i-VeoRKroj_fR-n8Bf9JFGw:1mqzGv:cDWASGppi6FGrJNzKx15_zdPtpKmt306koOGfuH7yJA",
+    "expire_date": "2021-12-11T15:05:49.984Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "o4fhp8cgh7qpq5a87ygasf6ntuqqv9qa",
+  "fields": {
+    "session_data": ".eJxtkktPFEEQx2FhYQWBSOBkTEaNBhKY3RnY100lhAPBGPwAk5runu2WmemxHyR7INGDBpK-0X5fa2aQcLBv1fX6_6rqR_dPvLTQvBu_5zYSsIYnVjOVCOrdYuTd9pO_FMgVK9GxT79BOZMhkaVRIg3rkPDBq8MLSVn-6V_s1pMCHDT37kNMs-P4KJrSaTQBGI8nA6BZFsOIDmkUk1E6HNPpIBoP6Yhk4-kwjWE8JNkohTgaDCapdz1RZjKdi8rXup-JCihVTGvvNqNJFB5Nw-j4OIziIYbmkoARsvRu98zCHL5bkR8EZwfBKbFApfJuSejKu9XPzOQiY96tE2kRbE4QxLvO6Ym3rjtT0mLU7gM6TcOi5tTIrTFqs7ESW1aCXOXM33u3XIN71z1rMn_7X_6ykbuSaAOGeb7t1ppZfW3Me7__s_UjjChn_s51KLKuUpaBzY13zzPBcqoTAoQzDLWp6-CezhfdcgkFitj4SAtRCm1UC7aVtGqTa6Z0M4LuURiHcZ25goItCuU7rqcZsUqYuXcrF-3vo1r-kr9qdfG3N54Hd_w1f2NT_u583S1ZleOF9Cup-5oU_coqgitmfc_fuxeXjLCKYNfgRBaVAlzORtvTzCtWH9h5x61TpokSVbugwRemCmFYAI8cKshBB6StEFAW5FIHlcI6xEgsuSxInbmToTeDQyrzfH6Y5WBShsfXFQXMcDALuFSh6zEYQSD3t3gzOgFixDVDY632CS1SJL_le3wf59NDuAR7m_8T2vAvcqA4wQ:1moVMH:-rVEQHegEc4XRjSuUDFUpQcYtE-iPaTYTLCTU_XZ4Nc",
+    "expire_date": "2021-12-04T18:45:05.226Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "p4rw47hmg8flawqx109zhinfhg88qcr7",
+  "fields": {
+    "session_data": ".eJxtkktv00AUhftI2tISigoVK6QAEiKiOLbTxI7Z8FCVRSlC8AOs63nEQx3bzHgqZVEJFiAqza6X_8vYblEl6t2de-b6O-fO9-6f1-srzXeOL0wvBl2lsVZMxoKiWfXQ7N04S4Ccstw2BvQr5PPCIUVeSZE4tcS56irnpKAse3et3b0xIAWVonnjU37oj7wpnXohQBCELlDOfZjQMfV8MknGAZ26XjCmE8KD6TjxIRgTPknA91w3TNBsiZwXyVKUWHPfESVQKplSaJ77oetGCXej0GVh5B0Cj4B6NEpgMooOx2EQEca4HZEVBCpR5Gj2ZxqW8E2L7KA_O-gfEQ20kGjWhSrRbH5kVSY4Q7NDCm0NL4k1iGbt6D1q053LQlvV_lUkNHEWtX9l81BWda-pYp2XgpxmDC_RdOpA0HRnzc1f-BM_NzY2YlVBxTDdM9tNhl-a8hIHP9q-NSnyOV6YNWoz2KSMg84qNHe5YBlVMQGSMivViVmz-zteNZ0cFhai95YuRC5UJVtju3FLG58xqZoIuiPHd_z65oYF1hY0fWi2FCNaimqJZuOkPb2F9nGLlz47x7R_kT5Jn17__6VZ1zJD82BYFmpI5GJYSkFYZkGGeM12_4MtoU9Z_5NkRBR2h70WoVqWrH6Hxx2zQ5kiUpTtvjb_KTuC1AfbHPocXtWDrRWxgLkdvGIXJlRtsRIEMvxt34mKgVTijNliu-4JJZKsrv5LJB1YF1sWP86gnvroFg92H0PUzl8ctTxF:1mpXSE:WLMu34UEPjt6BfwLurNbupxsCOgCb9i3dxLtGoxFMcY",
+    "expire_date": "2021-12-07T15:11:30.396Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "pd8wnvxrvjs16g1druv1lhziwssq1hep",
+  "fields": {
+    "session_data": ".eJx9kstvEzEQxtu8GhrSShUVJ6QAF4LaTXbzvvFQlUNVDsB9NWt7s272hR-RcqgEBxCVfOvw_-LdbaRKRfg2M9_Y32_G35t_zut75bnBN6brg1aRryUTPqdo9l00Jw9yAZA1S22hT68hXWUOyVIleOAUEue-Kp2rjLL4w057_OCCCGSE5p1Hw7E3chd04c4BZrP5EGgYejClE-p6ZBpMZnQxdGcTOiXhbDEJPJhNSDgNwHOHw3mAps3TMAu2PMfC9xOeA6WCSYnmyJ27zmjhuOOx43oTK40zAopnKZrTpYYtfNM8Pustz3oXRAPNBJo6lzmag09MxTxkaDok0xZsSywImtrFR9SmuRKZtqrTe3QaOEnBKS23tKqjMvJ1mnOyjhneoWkU4Giay7LzF_7Ez6Xdli8VKIbRiTksZ_WlDO-w_6OqWxiervDW1KhlPaAsBB0rNE9DzmIqfQIkYlaqA1Oze7rcN40UEmui-54mPOVSiQrs2K_c-hsmZDmC5sjxHK_obFnD2hqNnpm2ZEQLrrZoWldV9h9uX1T2otc3GPVuo5fRq937b01dixjN80GeyYEkyUCqjKyTbMMSlqoB7vwdfRWQypAJlhIOdlvdyoTa5qz4cZc106FMEsHzamOPGhqcFPlOCL0QzpXQZG2heAIre_2eLXBZwCpOIMbf9mdIH4jiG2aDw6LGJQ_iIno0m6hvedoWxI9Bqv_QaOcvRXY5xA:1mpYhO:I0ed6_AkKes0fF9sndLrte-cW4DIxU_ABoAk8ZJWNKY",
+    "expire_date": "2021-12-07T16:31:14.219Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "prpyejwb6giavf8hu6lwhagbxqw9ihrz",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOlVJ6KRJkN4F93foQ4oBaofYDRBPb2bgkcRrbtHtAag-tiuQb0-_bScJWSNS3ef9_M_7e_XOxstS8G3zltiOwJo2sFlUkObrlAN3eA18M7EoUFDjkn6GYKZ-pwlQy9usU_z6q_feKi-ztInf3QYMUdIrudciT0_AkmPJpMAEYjycD4EkSwogPeRCyUTwc8-kgGA_5iCXj6TAOYTxkySiGMBgMJjG6DVkkKp7LEmvdm7IEziuhNbqdYBL4J1M_OD31g3BIqZliYKQq0O2fW5jDFyuzI-_8yDtjFriq0K1IXaJb_yBMJhOBbospS2BzRiDoOmfv0LrurFKWsvbv0Xns5zWnJm5NWTuNFdmilOwqE3iHbrUGR9c9byp_4U_82Mhdi7QBIzDdc71mV58a8w4Pf7RxgpHFDG9dhxPrOhcJ2Myge5JIkXEdMWCpoFQbuw7d6WLZrRaQk4jtNzyXhdSmasF2o1ZtdC0q3ayge-KHflhXrpFgS0LTZ25DC2Yraebo1t633v-ofd7KS1_eYOrdpi_Sg8X8nluxVYbuab9Uuq9Z3i8rasNMHxfKNi9bj6ITbbeTzbwU9Te76LgtLjSrZNme6fhSVLk0woN_NJWXKe2Vix4eLc3TFBE50AjJ6rJeAtpL4DhW34hT5jCjuUt0TalrfiMZZPibPouOgBl5Lcjo1TGpZZzV1qN1pYeEuEFsUQaaDnDwCFAbxa7i-VeoRKroj_fR-n8Bf9JFGw:1mreBL:01hMbVcAtbs_z6V2VvTA3HIzdu9qKA1uoZsogOOG59w",
+    "expire_date": "2021-12-13T10:46:47.821Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "q096oa2sftdtlcksa2jkirk80jai3njx",
+  "fields": {
+    "session_data": ".eJxtkltP1EAUx2FhuSwikcijSdEXSaC7LeztzUsIiQRD9AM0pzPT7UjbqZ0Z4j6Q6INGknnj-H09bVlDgvN27v_fOfO9--fDylLzbvC1247AmjSyWlSR5OiWA3S7D3wxsCtRUOCAf4FipnymClPJ2K9T_Puo9i8UF9m7Re7OgwYp6BTdm5AnJ-FxMOXTYAIwHk8GwJMkhBEf8iBko3g45tNBMB7yEUvG02EcwnjIklEMYTAYTGJ0G7JIVDyXJda6N2UJnFdCa3RPg0ngH0_94OTED8IhpWaKgZGqQLd3ZmEOX63MDr2zQ--UWeCqQrcidYlu_aMwmUwEui2mLIHNGYGg65y-R-u6s0pZytq7R-exn9ecmrg1ZT1trMgWpWRXmcA7dKs1OLruWVP5C3_ip0buWqQNGIHprus1u_rcmHd48KONE4wsZnjrOpxY17lIwGYG3ZNEiozriAFLBaXa2HXoTufLbrWAnERsv-W5LKQ2VQu2E7Vqo2tR6WYF3WM_9MO6co0EWxKaPncbWjBbSTNHt3bRev-j9kUrL311g6l3m-6nLxfze27FVhm6Z_1S6b5meb-sqA0zfVwo27xsPYpOtN1ONvNS1N_svOO2uNCskmV7pqNLUeXSCA_-0VReprRXLnp4tDRPU0TkQCMkq8t6CWgvgaNYfSNOmcOM5i7RNaWu-Y1kkOFv-iw6AmbktSCjV8eklnFWW4_WlR4Q4gaxRRloOsD-I0BtFLuK59rSAjVkfbT-XzeJRLg:1msRsI:qgCDA5MgzuAgKEitaJ-v8GQgBG3LyT6lSp46piAAgWY",
+    "expire_date": "2021-12-15T15:50:26.796Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "r5t7rz8wkm6snmz93ub1as9ug5viea24",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOlVJ6KRJkN4F93foQ4oBaofYDRBPb2bgkcRrbtHtAag-tiuQb0-_bScJWSNS3ef9_M_7e_XOxstS8G3zltiOwJo2sFlUkObrlAN3eA18M7EoUFDjkn6GYKZ-pwlQy9usU_z6q_feKi-ztInf3QYMUdIrudciT0_AkmPJpMAEYjycD4EkSwogPeRCyUTwc8-kgGA_5iCXj6TAOYTxkySiGMBgMJjG6DVkkKp7LEmvdm7IEziuhNbqdYBL4J1M_OD31g3BIqZliYKQq0O2fW5jDFyuzI-_8yDtjFriq0K1IXaJb_yBMJhOBbospS2BzRiDoOmfv0LrurFKWsvbv0Xns5zWnJm5NWTuNFdmilOwqE3iHbrUGR9c9byp_4U_82Mhdi7QBIzDdc71mV58a8w4Pf7RxgpHFDG9dhxPrOhcJ2Myge5JIkXEdMWCpoFQbuw7d6WLZrRaQk4jtNzyXhdSmasF2o1ZtdC0q3ayge-KHflhXrpFgS0LTZ25DC2Yraebo1t633v-ofd7KS1_eYOrdpi_Sg8X8nluxVYbuab9Uuq9Z3i8rasNMHxfKNi9bj6ITbbeTzbwU9Te76LgtLjSrZNme6fhSVLk0woN_NJWXKe2Vix4eLc3TFBE50AjJ6rJeAtpL4DhW34hT5jCjuUt0TalrfiMZZPibPouOgBl5Lcjo1TGpZZzV1qN1pYeEuEFsUQaaDnDwCFAbxa7i-VeoRKroj_fR-n8Bf9JFGw:1mqi4Z:xj43y5Dj-CUgxjKHcwKcDPBEFmDglxUOJ1HD7Eg4Fpw",
+    "expire_date": "2021-12-10T20:43:55.015Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "rv8qoax91chjdxeilsrlctq3rm7810vk",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOlVJ6KRJkN4F93foQ4oBaofYDRBPb2bgkcRrbtHtAag-tiuQb0-_bScJWSNS3ef9_M_7e_XOxstS8G3zltiOwJo2sFlUkObrlAN3eA18M7EoUFDjkn6GYKZ-pwlQy9usU_z6q_feKi-ztInf3QYMUdIrudciT0_AkmPJpMAEYjycD4EkSwogPeRCyUTwc8-kgGA_5iCXj6TAOYTxkySiGMBgMJjG6DVkkKp7LEmvdm7IEziuhNbqdYBL4J1M_OD31g3BIqZliYKQq0O2fW5jDFyuzI-_8yDtjFriq0K1IXaJb_yBMJhOBbospS2BzRiDoOmfv0LrurFKWsvbv0Xns5zWnJm5NWTuNFdmilOwqE3iHbrUGR9c9byp_4U_82Mhdi7QBIzDdc71mV58a8w4Pf7RxgpHFDG9dhxPrOhcJ2Myge5JIkXEdMWCpoFQbuw7d6WLZrRaQk4jtNzyXhdSmasF2o1ZtdC0q3ayge-KHflhXrpFgS0LTZ25DC2Yraebo1t633v-ofd7KS1_eYOrdpi_Sg8X8nluxVYbuab9Uuq9Z3i8rasNMHxfKNi9bj6ITbbeTzbwU9Te76LgtLjSrZNme6fhSVLk0woN_NJWXKe2Vix4eLc3TFBE50AjJ6rJeAtpL4DhW34hT5jCjuUt0TalrfiMZZPibPouOgBl5Lcjo1TGpZZzV1qN1pYeEuEFsUQaaDnDwCFAbxa7i-VeoRKroj_fR-n8Bf9JFGw:1ms6Pt:m_M8z5W-2dcC2LDW6KLxGhVqvNW88VKJrfm3r5XL0EA",
+    "expire_date": "2021-12-14T16:55:41.061Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "st2hhneohdfh6te7wurk3qzhu6skpka9",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOldL2UiTIbgL76qkPIQ6ICrUfIJrYzsYlidPYRt0DUntoVSTfmH7fThK2Qiq-zfv_m_H37p83K0vNu8HXbjsCa9LIalFFkqNbDtDtPfDFwK5EQYED_gWKmfKZKkwlY79O8e-j2r9QXGTvF7m7DxqkoFN0b0OenITHwZRPgwnAeDwZAE-SEEZ8yIOQjeLhmE8HwXjIRywZT4dxCOMhS0YxhMFgMInRbcgiUfFclljr3pQlcF4JrdHtBJPAP576wcmJH4RDSs0UAyNVgW7_zMIcvlqZHXpnh94ps8BVhW5F6hLd-kdhMpkIdFtMWQKbMwJB1zn9gNZ1Z5WylLV_j85jP685NXFrytpprMgWpWRXmcA7dKs1OLruWVP5C3_ip0buWqQNGIHpnus1u_rcmHd48KONE4wsZnjrOpxY17lIwGYG3ZNEiozriAFLBaXa2HXoTufLbrWAnERsv-O5LKQ2VQu2G7Vqo2tR6WYF3WM_9MO6co0EWxKaPnMbWjBbSTNHt3bReh9R-7yVl766wdS7TV-kLxfze27FVhm6p_1S6b5meb-sqA0zfVwo27xsPYpOtN1ONvNS1N_svOO2uNCskmV7pqNLUeXSCA_-0VReprRXLnp4tDRPU0TkQCMkq8t6CWgvgaNYfSNOmcOM5i7RNaWu-Y1kkOFv-iw6AmbktSCjV8eklnFWW_-tKz0gxA1iizLQ5lFA6_8F5X89-A:1mqKfO:_1GAHFvcPz2o73989sIqpZ2Vh4KvGLT6Uf0dh7Gf2Zc",
+    "expire_date": "2021-12-09T19:44:22.866Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "t0fhdlqmyt2g6kn0at1krrdtj2940atm",
+  "fields": {
+    "session_data": ".eJxtkk1v1DAQhttud1v6iSp6RApwoVJJN2n361ZA1R5QEYIfEE1sZzPUmwR_VNpDJTiAqORbh_-Lk3RRJZpTxvN65n1m_L3757yz0nw39NrtJmBNnlgtVIKc3GpE7uDBWQrsShQ-ccS_QjErQ1YWRmEa1pLwPqvDy5IL-W6p3X9QIAedkzuPeXYWn0YTPonGAKPRuA88y2IY8gGPYjZMByM-6UejAR-ybDQZpDGMBiwbphBH_f44JbeJRVamC6yo9v0EK-BcCa3J7UXjKDydhNHZWRjFAy-VJQODZUHucGphAd8syuNgehxcMAu8VOQ6qCtyGx-FkZgJctustB5swTwIubWL92Rdd6ZK61WH9-g8Dec1p_bc2qv2miixRYXsSgq6I7deg5PrTpubv-gnfW7s9hJtwAjKD9xWM6svTXhHRz_avIfBYka3bo171g0uMrDSkNvJUEiuEwYsF15qU7fm9_Rh1a0XMPcmdt_yORaojWrB9pPWbXItlG5G0D0N4zCub_a8YeuN5s_cphbMKjQLcr3L9vQRt89be_mrG8qD2_xF_nLZv-M6VklyT0-WhU6aaZ3Q0lhvqmxV-vXstl3NohJJa32bC80UVu2Khp-EmqMRAfwjUYEsdTBrCgRcBFZbUNj8y0B7iZiDb4Ssvr-TgQ4yeFM_N9-ui3OY-f4rfqmo6zEYZCDpt38zOgFm8Fr4YKvOocZU1tF_U8uPPOmmR0wkaPMYpw3_AoKvQKM:1mlDdj:CLt8kQ7JClvPRHBJSTgkpN4LDt5qxqo0rC2QeQPxIN4",
+    "expire_date": "2021-11-25T17:13:31.580Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "tec7q4prn3nd2i5p6sje68llh13itsql",
+  "fields": {
+    "session_data": ".eJxtkstu00AUhtu0aUNLGlHRJZKBDZVSN3aa2wKJi6ouUBGCB7COZ8bxUF_CXCplUQkWICrNrocn4RF4MY7tBlWi3ozO_f_O8df2r5cba_V3hS9cNwJr0shqoSLJ0a0H6Pbv-GJgF6KgwCH_DMW89FlZGCVjv0rxb6PaPy-5yN6scnt3GqSgU3SvQp6chMNgxmfBFGAymQ6AJ0kIYz7iQcjG8WjCZ4NgMuJjlkxmoziEyYgl4xjCYDCYxug6skjKeCkXWOl-IBfAuRJao9sLpoE_nPnByYkfhCNKzUoGRpYFuoMzC0v4YmXW98763imzwEuFbkPqBbrt98JkMhHodllpCWzJCARd6_QtWteeq9JS1sEtOo_9vOLUxK0pa6-2IlssJLvIBN6g26zA0bXP6sof-B0_1nK3Im3ACEz33U69q0-1eYOH35o4wchijteuxYl1m4sEbGbQPUykyLiOGLBUUKqNXYvu9G7dbRaQk4jua57LQmqjGrBe1KiNLoXS9QraQz_0w6pyiwRbEpo-dh0tmFXSLNFtnTfee9Q-aeSlz68w9a7Tp-mz1fyW27AqQ_foeNXouGl-jCtlnfM_v8lT0oW6TcwsFyJq1O9yoZmSi-ZK_Q9C5dIID_7BKI8qvfy2hUcr8zQFRA40QLKqqpeA9hI4MulRBmpOI9syh-pdo4NKXa3ASAYZ_qT_RUfAjLwUZOxUMallnFXWfxtLD4myQ3hRBtrcy2j9v5GnQIA:1mlcwq:bK85sy7TGx_IJPdno80PyuH8zSNDiTpKMU1LSINP3JE",
+    "expire_date": "2021-11-26T20:14:56.045Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "u9ns2fa7tddj7o61hsxyrseyhsz6jp1i",
+  "fields": {
+    "session_data": ".eJx9kk1PFEEQhmFhYQWBBOXgwWTVg5Lg7M6wn55UQjgQPMgPmNR09-yU9M4M_UGyBxI9aCTpG-X_tWcGEhKJfauut7rep6q_t_98WFmqzzW9c1sxWJPFVgsVIye3HJLbfXCXALsQuU_s82-Qz4qAFblRmASVJLjL6uCs4EJ-vtfuPHggA52R-xjxdBAdhlM-DScA4_GkDzxNIxjxIQ8jNkqGYz7th-MhH7F0PB0mEYyHLB0lEIX9_iQh18E8LZIFllT5foIlcK6E1uS2w0kYHE6DcDAIwmjopbJgYLDIye2dWFjApUV50D056B4zC7xQ5FZQl-TWvwgjMRXkNllhPdiCeRByreMjsq49U4X1qr07dJ4E84pTe27tVdt1FNu8RHYhBd2SW63AybVP6spf9JO-1nbXYm3ACMp23UY9q_M6vKX9H03ew2A-oxvX4p51nYsUrDTknqYoJNcxA5YJL7WJa_k9nS671Rzm3sTWJz7HHLVRDdhO3LiNr4TS9Qjah0EURFXlmjdsvdHsuetowaxCsyC3dtbcPuL2ZWMve3NNWfcme5W9vu__1q1YJcm96JWF7mk275VWMb9socSlFdr06N7hs_NCIkNjeZeL7lExLxV4340XsyhF9fFOW26TC80Uls3iHq9aRVYlN1LopvBeemzPh3OY-T5LfouoK26DDCT99p9Ex8AMXgkfbFQ51JjIKvpnTNm-R-t4plhC9ep_wGzwF7hiPd4:1moUA0:leJ8vpeLgKEHhBbkKXGS9I_Tzdvu_plSI6_Ch7JCa1M",
+    "expire_date": "2021-12-04T17:28:20.426Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "v6jatqgui4bksxfuegg2v6gezc0v0mcf",
+  "fields": {
+    "session_data": ".eJx9kstvEzEQxtu8GhrSShUVJ6QAF4LaTXbzvvFQlUNVDsB9NWt7s272hR-RcqgEBxCVfOvw_-LdbaRKRfg2M9_Y32_G35t_zut75bnBN6brg1aRryUTPqdo9l00Jw9yAZA1S22hT68hXWUOyVIleOAUEue-Kp2rjLL4w057_OCCCGSE5p1Hw7E3chd04c4BZrP5EGgYejClE-p6ZBpMZnQxdGcTOiXhbDEJPJhNSDgNwHOHw3mAps3TMAu2PMfC9xOeA6WCSYnmyJ27zmjhuOOx43oTK40zAopnKZrTpYYtfNM8Pustz3oXRAPNBJo6lzmag09MxTxkaDok0xZsSywImtrFR9SmuRKZtqrTe3QaOEnBKS23tKqjMvJ1mnOyjhneoWkU4Giay7LzF_7Ez6Xdli8VKIbRiTksZ_WlDO-w_6OqWxiervDW1KhlPaAsBB0rNE9DzmIqfQIkYlaqA1Oze7rcN40UEmui-54mPOVSiQrs2K_c-hsmZDmC5sjxHK_obFnD2hqNnpm2ZEQLrrZoWldV9h9uX1T2otc3GPVuo5fRq937b01dixjN80GeyYEkyUCqjKyTbMMSlqoB7vwdfRWQypAJlhIOdlvdyoTa5qz4cZc106FMEsHzamOPGhqcFPlOCL0QzpXQZG2heAIre_2eLXBZwCpOIMbf9mdIH4jiG2aDw6LGJQ_iIno0m6hvedoWxI9Bqv_QaOcvRXY5xA:1mpYo1:FAr7EnxFrD80TUGw52_z-0KZdMGFnvuL_LGUBJtOBBk",
+    "expire_date": "2021-12-07T16:38:05.765Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "v7dx55kf7mul3mfd8i1gys4ojag5ffme",
+  "fields": {
+    "session_data": ".eJx9kstvEzEQxtu8GhrSShUVJ6QAF4LaTXbzvvFQlUNVDsB9NWt7s272hR-RcqgEBxCVfOvw_-LdbaRKRfg2M9_Y32_G35t_zut75bnBN6brg1aRryUTPqdo9l00Jw9yAZA1S22hT68hXWUOyVIleOAUEue-Kp2rjLL4w057_OCCCGSE5p1Hw7E3chd04c4BZrP5EGgYejClE-p6ZBpMZnQxdGcTOiXhbDEJPJhNSDgNwHOHw3mAps3TMAu2PMfC9xOeA6WCSYnmyJ27zmjhuOOx43oTK40zAopnKZrTpYYtfNM8Pustz3oXRAPNBJo6lzmag09MxTxkaDok0xZsSywImtrFR9SmuRKZtqrTe3QaOEnBKS23tKqjMvJ1mnOyjhneoWkU4Giay7LzF_7Ez6Xdli8VKIbRiTksZ_WlDO-w_6OqWxiervDW1KhlPaAsBB0rNE9DzmIqfQIkYlaqA1Oze7rcN40UEmui-54mPOVSiQrs2K_c-hsmZDmC5sjxHK_obFnD2hqNnpm2ZEQLrrZoWldV9h9uX1T2otc3GPVuo5fRq937b01dixjN80GeyYEkyUCqjKyTbMMSlqoB7vwdfRWQypAJlhIOdlvdyoTa5qz4cZc106FMEsHzamOPGhqcFPlOCL0QzpXQZG2heAIre_2eLXBZwCpOIMbf9mdIH4jiG2aDw6LGJQ_iIno0m6hvedoWxI9Bqv_QaOcvRXY5xA:1mpYi3:f1IV-HWgD8xCUjtuWjSnaH0yiJ_y9XLGOci3sylWKU0",
+    "expire_date": "2021-12-07T16:31:55.559Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "w0k77g99v841tkeywtu095giav9s9uoz",
+  "fields": {
+    "session_data": ".eJx9kstvEzEQxtvm0dCQVKqoOCEFuBDUbrKb942HqhyqcgDuq1nbm3WzL_yIlEMlOICo5FuH_xfvbiNVKsK3mfnG_n4z_t74c17bK88NvjEdH7SKfC2Z8DlFs--iOXmQC4CsWWoLfXoN6SpzSJYqwQOnkDj3VelcZZTFH3ba4wcXRCAjNO88Go69kbugC3cOMJvNh0DD0IMpnVDXI9NgMqOLoTub0CkJZ4tJ4MFsQsJpAJ47HM4DNC2ehlmw5TkWvp_wHCgVTEo0XXfuOqOF447HjutNrDTOCCiepWhOlxq28E3z-Ky3POtdEA00E2hqXOZoDj8xFfOQoWmTTFuwLbEgaA4uPqI2jZXItFWd3qPTwEkKTmm5pVV1y8jXac7JOmZ4h6ZegKNpLMvOX_gTP5d2m75UoBhGJ-aonNWXMrzD_o-qbmF4usJbc0At6yFlIehYoXkachZT6RMgEbNSHZgDu6fLfVNPIbEmOu9pwlMulajAjv3Krb9hQpYjaIwcz_GKzqY1rK3R6JlpSUa04GqLpnlVZf_h9kVlL3p9g1HvNnoZvdq9_9bUtIjRPB_kmRxIkgykysg6yTYsYaka4M5f96uAVIZMsJRwsNvqVCbUNmfFj7tsmjZlkgieVxt71FDnpMi3Q-iFcK6EJmsLxRNY2ev3bIHLAlZxAjH-tj9D-kAU3zAbHBU1LnkQF9Gj2UR9y9OyIH4MUv2HRjt_AUgSOcg:1ms48n:kVQQ5TWIiA7JrTLonwCWLFgKN5XlgL3E9hgbBFK-nJ4",
+    "expire_date": "2021-12-14T14:29:53.568Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wajjzksu2hpe5aydaohrxym03ik1sajc",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOlVJ6KRJkN4F93foQ4oBaofYDRBPb2bgkcRrbtHtAag-tiuQb0-_bScJWSNS3ef9_M_7e_XOxstS8G3zltiOwJo2sFlUkObrlAN3eA18M7EoUFDjkn6GYKZ-pwlQy9usU_z6q_feKi-ztInf3QYMUdIrudciT0_AkmPJpMAEYjycD4EkSwogPeRCyUTwc8-kgGA_5iCXj6TAOYTxkySiGMBgMJjG6DVkkKp7LEmvdm7IEziuhNbqdYBL4J1M_OD31g3BIqZliYKQq0O2fW5jDFyuzI-_8yDtjFriq0K1IXaJb_yBMJhOBbospS2BzRiDoOmfv0LrurFKWsvbv0Xns5zWnJm5NWTuNFdmilOwqE3iHbrUGR9c9byp_4U_82Mhdi7QBIzDdc71mV58a8w4Pf7RxgpHFDG9dhxPrOhcJ2Myge5JIkXEdMWCpoFQbuw7d6WLZrRaQk4jtNzyXhdSmasF2o1ZtdC0q3ayge-KHflhXrpFgS0LTZ25DC2Yraebo1t633v-ofd7KS1_eYOrdpi_Sg8X8nluxVYbuab9Uuq9Z3i8rasNMHxfKNi9bj6ITbbeTzbwU9Te76LgtLjSrZNme6fhSVLk0woN_NJWXKe2Vix4eLc3TFBE50AjJ6rJeAtpL4DhW34hT5jCjuUt0TalrfiMZZPibPouOgBl5Lcjo1TGpZZzV1qN1pYeEuEFsUQaaDnDwCFAbxa7i-VeoRKroj_fR-n8Bf9JFGw:1mqiIB:7Nq2UY91F_Yvbnx9gqTRu82A56ddLYI7U3cOwQ4zlYU",
+    "expire_date": "2021-12-10T20:57:59.760Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "wi6mvybyc4sqalnftjz97060aye1pq3y",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQgGGX5VmgQqAeUKVtq1asRLObsM9bKUIcED20PyCa2M7akI1TP5C2ElJ7aAWSb0z_b50EEIfmNp6Z-Ptm_LP1d7e5UH03eOA2Y7CGx1YzFQuKbjFEt_PsLAFyxXKf6NBLyKcyIDI3SiRBWRI8ZHVwISnLPj_Wbj_7AQfN0X2KaNqPjsIJnYRjgNFo3AOaphEM6YCGERkmgxGd9MLRgA5JOpoMkghGA5IOE4jCXm-coFsVeSqTuSiw5F4TBVCqmNbotsJxGBxNgrDfD8Jo4EszScAImaPbO7Mwh-9WZIfts8P2KbFApULXFLpAt_KFmUykDN0GkdaLzYkXQdc4PUHrWlMlra_ae1CnSTArPbX31r5qq4pimxeCXGUM79EtleLoWmdV5x_8jV8r3OVYGzAM-Y5br2b1rQrvsfOrznsZkU_xzjWod12hLAWbGXQvUsEyqmMChDNfahPX8Hs6X3RLOcw8xOYxnYlcaKNqse24po2vmdLVCFpHQRREZeeyB7YelO-6Vc2IVcLM0S1f1KdPtHyfv665-Lsb5O07_oa_tQl_f95xTasydPvdQuquJrNu6SuV-MEKq4jfNesi_-BeHltTnoJqn8hZocBz1nebecHKh3becBuUaaJEUS_qPy1LgpSZtRTaKXy8Yp61JWYw9dYLfmNCl45GEMjw1j8IHQMx4pr5YL3MCS0Sr3XLD3jHy6968jgD7Yf66gn_kVoqylQXbfAPvoIt4w:1moTZV:BgaeIGZdsc4R2HAJ4m2DLWcTIP1_Zpg3Yl9LCQle7Ho",
+    "expire_date": "2021-12-04T16:50:37.403Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xlbr8lhzco1pcup4jdd3pjs0vugm2wch",
+  "fields": {
+    "session_data": ".eJx9kstvEzEQxtu8GhrSShUVJ6QAF4LaTXbzvvFQlUNVDsB9NWt7s272hR-RcqgEBxCVfOvw_-LdbaRKRfg2M9_Y32_G35t_zut75bnBN6brg1aRryUTPqdo9l00Jw9yAZA1S22hT68hXWUOyVIleOAUEue-Kp2rjLL4w057_OCCCGSE5p1Hw7E3chd04c4BZrP5EGgYejClE-p6ZBpMZnQxdGcTOiXhbDEJPJhNSDgNwHOHw3mAps3TMAu2PMfC9xOeA6WCSYnmyJ27zmjhuOOx43oTK40zAopnKZrTpYYtfNM8Pustz3oXRAPNBJo6lzmag09MxTxkaDok0xZsSywImtrFR9SmuRKZtqrTe3QaOEnBKS23tKqjMvJ1mnOyjhneoWkU4Giay7LzF_7Ez6Xdli8VKIbRiTksZ_WlDO-w_6OqWxiervDW1KhlPaAsBB0rNE9DzmIqfQIkYlaqA1Oze7rcN40UEmui-54mPOVSiQrs2K_c-hsmZDmC5sjxHK_obFnD2hqNnpm2ZEQLrrZoWldV9h9uX1T2otc3GPVuo5fRq937b01dixjN80GeyYEkyUCqjKyTbMMSlqoB7vwdfRWQypAJlhIOdlvdyoTa5qz4cZc106FMEsHzamOPGhqcFPlOCL0QzpXQZG2heAIre_2eLXBZwCpOIMbf9mdIH4jiG2aDw6LGJQ_iIno0m6hvedoWxI9Bqv_QaOcvRXY5xA:1mpZOx:ajv5t5GMLccM7drjBDR-9rAgxyHzJbYoAIrCBjaNslQ",
+    "expire_date": "2021-12-07T17:16:15.022Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "xoctlqeyml511s32orq6hsjngy7vs9jn",
+  "fields": {
+    "session_data": ".eJxtkltP1EAUx2FhuSwikcijSdEXSaC7LeztzUsIiQRD9AM0pzPT7UjbqZ0Z4j6Q6INGknnj-H09bVlDgvN27v_fOfO9--fDylLzbvC1247AmjSyWlSR5OiWA3S7D3wxsCtRUOCAf4FipnymClPJ2K9T_Puo9i8UF9m7Re7OgwYp6BTdm5AnJ-FxMOXTYAIwHk8GwJMkhBEf8iBko3g45tNBMB7yEUvG02EcwnjIklEMYTAYTGJ0G7JIVDyXJda6N2UJnFdCa3RPg0ngH0_94OTED8IhpWaKgZGqQLd3ZmEOX63MDr2zQ--UWeCqQrcidYlu_aMwmUwEui2mLIHNGYGg65y-R-u6s0pZytq7R-exn9ecmrg1ZT1trMgWpWRXmcA7dKs1OLruWVP5C3_ip0buWqQNGIHprus1u_rcmHd48KONE4wsZnjrOpxY17lIwGYG3ZNEiozriAFLBaXa2HXoTufLbrWAnERsv-W5LKQ2VQu2E7Vqo2tR6WYF3WM_9MO6co0EWxKaPncbWjBbSTNHt3bRev-j9kUrL311g6l3m-6nLxfze27FVhm6Z_1S6b5meb-sqA0zfVwo27xsPYpOtN1ONvNS1N_svOO2uNCskmV7pqNLUeXSCA_-0VReprRXLnp4tDRPU0TkQCMkq8t6CWgvgaNYfSNOmcOM5i7RNaWu-Y1kkOFv-iw6AmbktSCjV8eklnFWW4_WlR4Q4gaxRRloOsD-I0BtFLuK59rSAjVkfbT-XzeJRLg:1msS5f:k2Px_n_1eEXVrK6LxS31vVITET7T5bSOOuV2KcDe0SA",
+    "expire_date": "2021-12-15T16:04:15.694Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "yo5niyjo0ebmkvermlug8614f1k4b9ju",
+  "fields": {
+    "session_data": ".eJxNkk1PFEEQhvlaQBBQlIMxJqNGwyYwuzOwXzeVEA4EQ_QHTGq6e7ZbZmfG_iDZA4keNJD0jfL_WrODZucwSVe9Vf0-Vf2j9SdaXph9N7jvtxJwVibOCJ0ojn4xQr87F0uBXYmCEm3-DYpxGbKysFqlYS0JH7ImvCi5yD_90-7MNZBgJPoPMc-O46NoxEfREGAwGHaBZ1kMfd7jUcz6aW_AR91o0ON9lg1GvTSGQY9l_RTiqNsdpujXVZGV6VRVWPt-pCrgXAtj0G9Hwyg8GoXR8XEYxT2S5iUDq8oC_d6Zgyl8dyo_CM4OglPmgJca_bIyFfq1z8LmKhPoN1npCGzKCAT90ukJOt8a69KRau8BnafhpOY0xG1ItT07Ja6oFLvKBd6jX6nB0bfOZpW_8Rd-mdldTYwFK1Du-o3ZrL7OjvfY_tnkCUYVY7zzS5xY17jIwOUW_eNMiZybhAGTgqQu9Uu0p_NFv1LAhExsfeQTVShjdQO2kzRuk2uhzWwEraMwDuO6cpUMOzIqn_t1I5jTyk7Rr1400f9u5Uv5qvEl396gDO7ka_nGpfLd-Qu_7HSO_llHi6rU1nS4SOlfwbSD8r1_euJEYcEElAwuYQxkaKu51E4rUb-w85bf5MIwrapmQ9Gl0BNlRUCGg7w0QdNamICLIKdebK5n1fRcUawufZJROINDJkHbw7TOtNQExjSWBVqpMvUQrGKQ4y29GJMAs-pa0GGjzimjUuK-lfuyTdNZJ7SELrQ1X1WaTqYn83wu_AvTeTdq:1mnMox:qzzzhx46m2SGT9e5CDv3zzerFy8SnrqWET5XseYdVzU",
+    "expire_date": "2021-12-01T15:25:59.371Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zf7ngdnjq4w2p8t8e7a94qdqnj375y0y",
+  "fields": {
+    "session_data": ".eJxNkU1rGzEQhmsnbtKPJBDIPccGgrDWXq_31qYEH0J7aH_AMvryqllL7moV8KHQHhoozC3TP9pfEHmdQnQbzTPifUY_R3__DV705we9w6MKYldXMei2sopwwAlPn90JkLfapcaF-gZu6Zn0rmutYFuEPXUD--SVbq7-syfPHqgh1ITvM2Wm2YSXquRzgKKYj0EZk8FM5YpncibyQpVjXuRqJk1R5iKDIpdmJiDj4_FcEB5aZ7zY2DVtc7-ya1Cq1SEQHvM5Z5OS8emU8SxPaOMldNY7wrNFhA18j7a5PF9cnl_LCMq3hHs2rAkPPuuusUYTvpE-JrGNTCKEw-uPFHG0bH1M1NmTuhJstfUMyTsk6rivqujWVt42mh4I97fihKNFP3lPv-lLH_dlFTroNNWn-Lrf1de-fKCLX7t-krFuSX9wqJLrgdIGYtMRvjVWNypUEmStExoFDtM_3Qxw38EqhTj6oFbW2dC1O7GTape2utNt6FcwmrCMZWkyskfKUr0Y:1mqi3F:zO9swCl6Tb_EuqeCpUavm_5oonaDhpuatTYMsjvMMJk",
+    "expire_date": "2021-12-10T20:42:33.166Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zno1yul8231gct73xmpvsmirqjnjzqzq",
+  "fields": {
+    "session_data": ".eJxtkktP3DAQx2FheSwFVFSOldL2UiTIbgL76qkPIQ6ICrUfIJrYzsYlidPYRt0DUntoVSTfmH7fThK2Qiq-zfv_m_H37p83K0vNu8HXbjsCa9LIalFFkqNbDtDtPfDFwK5EQYED_gWKmfKZKkwlY79O8e-j2r9QXGTvF7m7DxqkoFN0b0OenITHwZRPgwnAeDwZAE-SEEZ8yIOQjeLhmE8HwXjIRywZT4dxCOMhS0YxhMFgMInRbcgiUfFclljr3pQlcF4JrdHtBJPAP576wcmJH4RDSs0UAyNVgW7_zMIcvlqZHXpnh94ps8BVhW5F6hLd-kdhMpkIdFtMWQKbMwJB1zn9gNZ1Z5WylLV_j85jP685NXFrytpprMgWpWRXmcA7dKs1OLruWVP5C3_ip0buWqQNGIHpnus1u_rcmHd48KONE4wsZnjrOpxY17lIwGYG3ZNEiozriAFLBaXa2HXoTufLbrWAnERsv-O5LKQ2VQu2G7Vqo2tR6WYF3WM_9MO6co0EWxKaPnMbWjBbSTNHt3bReh9R-7yVl766wdS7TV-kLxfze27FVhm6p_1S6b5meb-sqA0zfVwo27xsPYpOtN1ONvNS1N_svOO2uNCskmV7pqNLUeXSCA_-0VReprRXLnp4tDRPU0TkQCMkq8t6CWgvgaNYfSNOmcOM5i7RNaWu-Y1kkOFv-iw6AmbktSCjV8eklnFWW_-tKz0gxA1iizLQ5lFA6_8F5X89-A:1mpvou:i_BpT9uWIyjYYc42sr0QHTTZm1gEScNS_737SCiSTPI",
+    "expire_date": "2021-12-08T17:12:32.346Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zrqm9ehef0nber1sga2qwn5pn6tzzm9m",
+  "fields": {
+    "session_data": ".eJxtks9L3UAQx9X3Q6tVQRR6KaTtpYImL9H369YfiAexlBZ6DZPdzcvWvCTdHw_eQWgPLRX25vT_7STRItS9zc53Zr-fmf3e-3PZWWnONb522zFYk8VWCxVLjm41RLf34C4BdiUKShzyr1DMSp-VhVEy8WuJf5fV_mXJRf7uXrv7oEEGOkP3JuLpaXQSTvk0nACMx5MB8DSNYMSHPIzYKBmO-XQQjod8xNLxdJhEMB6ydJRAFA4GkwTdhizSMlnKCmvfT2QFnCuhNbqdcBL6J1M_PD31w2hI0rxkYGRZoDs4t7CEb1bmR975kXfGLPBSoetIXaFb_yBMLlOBbouVlsCWjEDQrZ29R-t6M1VaUh3cofPEn9ecmrg1qXaaKLZFJdlVLvAWXbcGR9c7byp_4U_81Njtx9qAEZjtuc1mVp-b8BYPf7R5gpHFDG_cGifWdS5SsLlB9zSVIuc6ZsAyQVKbuDXa08Wq6xYwJxPbb_lcFlIb1YLtxq3beCGUbkbQO_EjP6or-2TYktFs321owaySZomuf9nePuL2eWsve3WNmXeTvche3r-_5zpW5ej2g6rUAVPzQEMuAqjNBHhvrv9FFAZoRdvty2ZZifqbXXTdFheaKVm1awo-CjWXRnjwj0Z5OWhv0TTwuPDyUnuVojbMlNSxK1lduJ9SNoVjnZVVRRM8ZqBobD05hxkZWKHNSl3PwkgGOf6mj6NjYEYuBAWbdU5qmeR19N_oskPC3SDOmKxQ12ePwdLmArT-X3OWRGk:1mnOpQ:RaOYrMDOXnDs2tSxd1-_cxTX2knbZMpELafIVFnmhtA",
+    "expire_date": "2021-12-01T17:34:36.417Z"
+  }
+},
+{
+  "model": "security.dashboard",
+  "pk": 1,
+  "fields": {
+    "name": "SGPH",
+    "image": "",
+    "icon": "fas fa-shopping-cart",
+    "layout": 1,
+    "card": "card-dark",
+    "navbar": "navbar-expand navbar-dark",
+    "brand_logo": " ",
+    "sidebar": "sidebar-dark-primary"
+  }
+},
+{
+  "model": "security.moduletype",
+  "pk": 1,
+  "fields": {
+    "name": "Seguridad",
+    "icon": "fas fa-lock",
+    "is_active": true
+  }
+},
+{
+  "model": "security.moduletype",
+  "pk": 2,
+  "fields": {
+    "name": "Bodega",
+    "icon": "fas fa-boxes",
+    "is_active": true
+  }
+},
+{
+  "model": "security.moduletype",
+  "pk": 3,
+  "fields": {
+    "name": "Administrativo",
+    "icon": "fas fa-hand-holding-usd",
+    "is_active": true
+  }
+},
+{
+  "model": "security.moduletype",
+  "pk": 4,
+  "fields": {
+    "name": "Facturación",
+    "icon": "fas fa-calculator",
+    "is_active": true
+  }
+},
+{
+  "model": "security.moduletype",
+  "pk": 5,
+  "fields": {
+    "name": "Reportes",
+    "icon": "fas fa-chart-pie",
+    "is_active": true
+  }
+},
+{
+  "model": "security.moduletype",
+  "pk": 6,
+  "fields": {
+    "name": "Transferencias De Mercaderia",
+    "icon": "fa fa-arrow-up",
+    "is_active": true
+  }
+},
+{
+  "model": "security.moduletype",
+  "pk": 7,
+  "fields": {
+    "name": "Compras",
+    "icon": "fa fa-box",
+    "is_active": true
+  }
+},
+{
+  "model": "security.moduletype",
+  "pk": 8,
+  "fields": {
+    "name": "Datos Generales",
+    "icon": "fa fa-list",
+    "is_active": true
+  }
+},
+{
+  "model": "security.moduletype",
+  "pk": 9,
+  "fields": {
+    "name": "Cobranza",
+    "icon": "fa fa-search-dollar",
+    "is_active": true
+  }
+},
+{
+  "model": "security.module",
+  "pk": 1,
+  "fields": {
+    "url": "/security/module/type/",
+    "name": "Tipos de Módulos",
+    "moduletype": 1,
+    "description": "Permite administrar los tipos de módulos del sistema",
+    "icon": "fas fa-door-open",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      27,
+      28,
+      29,
+      30
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 2,
+  "fields": {
+    "url": "/security/module/",
+    "name": "Módulos",
+    "moduletype": 1,
+    "description": "Permite administrar los módulos del sistema",
+    "icon": "fas fa-th-large",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      31,
+      32,
+      33,
+      34
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 3,
+  "fields": {
+    "url": "/security/group/",
+    "name": "Grupos",
+    "moduletype": 1,
+    "description": "Permite administrar los grupos de usuarios del sistema",
+    "icon": "fas fa-users",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      9,
+      10,
+      11,
+      12
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 4,
+  "fields": {
+    "url": "/security/database/backups/",
+    "name": "Respaldos",
+    "moduletype": 1,
+    "description": "Permite administrar los respaldos de base de datos",
+    "icon": "fas fa-database",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      25,
+      26,
+      24
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 5,
+  "fields": {
+    "url": "/security/dashboard/update/",
+    "name": "Conf. Dashboard",
+    "moduletype": 1,
+    "description": "Permite configurar los datos de la plantilla",
+    "icon": "fas fa-tools",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 6,
+  "fields": {
+    "url": "/security/access/users/",
+    "name": "Accesos",
+    "moduletype": 1,
+    "description": "Permite administrar los accesos de los usuarios",
+    "icon": "fas fa-user-secret",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      22,
+      21
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 7,
+  "fields": {
+    "url": "/user/",
+    "name": "Usuarios",
+    "moduletype": 1,
+    "description": "Permite administrar a los administradores del sistema",
+    "icon": "fas fa-user",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      35,
+      36,
+      37,
+      38
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 8,
+  "fields": {
+    "url": "/pos/scm/provider/",
+    "name": "Proveedores",
+    "moduletype": 7,
+    "description": "Permite administrar a los proveedores de las compras",
+    "icon": "fas fa-truck",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      73,
+      74,
+      75,
+      76
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 9,
+  "fields": {
+    "url": "/pos/scm/category/",
+    "name": "Categorías",
+    "moduletype": 2,
+    "description": "Permite administrar las categorías de los productos",
+    "icon": "fas fa-truck-loading",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      39,
+      40,
+      41,
+      42
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 10,
+  "fields": {
+    "url": "/pos/scm/product/",
+    "name": "Productos",
+    "moduletype": 2,
+    "description": "Permite administrar los productos del sistema",
+    "icon": "fas fa-box",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      61,
+      62,
+      63,
+      64
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 11,
+  "fields": {
+    "url": "/pos/scm/purchase/",
+    "name": "Recepcion Compras",
+    "moduletype": 7,
+    "description": "Permite administrar las compras de los productos",
+    "icon": "fas fa-dolly-flatbed",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      78,
+      79,
+      77
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 12,
+  "fields": {
+    "url": "/pos/scm/product/stock/adjustment/",
+    "name": "Ajuste de Stock",
+    "moduletype": 2,
+    "description": "Permite administrar los ajustes de stock de productos",
+    "icon": "fas fa-sliders-h",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 13,
+  "fields": {
+    "url": "/pos/frm/type/expense/",
+    "name": "Tipos de Gastos",
+    "moduletype": 3,
+    "description": "Permite administrar los tipos de gastos",
+    "icon": "fas fa-comments-dollar",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      87,
+      88,
+      89,
+      90
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 14,
+  "fields": {
+    "url": "/pos/frm/expenses/",
+    "name": "Gastos",
+    "moduletype": 3,
+    "description": "Permite administrar los gastos de la compañia",
+    "icon": "fas fa-file-invoice-dollar",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      57,
+      58,
+      59,
+      60
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 15,
+  "fields": {
+    "url": "/pos/frm/ctas/collect/",
+    "name": "Cuentas por cobrar",
+    "moduletype": 9,
+    "description": "Permite administrar las cuentas por cobrar de los clientes",
+    "icon": "fas fa-funnel-dollar",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      49,
+      50,
+      48
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 16,
+  "fields": {
+    "url": "/pos/frm/debts/pay/",
+    "name": "Cuentas por pagar",
+    "moduletype": 3,
+    "description": "Permite administrar las cuentas por pagar de los proveedores",
+    "icon": "fas fa-money-check-alt",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      52,
+      53,
+      51
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 17,
+  "fields": {
+    "url": "/pos/crm/client/",
+    "name": "Clientes",
+    "moduletype": 4,
+    "description": "Permite administrar los clientes del sistema",
+    "icon": "fas fa-user-friends",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      43,
+      44,
+      45,
+      46
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 18,
+  "fields": {
+    "url": "/pos/crm/sale/admin/",
+    "name": "Ventas",
+    "moduletype": 4,
+    "description": "Permite administrar las ventas de los productos",
+    "icon": "fas fa-shopping-cart",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      85,
+      86,
+      84
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 19,
+  "fields": {
+    "url": "/pos/crm/sale/client/",
+    "name": "Ventas",
+    "moduletype": null,
+    "description": "Permite administrar las ventas de los productos",
+    "icon": "fas fa-shopping-cart",
+    "image": "",
+    "is_vertical": false,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 20,
+  "fields": {
+    "url": "/pos/crm/promotions/",
+    "name": "Promociones",
+    "moduletype": 4,
+    "description": "Permite administrar las promociones de los productos",
+    "icon": "far fa-calendar-check",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      65,
+      66,
+      67,
+      68
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 21,
+  "fields": {
+    "url": "/pos/crm/devolution/",
+    "name": "Devoluciones",
+    "moduletype": 4,
+    "description": "Permite administrar las devoluciones de los productos",
+    "icon": "fas fa-exchange-alt",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      55,
+      56,
+      54
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 22,
+  "fields": {
+    "url": "/reports/sale/",
+    "name": "Ventas",
+    "moduletype": 5,
+    "description": "Permite ver los reportes de las ventas",
+    "icon": "fas fa-chart-bar",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 23,
+  "fields": {
+    "url": "/reports/purchase/",
+    "name": "Compras",
+    "moduletype": 5,
+    "description": "Permite ver los reportes de las compras",
+    "icon": "fas fa-chart-bar",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 24,
+  "fields": {
+    "url": "/reports/expenses/",
+    "name": "Gastos",
+    "moduletype": 5,
+    "description": "Permite ver los reportes de los gastos",
+    "icon": "fas fa-chart-bar",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 25,
+  "fields": {
+    "url": "/reports/debts/pay/",
+    "name": "Cuentas por Pagar",
+    "moduletype": 5,
+    "description": "Permite ver los reportes de las cuentas por pagar",
+    "icon": "fas fa-chart-bar",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      52,
+      53,
+      51
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 26,
+  "fields": {
+    "url": "/reports/ctas/collect/",
+    "name": "Cuentas por Cobrar",
+    "moduletype": 5,
+    "description": "Permite ver los reportes de las cuentas por cobrar",
+    "icon": "fas fa-chart-bar",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      49,
+      50,
+      48
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 27,
+  "fields": {
+    "url": "/reports/results/",
+    "name": "Perdidas y Ganacias",
+    "moduletype": 5,
+    "description": "Permite ver los reportes de perdidas y ganancias",
+    "icon": "fas fa-chart-bar",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 28,
+  "fields": {
+    "url": "/user/update/password/",
+    "name": "Cambiar password",
+    "moduletype": null,
+    "description": "Permite cambiar tu password de tu cuenta",
+    "icon": "fas fa-key",
+    "image": "",
+    "is_vertical": false,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 29,
+  "fields": {
+    "url": "/user/update/profile/",
+    "name": "Editar perfil",
+    "moduletype": null,
+    "description": "Permite cambiar la información de tu cuenta",
+    "icon": "fas fa-user",
+    "image": "",
+    "is_vertical": false,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 30,
+  "fields": {
+    "url": "/pos/crm/client/update/profile/",
+    "name": "Editar perfil",
+    "moduletype": null,
+    "description": "Permite cambiar la información de tu cuenta",
+    "icon": "fas fa-user",
+    "image": "",
+    "is_vertical": false,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 31,
+  "fields": {
+    "url": "/pos/crm/company/update/",
+    "name": "Compañia",
+    "moduletype": null,
+    "description": "Permite gestionar la información de la compañia",
+    "icon": "fas fa-building",
+    "image": "",
+    "is_vertical": false,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 32,
+  "fields": {
+    "url": "/pos/scm/sucursal/",
+    "name": "Sucursales",
+    "moduletype": 2,
+    "description": "Permite administrar las sucursales de la compañia",
+    "icon": "fas fa-server",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      91,
+      92,
+      93,
+      94
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 33,
+  "fields": {
+    "url": "/pos/scm/brand/",
+    "name": "Marcas",
+    "moduletype": 2,
+    "description": "Permite administrar las marcas de los modelos",
+    "icon": "fas fa-code-branch",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      99,
+      100,
+      101,
+      102
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 34,
+  "fields": {
+    "url": "/pos/scm/exemplar/",
+    "name": "Modelos",
+    "moduletype": 2,
+    "description": "Permite administrar los modelos de los productos",
+    "icon": "fas fa-ring",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      95,
+      96,
+      97,
+      98
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 37,
+  "fields": {
+    "url": "/pos/scm/movement/",
+    "name": "Movimiento de Mercaderia",
+    "moduletype": null,
+    "description": "Movimiento de Mercaderia",
+    "icon": "fa fa-truck",
+    "image": "",
+    "is_vertical": false,
+    "is_active": false,
+    "is_visible": false,
+    "permits": [
+      111,
+      112,
+      113,
+      114
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 38,
+  "fields": {
+    "url": "/pos/scm/payment/",
+    "name": "Plazos de Pago",
+    "moduletype": 2,
+    "description": "Tiempo",
+    "icon": "fa fa-clock",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      115,
+      116,
+      117,
+      118
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 39,
+  "fields": {
+    "url": "/pos/scm/purchaserequest/",
+    "name": "Solicitud de Compra",
+    "moduletype": 7,
+    "description": "Solicitud de Compra",
+    "icon": "fa fa-list",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      131,
+      132,
+      133,
+      134
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 40,
+  "fields": {
+    "url": "/pos/scm/purchaseorder/",
+    "name": "Orden de Compra",
+    "moduletype": 7,
+    "description": "Orden de Compra",
+    "icon": "fa fa-list",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      127,
+      128,
+      129,
+      130,
+      119,
+      120,
+      121,
+      122,
+      131,
+      132,
+      133,
+      134,
+      123,
+      124,
+      125,
+      126
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 41,
+  "fields": {
+    "url": "/pos/scm/authorizepurchase/",
+    "name": "Autorizar Compra",
+    "moduletype": 2,
+    "description": "Autorizar Compra",
+    "icon": "fa fa-key",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      127,
+      128,
+      129,
+      130,
+      119,
+      120,
+      121,
+      122
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 42,
+  "fields": {
+    "url": "/pos/scm/stockmovement/",
+    "name": "Transferencias",
+    "moduletype": 6,
+    "description": "Transferencias",
+    "icon": "fa fa-truck",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      135,
+      136,
+      137,
+      138,
+      139,
+      140,
+      141,
+      142
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 43,
+  "fields": {
+    "url": "/pos/crm/pricelist/",
+    "name": "Lista de Precios",
+    "moduletype": 4,
+    "description": "Precios",
+    "icon": "fa fa-list",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": [
+      147,
+      148,
+      149,
+      150
+    ]
+  }
+},
+{
+  "model": "security.module",
+  "pk": 45,
+  "fields": {
+    "url": "/pos/scm/product/stockbywarehouse",
+    "name": "Stock Bodegas",
+    "moduletype": 2,
+    "description": "Stock Bodegas",
+    "icon": "fa fa-list",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.module",
+  "pk": 46,
+  "fields": {
+    "url": "/pos/scm/product/stockbysucursal",
+    "name": "Stock Sucursal",
+    "moduletype": 2,
+    "description": "Stock Sucursal",
+    "icon": "fa fa-box",
+    "image": "",
+    "is_vertical": true,
+    "is_active": true,
+    "is_visible": true,
+    "permits": []
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 30,
+  "fields": {
+    "group": 2,
+    "module": 19
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 31,
+  "fields": {
+    "group": 2,
+    "module": 30
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 32,
+  "fields": {
+    "group": 2,
+    "module": 28
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 732,
+  "fields": {
+    "group": 3,
+    "module": 39
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 733,
+  "fields": {
+    "group": 3,
+    "module": 45
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 776,
+  "fields": {
+    "group": 1,
+    "module": 1
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 777,
+  "fields": {
+    "group": 1,
+    "module": 2
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 778,
+  "fields": {
+    "group": 1,
+    "module": 3
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 779,
+  "fields": {
+    "group": 1,
+    "module": 4
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 780,
+  "fields": {
+    "group": 1,
+    "module": 5
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 781,
+  "fields": {
+    "group": 1,
+    "module": 6
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 782,
+  "fields": {
+    "group": 1,
+    "module": 7
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 783,
+  "fields": {
+    "group": 1,
+    "module": 8
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 784,
+  "fields": {
+    "group": 1,
+    "module": 9
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 785,
+  "fields": {
+    "group": 1,
+    "module": 10
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 786,
+  "fields": {
+    "group": 1,
+    "module": 11
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 787,
+  "fields": {
+    "group": 1,
+    "module": 12
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 788,
+  "fields": {
+    "group": 1,
+    "module": 13
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 789,
+  "fields": {
+    "group": 1,
+    "module": 14
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 790,
+  "fields": {
+    "group": 1,
+    "module": 15
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 791,
+  "fields": {
+    "group": 1,
+    "module": 16
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 792,
+  "fields": {
+    "group": 1,
+    "module": 17
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 793,
+  "fields": {
+    "group": 1,
+    "module": 18
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 794,
+  "fields": {
+    "group": 1,
+    "module": 19
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 795,
+  "fields": {
+    "group": 1,
+    "module": 20
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 796,
+  "fields": {
+    "group": 1,
+    "module": 21
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 797,
+  "fields": {
+    "group": 1,
+    "module": 22
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 798,
+  "fields": {
+    "group": 1,
+    "module": 23
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 799,
+  "fields": {
+    "group": 1,
+    "module": 24
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 800,
+  "fields": {
+    "group": 1,
+    "module": 25
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 801,
+  "fields": {
+    "group": 1,
+    "module": 26
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 802,
+  "fields": {
+    "group": 1,
+    "module": 27
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 803,
+  "fields": {
+    "group": 1,
+    "module": 28
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 804,
+  "fields": {
+    "group": 1,
+    "module": 29
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 805,
+  "fields": {
+    "group": 1,
+    "module": 30
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 806,
+  "fields": {
+    "group": 1,
+    "module": 31
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 807,
+  "fields": {
+    "group": 1,
+    "module": 32
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 808,
+  "fields": {
+    "group": 1,
+    "module": 33
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 809,
+  "fields": {
+    "group": 1,
+    "module": 34
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 810,
+  "fields": {
+    "group": 1,
+    "module": 37
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 811,
+  "fields": {
+    "group": 1,
+    "module": 38
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 812,
+  "fields": {
+    "group": 1,
+    "module": 39
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 813,
+  "fields": {
+    "group": 1,
+    "module": 40
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 814,
+  "fields": {
+    "group": 1,
+    "module": 41
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 815,
+  "fields": {
+    "group": 1,
+    "module": 42
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 816,
+  "fields": {
+    "group": 1,
+    "module": 43
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 817,
+  "fields": {
+    "group": 1,
+    "module": 45
+  }
+},
+{
+  "model": "security.groupmodule",
+  "pk": 818,
+  "fields": {
+    "group": 1,
+    "module": 46
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 1936,
+  "fields": {
+    "group": 3,
+    "permission": 131,
+    "module": 39
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 1937,
+  "fields": {
+    "group": 3,
+    "permission": 132,
+    "module": 39
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 1938,
+  "fields": {
+    "group": 3,
+    "permission": 133,
+    "module": 39
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 1939,
+  "fields": {
+    "group": 3,
+    "permission": 134,
+    "module": 39
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2070,
+  "fields": {
+    "group": 1,
+    "permission": 27,
+    "module": 1
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2071,
+  "fields": {
+    "group": 1,
+    "permission": 28,
+    "module": 1
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2072,
+  "fields": {
+    "group": 1,
+    "permission": 29,
+    "module": 1
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2073,
+  "fields": {
+    "group": 1,
+    "permission": 30,
+    "module": 1
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2074,
+  "fields": {
+    "group": 1,
+    "permission": 31,
+    "module": 2
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2075,
+  "fields": {
+    "group": 1,
+    "permission": 32,
+    "module": 2
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2076,
+  "fields": {
+    "group": 1,
+    "permission": 33,
+    "module": 2
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2077,
+  "fields": {
+    "group": 1,
+    "permission": 34,
+    "module": 2
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2078,
+  "fields": {
+    "group": 1,
+    "permission": 9,
+    "module": 3
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2079,
+  "fields": {
+    "group": 1,
+    "permission": 10,
+    "module": 3
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2080,
+  "fields": {
+    "group": 1,
+    "permission": 11,
+    "module": 3
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2081,
+  "fields": {
+    "group": 1,
+    "permission": 12,
+    "module": 3
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2082,
+  "fields": {
+    "group": 1,
+    "permission": 25,
+    "module": 4
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2083,
+  "fields": {
+    "group": 1,
+    "permission": 26,
+    "module": 4
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2084,
+  "fields": {
+    "group": 1,
+    "permission": 24,
+    "module": 4
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2085,
+  "fields": {
+    "group": 1,
+    "permission": 22,
+    "module": 6
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2086,
+  "fields": {
+    "group": 1,
+    "permission": 21,
+    "module": 6
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2087,
+  "fields": {
+    "group": 1,
+    "permission": 35,
+    "module": 7
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2088,
+  "fields": {
+    "group": 1,
+    "permission": 36,
+    "module": 7
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2089,
+  "fields": {
+    "group": 1,
+    "permission": 37,
+    "module": 7
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2090,
+  "fields": {
+    "group": 1,
+    "permission": 38,
+    "module": 7
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2091,
+  "fields": {
+    "group": 1,
+    "permission": 73,
+    "module": 8
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2092,
+  "fields": {
+    "group": 1,
+    "permission": 74,
+    "module": 8
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2093,
+  "fields": {
+    "group": 1,
+    "permission": 75,
+    "module": 8
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2094,
+  "fields": {
+    "group": 1,
+    "permission": 76,
+    "module": 8
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2095,
+  "fields": {
+    "group": 1,
+    "permission": 39,
+    "module": 9
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2096,
+  "fields": {
+    "group": 1,
+    "permission": 40,
+    "module": 9
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2097,
+  "fields": {
+    "group": 1,
+    "permission": 41,
+    "module": 9
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2098,
+  "fields": {
+    "group": 1,
+    "permission": 42,
+    "module": 9
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2099,
+  "fields": {
+    "group": 1,
+    "permission": 61,
+    "module": 10
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2100,
+  "fields": {
+    "group": 1,
+    "permission": 62,
+    "module": 10
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2101,
+  "fields": {
+    "group": 1,
+    "permission": 63,
+    "module": 10
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2102,
+  "fields": {
+    "group": 1,
+    "permission": 64,
+    "module": 10
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2103,
+  "fields": {
+    "group": 1,
+    "permission": 78,
+    "module": 11
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2104,
+  "fields": {
+    "group": 1,
+    "permission": 79,
+    "module": 11
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2105,
+  "fields": {
+    "group": 1,
+    "permission": 77,
+    "module": 11
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2106,
+  "fields": {
+    "group": 1,
+    "permission": 87,
+    "module": 13
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2107,
+  "fields": {
+    "group": 1,
+    "permission": 88,
+    "module": 13
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2108,
+  "fields": {
+    "group": 1,
+    "permission": 89,
+    "module": 13
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2109,
+  "fields": {
+    "group": 1,
+    "permission": 90,
+    "module": 13
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2110,
+  "fields": {
+    "group": 1,
+    "permission": 57,
+    "module": 14
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2111,
+  "fields": {
+    "group": 1,
+    "permission": 58,
+    "module": 14
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2112,
+  "fields": {
+    "group": 1,
+    "permission": 59,
+    "module": 14
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2113,
+  "fields": {
+    "group": 1,
+    "permission": 60,
+    "module": 14
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2114,
+  "fields": {
+    "group": 1,
+    "permission": 49,
+    "module": 15
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2115,
+  "fields": {
+    "group": 1,
+    "permission": 50,
+    "module": 15
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2116,
+  "fields": {
+    "group": 1,
+    "permission": 48,
+    "module": 15
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2117,
+  "fields": {
+    "group": 1,
+    "permission": 52,
+    "module": 16
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2118,
+  "fields": {
+    "group": 1,
+    "permission": 53,
+    "module": 16
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2119,
+  "fields": {
+    "group": 1,
+    "permission": 51,
+    "module": 16
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2120,
+  "fields": {
+    "group": 1,
+    "permission": 43,
+    "module": 17
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2121,
+  "fields": {
+    "group": 1,
+    "permission": 44,
+    "module": 17
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2122,
+  "fields": {
+    "group": 1,
+    "permission": 45,
+    "module": 17
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2123,
+  "fields": {
+    "group": 1,
+    "permission": 46,
+    "module": 17
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2124,
+  "fields": {
+    "group": 1,
+    "permission": 85,
+    "module": 18
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2125,
+  "fields": {
+    "group": 1,
+    "permission": 86,
+    "module": 18
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2126,
+  "fields": {
+    "group": 1,
+    "permission": 84,
+    "module": 18
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2127,
+  "fields": {
+    "group": 1,
+    "permission": 65,
+    "module": 20
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2128,
+  "fields": {
+    "group": 1,
+    "permission": 66,
+    "module": 20
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2129,
+  "fields": {
+    "group": 1,
+    "permission": 67,
+    "module": 20
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2130,
+  "fields": {
+    "group": 1,
+    "permission": 68,
+    "module": 20
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2131,
+  "fields": {
+    "group": 1,
+    "permission": 55,
+    "module": 21
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2132,
+  "fields": {
+    "group": 1,
+    "permission": 56,
+    "module": 21
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2133,
+  "fields": {
+    "group": 1,
+    "permission": 54,
+    "module": 21
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2134,
+  "fields": {
+    "group": 1,
+    "permission": 52,
+    "module": 25
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2135,
+  "fields": {
+    "group": 1,
+    "permission": 53,
+    "module": 25
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2136,
+  "fields": {
+    "group": 1,
+    "permission": 51,
+    "module": 25
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2137,
+  "fields": {
+    "group": 1,
+    "permission": 49,
+    "module": 26
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2138,
+  "fields": {
+    "group": 1,
+    "permission": 50,
+    "module": 26
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2139,
+  "fields": {
+    "group": 1,
+    "permission": 48,
+    "module": 26
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2140,
+  "fields": {
+    "group": 1,
+    "permission": 91,
+    "module": 32
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2141,
+  "fields": {
+    "group": 1,
+    "permission": 92,
+    "module": 32
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2142,
+  "fields": {
+    "group": 1,
+    "permission": 93,
+    "module": 32
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2143,
+  "fields": {
+    "group": 1,
+    "permission": 94,
+    "module": 32
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2144,
+  "fields": {
+    "group": 1,
+    "permission": 99,
+    "module": 33
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2145,
+  "fields": {
+    "group": 1,
+    "permission": 100,
+    "module": 33
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2146,
+  "fields": {
+    "group": 1,
+    "permission": 101,
+    "module": 33
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2147,
+  "fields": {
+    "group": 1,
+    "permission": 102,
+    "module": 33
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2148,
+  "fields": {
+    "group": 1,
+    "permission": 95,
+    "module": 34
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2149,
+  "fields": {
+    "group": 1,
+    "permission": 96,
+    "module": 34
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2150,
+  "fields": {
+    "group": 1,
+    "permission": 97,
+    "module": 34
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2151,
+  "fields": {
+    "group": 1,
+    "permission": 98,
+    "module": 34
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2152,
+  "fields": {
+    "group": 1,
+    "permission": 111,
+    "module": 37
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2153,
+  "fields": {
+    "group": 1,
+    "permission": 112,
+    "module": 37
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2154,
+  "fields": {
+    "group": 1,
+    "permission": 113,
+    "module": 37
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2155,
+  "fields": {
+    "group": 1,
+    "permission": 114,
+    "module": 37
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2156,
+  "fields": {
+    "group": 1,
+    "permission": 115,
+    "module": 38
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2157,
+  "fields": {
+    "group": 1,
+    "permission": 116,
+    "module": 38
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2158,
+  "fields": {
+    "group": 1,
+    "permission": 117,
+    "module": 38
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2159,
+  "fields": {
+    "group": 1,
+    "permission": 118,
+    "module": 38
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2160,
+  "fields": {
+    "group": 1,
+    "permission": 131,
+    "module": 39
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2161,
+  "fields": {
+    "group": 1,
+    "permission": 132,
+    "module": 39
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2162,
+  "fields": {
+    "group": 1,
+    "permission": 133,
+    "module": 39
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2163,
+  "fields": {
+    "group": 1,
+    "permission": 134,
+    "module": 39
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2164,
+  "fields": {
+    "group": 1,
+    "permission": 127,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2165,
+  "fields": {
+    "group": 1,
+    "permission": 128,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2166,
+  "fields": {
+    "group": 1,
+    "permission": 129,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2167,
+  "fields": {
+    "group": 1,
+    "permission": 130,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2168,
+  "fields": {
+    "group": 1,
+    "permission": 119,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2169,
+  "fields": {
+    "group": 1,
+    "permission": 120,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2170,
+  "fields": {
+    "group": 1,
+    "permission": 121,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2171,
+  "fields": {
+    "group": 1,
+    "permission": 122,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2172,
+  "fields": {
+    "group": 1,
+    "permission": 131,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2173,
+  "fields": {
+    "group": 1,
+    "permission": 132,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2174,
+  "fields": {
+    "group": 1,
+    "permission": 133,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2175,
+  "fields": {
+    "group": 1,
+    "permission": 134,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2176,
+  "fields": {
+    "group": 1,
+    "permission": 123,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2177,
+  "fields": {
+    "group": 1,
+    "permission": 124,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2178,
+  "fields": {
+    "group": 1,
+    "permission": 125,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2179,
+  "fields": {
+    "group": 1,
+    "permission": 126,
+    "module": 40
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2180,
+  "fields": {
+    "group": 1,
+    "permission": 127,
+    "module": 41
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2181,
+  "fields": {
+    "group": 1,
+    "permission": 128,
+    "module": 41
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2182,
+  "fields": {
+    "group": 1,
+    "permission": 129,
+    "module": 41
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2183,
+  "fields": {
+    "group": 1,
+    "permission": 130,
+    "module": 41
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2184,
+  "fields": {
+    "group": 1,
+    "permission": 119,
+    "module": 41
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2185,
+  "fields": {
+    "group": 1,
+    "permission": 120,
+    "module": 41
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2186,
+  "fields": {
+    "group": 1,
+    "permission": 121,
+    "module": 41
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2187,
+  "fields": {
+    "group": 1,
+    "permission": 122,
+    "module": 41
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2188,
+  "fields": {
+    "group": 1,
+    "permission": 135,
+    "module": 42
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2189,
+  "fields": {
+    "group": 1,
+    "permission": 136,
+    "module": 42
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2190,
+  "fields": {
+    "group": 1,
+    "permission": 137,
+    "module": 42
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2191,
+  "fields": {
+    "group": 1,
+    "permission": 138,
+    "module": 42
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2192,
+  "fields": {
+    "group": 1,
+    "permission": 139,
+    "module": 42
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2193,
+  "fields": {
+    "group": 1,
+    "permission": 140,
+    "module": 42
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2194,
+  "fields": {
+    "group": 1,
+    "permission": 141,
+    "module": 42
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2195,
+  "fields": {
+    "group": 1,
+    "permission": 142,
+    "module": 42
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2196,
+  "fields": {
+    "group": 1,
+    "permission": 147,
+    "module": 43
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2197,
+  "fields": {
+    "group": 1,
+    "permission": 148,
+    "module": 43
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2198,
+  "fields": {
+    "group": 1,
+    "permission": 149,
+    "module": 43
+  }
+},
+{
+  "model": "security.grouppermission",
+  "pk": 2199,
+  "fields": {
+    "group": 1,
+    "permission": 150,
+    "module": 43
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 1,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-10-27",
+    "hour": "07:56:01.313",
+    "localhost": "138.122.109.194",
+    "location": "Milagro, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 2,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-11",
+    "hour": "03:38:02.526",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 3,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-11",
+    "hour": "05:49:28.038",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 4,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-11",
+    "hour": "09:15:47.711",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 5,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-11",
+    "hour": "09:19:35.247",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 6,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-11",
+    "hour": "16:46:21.413",
+    "localhost": "2800:bf0:80e8:14af:1833:dc7f:f95f:70a5",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 7,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-12",
+    "hour": "06:27:09.703",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 8,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-12",
+    "hour": "07:20:30.370",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 9,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-12",
+    "hour": "09:06:11.563",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 10,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-12",
+    "hour": "09:34:39.344",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 11,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-12",
+    "hour": "12:15:17.041",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 12,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-17",
+    "hour": "07:25:29.711",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 13,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-17",
+    "hour": "08:44:46.259",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 14,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-17",
+    "hour": "08:59:57.801",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 15,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-17",
+    "hour": "09:34:53.018",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 16,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-20",
+    "hour": "06:28:08.147",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 17,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-20",
+    "hour": "08:50:17.703",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 18,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-20",
+    "hour": "09:11:53.930",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 19,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-20",
+    "hour": "09:38:39.447",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 20,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-20",
+    "hour": "10:07:33.531",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 21,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-20",
+    "hour": "10:42:44.087",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 22,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-20",
+    "hour": "11:37:44.504",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 23,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-22",
+    "hour": "16:19:36.819",
+    "localhost": "2800:bf0:80e8:14af:ad1d:ba63:4587:ceef",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 24,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-23",
+    "hour": "07:14:43.752",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 25,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-23",
+    "hour": "08:23:45.839",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 26,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-23",
+    "hour": "08:31:33.839",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 27,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-23",
+    "hour": "08:34:24.046",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 28,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-23",
+    "hour": "08:38:27.692",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 29,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-23",
+    "hour": "09:14:32.925",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 30,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-23",
+    "hour": "09:23:14.224",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 31,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-24",
+    "hour": "09:13:06.779",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 32,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-24",
+    "hour": "10:20:19.068",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 33,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-25",
+    "hour": "11:44:51.100",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 34,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-26",
+    "hour": "12:23:09.294",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 35,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-26",
+    "hour": "12:26:40.788",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 36,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-26",
+    "hour": "12:42:33.161",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 37,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-26",
+    "hour": "12:42:33.176",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 38,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-26",
+    "hour": "12:46:37.736",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 39,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-26",
+    "hour": "12:58:17.106",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 40,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-27",
+    "hour": "06:57:53.471",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 41,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-27",
+    "hour": "07:01:08.177",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 42,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-27",
+    "hour": "07:07:55.575",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 43,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-27",
+    "hour": "07:27:12.308",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 44,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-27",
+    "hour": "07:34:12.420",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 45,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-27",
+    "hour": "07:41:52.456",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 46,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-29",
+    "hour": "02:09:02.808",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 47,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-29",
+    "hour": "02:48:44.290",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 48,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-29",
+    "hour": "06:02:39.342",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 49,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-30",
+    "hour": "06:30:24.420",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 50,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-11-30",
+    "hour": "08:56:03.262",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 51,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-12-01",
+    "hour": "07:51:02.277",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 52,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-12-01",
+    "hour": "08:04:36.085",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 53,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-12-03",
+    "hour": "01:55:50.130",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "security.accessusers",
+  "pk": 54,
+  "fields": {
+    "user": 1,
+    "date_joined": "2021-12-03",
+    "hour": "03:38:07.765",
+    "localhost": "181.39.144.125",
+    "location": "Guayaquil, G, Ecuador"
+  }
+},
+{
+  "model": "user.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$8HfsqRR8OHniQSYSxnLu7i$F2p2ILndEXan3mQwocJ3tO2cPeJThjoXFHGGpIW4H4o=",
+    "last_login": "2021-12-03T11:38:06.623Z",
+    "is_superuser": true,
+    "username": "admin",
+    "first_name": "Henry",
+    "last_name": "Wila",
+    "email": "gndxec@gmail.com",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2021-10-27T14:53:37.908Z",
+    "dni": "0950576728",
+    "image": "users/2021/11/29/descarga.png",
+    "is_change_password": false,
+    "token": "da558f55-3f4d-47ba-bca1-5ee89ad8ec66",
+    "groups": [
+      1
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "user.user",
+  "pk": 3,
+  "fields": {
+    "password": "pbkdf2_sha256$260000$tZGbLaUOALVUivQ6LUSNuq$tfP+X3hEHecQgkzW6AqQwm1L1O/z7bo12VfTaGKkaHA=",
+    "last_login": null,
+    "is_superuser": false,
+    "username": "0999999999",
+    "first_name": "Jorge ",
+    "last_name": "Amador",
+    "email": "j.amador@palaciodelhogar.coom",
+    "is_staff": false,
+    "is_active": true,
+    "date_joined": "2021-11-25T14:15:45.457Z",
+    "dni": "0999999999",
+    "image": "",
+    "is_change_password": false,
+    "token": "c095b237-c778-4ee7-93d9-7434851d1980",
+    "groups": [
+      2
+    ],
+    "user_permissions": []
+  }
+},
+{
+  "model": "pos.company",
+  "pk": 1,
+  "fields": {
+    "name": "SGPH",
+    "ruc": "0603160664001",
+    "address": "PARQUE CALIFORNIA 2 VIA DAUKE",
+    "mobile": "0963768981",
+    "phone": "04475990",
+    "email": "gndxec@gmail.com",
+    "website": "palacio.com",
+    "desc": "Ventas Al Por Mayor Y Por Menor En Productos para el hogar.",
+    "image": "",
+    "iva": "12.00"
+  }
+},
+{
+  "model": "pos.provider",
+  "pk": 1,
+  "fields": {
+    "name": "EXPALSA S.A.",
+    "ruc": "03026622102",
+    "mobile": "0979021212",
+    "address": "Duran",
+    "email": "expalsa@gmail.com"
+  }
+},
+{
+  "model": "pos.payment",
+  "pk": 1,
+  "fields": {
+    "name": "15 Dias",
+    "desc": "15 Dias"
+  }
+},
+{
+  "model": "pos.payment",
+  "pk": 2,
+  "fields": {
+    "name": "90 Dias",
+    "desc": "90 Dias"
+  }
+},
+{
+  "model": "pos.payment",
+  "pk": 3,
+  "fields": {
+    "name": "30 Dias",
+    "desc": "30 Dias"
+  }
+},
+{
+  "model": "pos.sucursal",
+  "pk": 1,
+  "fields": {
+    "name": "Matriz",
+    "location": "Matriz",
+    "serie": "001"
+  }
+},
+{
+  "model": "pos.sucursal",
+  "pk": 2,
+  "fields": {
+    "name": "Peca",
+    "location": "Peca",
+    "serie": "002"
+  }
+},
+{
+  "model": "pos.sucursal",
+  "pk": 3,
+  "fields": {
+    "name": "Paraiso",
+    "location": "Paraiso de la Flor",
+    "serie": "003"
+  }
+},
+{
+  "model": "pos.sucursal",
+  "pk": 4,
+  "fields": {
+    "name": "San Francisco",
+    "location": "San Francisco",
+    "serie": "004"
+  }
+},
+{
+  "model": "pos.sucursal",
+  "pk": 5,
+  "fields": {
+    "name": "Prosperina",
+    "location": "Prosperina",
+    "serie": "005"
+  }
+},
+{
+  "model": "pos.sucursal",
+  "pk": 6,
+  "fields": {
+    "name": "Puente Lucia",
+    "location": "Puente Lucia",
+    "serie": "006"
+  }
+},
+{
+  "model": "pos.sucursal",
+  "pk": 7,
+  "fields": {
+    "name": "Porteo",
+    "location": "Porteo",
+    "serie": "007"
+  }
+},
+{
+  "model": "pos.category",
+  "pk": 42,
+  "fields": {
+    "name": "Audio y Video",
+    "inventoried": true
+  }
+},
+{
+  "model": "pos.category",
+  "pk": 43,
+  "fields": {
+    "name": "Cristaleria",
+    "inventoried": true
+  }
+},
+{
+  "model": "pos.category",
+  "pk": 44,
+  "fields": {
+    "name": "Jugueteria",
+    "inventoried": true
+  }
+},
+{
+  "model": "pos.category",
+  "pk": 45,
+  "fields": {
+    "name": "Muebles y Enseres",
+    "inventoried": true
+  }
+},
+{
+  "model": "pos.category",
+  "pk": 46,
+  "fields": {
+    "name": "Plasticos",
+    "inventoried": true
+  }
+},
+{
+  "model": "pos.category",
+  "pk": 47,
+  "fields": {
+    "name": "Tecnologia",
+    "inventoried": true
+  }
+},
+{
+  "model": "pos.category",
+  "pk": 48,
+  "fields": {
+    "name": "Tipo B",
+    "inventoried": true
+  }
+},
+{
+  "model": "pos.category",
+  "pk": 49,
+  "fields": {
+    "name": "Zona Fria",
+    "inventoried": true
+  }
+},
+{
+  "model": "pos.category",
+  "pk": 50,
+  "fields": {
+    "name": "Servicio",
+    "inventoried": false
+  }
+},
+{
+  "model": "pos.category",
+  "pk": 51,
+  "fields": {
+    "name": "Colchones",
+    "inventoried": true
+  }
+},
+{
+  "model": "pos.category",
+  "pk": 52,
+  "fields": {
+    "name": "Linea Blanca",
+    "inventoried": true
+  }
+},
+{
+  "model": "pos.brand",
+  "pk": 1,
+  "fields": {
+    "name": "Samsung"
+  }
+},
+{
+  "model": "pos.brand",
+  "pk": 2,
+  "fields": {
+    "name": "Apple"
+  }
+},
+{
+  "model": "pos.brand",
+  "pk": 3,
+  "fields": {
+    "name": "Huawei"
+  }
+},
+{
+  "model": "pos.brand",
+  "pk": 4,
+  "fields": {
+    "name": "Xiaomi"
+  }
+},
+{
+  "model": "pos.brand",
+  "pk": 5,
+  "fields": {
+    "name": "Sony"
+  }
+},
+{
+  "model": "pos.brand",
+  "pk": 6,
+  "fields": {
+    "name": "LG"
+  }
+},
+{
+  "model": "pos.brand",
+  "pk": 7,
+  "fields": {
+    "name": "Riviera"
+  }
+},
+{
+  "model": "pos.exemplar",
+  "pk": 1,
+  "fields": {
+    "brand": 1,
+    "name": "J7"
+  }
+},
+{
+  "model": "pos.exemplar",
+  "pk": 2,
+  "fields": {
+    "brand": 1,
+    "name": "J8"
+  }
+},
+{
+  "model": "pos.exemplar",
+  "pk": 3,
+  "fields": {
+    "brand": 7,
+    "name": "Led"
+  }
+},
+{
+  "model": "pos.product",
+  "pk": 86,
+  "fields": {
+    "name": "Cocina Mabe",
+    "code": "LBCOCMAB40",
+    "reference": "Cocina Mabe",
+    "detail": "Cocina Mabe",
+    "category": 52,
+    "exemplar": 1,
+    "stock_maximum": 10,
+    "stock_minimum": 1,
+    "price": "200.00",
+    "pvp": "466.00",
+    "image": "",
+    "stock": 8
+  }
+},
+{
+  "model": "pos.product",
+  "pk": 87,
+  "fields": {
+    "name": "Televisor Led Riviera",
+    "code": "TVLHC006",
+    "reference": "Televisor Led Riviera",
+    "detail": "Televisor Led Riviera",
+    "category": 42,
+    "exemplar": 1,
+    "stock_maximum": 10,
+    "stock_minimum": 1,
+    "price": "100.00",
+    "pvp": "100.00",
+    "image": "",
+    "stock": 2
+  }
+},
+{
+  "model": "pos.purchase",
+  "pk": 13,
+  "fields": {
+    "provider": 1,
+    "sucursal": 3,
+    "payment_condition": "contado",
+    "date_joined": "2021-11-12",
+    "end_credit": "2021-11-12",
+    "subtotal": "600.00"
+  }
+},
+{
+  "model": "pos.purchase",
+  "pk": 14,
+  "fields": {
+    "provider": 1,
+    "sucursal": 1,
+    "payment_condition": "contado",
+    "date_joined": "2021-11-12",
+    "end_credit": "2021-11-12",
+    "subtotal": "600.00"
+  }
+},
+{
+  "model": "pos.purchase",
+  "pk": 15,
+  "fields": {
+    "provider": 1,
+    "sucursal": 1,
+    "payment_condition": "contado",
+    "date_joined": "2021-11-12",
+    "end_credit": "2021-11-12",
+    "subtotal": "200.00"
+  }
+},
+{
+  "model": "pos.purchase",
+  "pk": 16,
+  "fields": {
+    "provider": 1,
+    "sucursal": 1,
+    "payment_condition": "contado",
+    "date_joined": "2021-11-13",
+    "end_credit": "2021-11-13",
+    "subtotal": "600.00"
+  }
+},
+{
+  "model": "pos.purchase",
+  "pk": 17,
+  "fields": {
+    "provider": 1,
+    "sucursal": 1,
+    "payment_condition": "credito",
+    "date_joined": "2021-11-17",
+    "end_credit": "2021-11-21",
+    "subtotal": "200.00"
+  }
+},
+{
+  "model": "pos.purchase",
+  "pk": 18,
+  "fields": {
+    "provider": 1,
+    "sucursal": 1,
+    "payment_condition": "credito",
+    "date_joined": "2021-11-17",
+    "end_credit": "2021-11-17",
+    "subtotal": "400.00"
+  }
+},
+{
+  "model": "pos.purchase",
+  "pk": 19,
+  "fields": {
+    "provider": 1,
+    "sucursal": 1,
+    "payment_condition": "contado",
+    "date_joined": "2021-11-17",
+    "end_credit": "2021-11-17",
+    "subtotal": "1600.00"
+  }
+},
+{
+  "model": "pos.purchase",
+  "pk": 20,
+  "fields": {
+    "provider": 1,
+    "sucursal": 1,
+    "payment_condition": "contado",
+    "date_joined": "2021-11-19",
+    "end_credit": "2021-11-19",
+    "subtotal": "200.00"
+  }
+},
+{
+  "model": "pos.purchase",
+  "pk": 21,
+  "fields": {
+    "provider": 1,
+    "sucursal": 1,
+    "payment_condition": "credito",
+    "date_joined": "2021-11-20",
+    "end_credit": "2021-11-20",
+    "subtotal": "400.00"
+  }
+},
+{
+  "model": "pos.purchase",
+  "pk": 22,
+  "fields": {
+    "provider": 1,
+    "sucursal": 1,
+    "payment_condition": "credito",
+    "date_joined": "2021-11-20",
+    "end_credit": "2021-11-22",
+    "subtotal": "200.00"
+  }
+},
+{
+  "model": "pos.purchase",
+  "pk": 23,
+  "fields": {
+    "provider": 1,
+    "sucursal": 1,
+    "payment_condition": "contado",
+    "date_joined": "2021-11-22",
+    "end_credit": "2021-11-22",
+    "subtotal": "300.00"
+  }
+},
+{
+  "model": "pos.purchase",
+  "pk": 24,
+  "fields": {
+    "provider": 1,
+    "sucursal": 1,
+    "payment_condition": "contado",
+    "date_joined": "2021-11-23",
+    "end_credit": "2021-11-23",
+    "subtotal": "200.00"
+  }
+},
+{
+  "model": "pos.purchase",
+  "pk": 25,
+  "fields": {
+    "provider": 1,
+    "sucursal": 1,
+    "payment_condition": "contado",
+    "date_joined": "2021-11-26",
+    "end_credit": "2021-11-26",
+    "subtotal": "400.00"
+  }
+},
+{
+  "model": "pos.purchase",
+  "pk": 26,
+  "fields": {
+    "provider": 1,
+    "sucursal": 2,
+    "payment_condition": "contado",
+    "date_joined": "2021-11-27",
+    "end_credit": "2021-11-27",
+    "subtotal": "200.00"
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 27,
+  "fields": {
+    "date_joined": "2021-11-12",
+    "purchase": 13,
+    "product": 86,
+    "sucursal": 3,
+    "cant": 1,
+    "serie": "MOC5L0J2QR",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 28,
+  "fields": {
+    "date_joined": "2021-11-12",
+    "purchase": 13,
+    "product": 86,
+    "sucursal": 3,
+    "cant": 1,
+    "serie": "YUKNXS0JH2",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 29,
+  "fields": {
+    "date_joined": "2021-11-12",
+    "purchase": 13,
+    "product": 86,
+    "sucursal": 3,
+    "cant": 1,
+    "serie": "7S7P33S0OM",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 30,
+  "fields": {
+    "date_joined": "2021-11-12",
+    "purchase": 14,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "LKX2S4K6YB",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 31,
+  "fields": {
+    "date_joined": "2021-11-12",
+    "purchase": 14,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "2ZGC41ZNAQ",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 32,
+  "fields": {
+    "date_joined": "2021-11-12",
+    "purchase": 14,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "F16CF1BLM5",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 33,
+  "fields": {
+    "date_joined": "2021-11-12",
+    "purchase": 15,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "U2JDPPC2JC",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 34,
+  "fields": {
+    "date_joined": "2021-11-13",
+    "purchase": 16,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "13CG7WEMCF",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 35,
+  "fields": {
+    "date_joined": "2021-11-13",
+    "purchase": 16,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "FFFY32OD4X",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 36,
+  "fields": {
+    "date_joined": "2021-11-13",
+    "purchase": 16,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "OLVB2DDDUE",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 37,
+  "fields": {
+    "date_joined": "2021-11-17",
+    "purchase": 17,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "AAAAAAAAAA",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 38,
+  "fields": {
+    "date_joined": "2021-11-17",
+    "purchase": 18,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "AAAAAAAAAB",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 39,
+  "fields": {
+    "date_joined": "2021-11-17",
+    "purchase": 18,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "IU2ZEY5UL5",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 40,
+  "fields": {
+    "date_joined": "2021-11-17",
+    "purchase": 19,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "OT25P474KQ",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 41,
+  "fields": {
+    "date_joined": "2021-11-17",
+    "purchase": 19,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "NVFUWUVLP5",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 42,
+  "fields": {
+    "date_joined": "2021-11-17",
+    "purchase": 19,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "E0ILJI5X6I",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 43,
+  "fields": {
+    "date_joined": "2021-11-17",
+    "purchase": 19,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "5SKFCKCBRO",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 44,
+  "fields": {
+    "date_joined": "2021-11-17",
+    "purchase": 19,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "XSBTVMARQP",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 45,
+  "fields": {
+    "date_joined": "2021-11-17",
+    "purchase": 19,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "5VIPD2YJLH",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 46,
+  "fields": {
+    "date_joined": "2021-11-17",
+    "purchase": 19,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "1RYCZ6MZ5F",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 47,
+  "fields": {
+    "date_joined": "2021-11-17",
+    "purchase": 19,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "VRQOC3UDGF",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 48,
+  "fields": {
+    "date_joined": "2021-11-19",
+    "purchase": 20,
+    "product": 87,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "N05JFSF62V",
+    "price": "100.00",
+    "dscto": "0.00",
+    "subtotal": "100.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 49,
+  "fields": {
+    "date_joined": "2021-11-19",
+    "purchase": 20,
+    "product": 87,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "NROIAEBJUR",
+    "price": "100.00",
+    "dscto": "0.00",
+    "subtotal": "100.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 50,
+  "fields": {
+    "date_joined": "2021-11-20",
+    "purchase": 21,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "LJHQX0CQ7G",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 51,
+  "fields": {
+    "date_joined": "2021-11-20",
+    "purchase": 21,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "ODABQ5P0EH",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 52,
+  "fields": {
+    "date_joined": "2021-11-20",
+    "purchase": 22,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "YORQRAVA2Y",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 53,
+  "fields": {
+    "date_joined": "2021-11-22",
+    "purchase": 23,
+    "product": 87,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "QPQ6T57A6W",
+    "price": "100.00",
+    "dscto": "0.00",
+    "subtotal": "100.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 54,
+  "fields": {
+    "date_joined": "2021-11-22",
+    "purchase": 23,
+    "product": 87,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "1ORCA77C6T",
+    "price": "100.00",
+    "dscto": "0.00",
+    "subtotal": "100.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 55,
+  "fields": {
+    "date_joined": "2021-11-22",
+    "purchase": 23,
+    "product": 87,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "QJSA6UHAA5",
+    "price": "100.00",
+    "dscto": "0.00",
+    "subtotal": "100.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 56,
+  "fields": {
+    "date_joined": "2021-11-23",
+    "purchase": 24,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "GSKSXUXPHY",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 57,
+  "fields": {
+    "date_joined": "2021-11-26",
+    "purchase": 25,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "X4TRDGOK6L",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 58,
+  "fields": {
+    "date_joined": "2021-11-26",
+    "purchase": 25,
+    "product": 86,
+    "sucursal": 1,
+    "cant": 1,
+    "serie": "QXGK11B721",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.purchasedetail",
+  "pk": 59,
+  "fields": {
+    "date_joined": "2021-11-27",
+    "purchase": 26,
+    "product": 86,
+    "sucursal": 2,
+    "cant": 1,
+    "serie": "6SUC0FYS16",
+    "price": "200.00",
+    "dscto": "0.00",
+    "subtotal": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.client",
+  "pk": 2,
+  "fields": {
+    "user": 3,
+    "mobile": "0429393939",
+    "birthdate": "2021-11-24",
+    "address": "VIlla Bonita"
+  }
+},
+{
+  "model": "pos.sale",
+  "pk": 9,
+  "fields": {
+    "client": 2,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "date_joined": "2021-11-26",
+    "end_credit": "2021-11-26",
+    "subtotal": "466.00",
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.12",
+    "total_iva": "55.92",
+    "total": "521.92",
+    "cash": "800.00",
+    "change": "278.08",
+    "card_number": null,
+    "titular": null,
+    "amount_debited": "0.00"
+  }
+},
+{
+  "model": "pos.sale",
+  "pk": 10,
+  "fields": {
+    "client": 2,
+    "employee": 1,
+    "payment_condition": "contado",
+    "payment_method": "efectivo",
+    "type_voucher": "ticket",
+    "date_joined": "2021-12-03",
+    "end_credit": "2021-12-03",
+    "subtotal": "9320.00",
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.12",
+    "total_iva": "1118.40",
+    "total": "10438.40",
+    "cash": "20000.00",
+    "change": "9561.60",
+    "card_number": null,
+    "titular": null,
+    "amount_debited": "0.00"
+  }
+},
+{
+  "model": "pos.saledetail",
+  "pk": 9,
+  "fields": {
+    "sale": 9,
+    "product": 86,
+    "cant": 1,
+    "price": "466.00",
+    "subtotal": "466.00",
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "total": "466.00"
+  }
+},
+{
+  "model": "pos.saledetail",
+  "pk": 10,
+  "fields": {
+    "sale": 10,
+    "product": 86,
+    "cant": 20,
+    "price": "466.00",
+    "subtotal": "9320.00",
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "total": "9320.00"
+  }
+},
+{
+  "model": "pos.debtspay",
+  "pk": 1,
+  "fields": {
+    "purchase": 17,
+    "date_joined": "2021-11-17",
+    "end_date": "2021-11-21",
+    "debt": "200.00",
+    "saldo": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.debtspay",
+  "pk": 2,
+  "fields": {
+    "purchase": 18,
+    "date_joined": "2021-11-17",
+    "end_date": "2021-11-17",
+    "debt": "400.00",
+    "saldo": "400.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.debtspay",
+  "pk": 3,
+  "fields": {
+    "purchase": 21,
+    "date_joined": "2021-11-20",
+    "end_date": "2021-11-20",
+    "debt": "400.00",
+    "saldo": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.debtspay",
+  "pk": 4,
+  "fields": {
+    "purchase": 22,
+    "date_joined": "2021-11-20",
+    "end_date": "2021-11-22",
+    "debt": "200.00",
+    "saldo": "200.00",
+    "state": true
+  }
+},
+{
+  "model": "pos.paymentsdebtspay",
+  "pk": 1,
+  "fields": {
+    "debtspay": 3,
+    "date_joined": "2021-11-20",
+    "desc": "ABONO DEUDA 1/2",
+    "valor": "200.00"
+  }
+},
+{
+  "model": "pos.typeexpense",
+  "pk": 1,
+  "fields": {
+    "name": "Gastos Administrativos"
+  }
+},
+{
+  "model": "pos.expenses",
+  "pk": 1,
+  "fields": {
+    "typeexpense": 1,
+    "desc": "Gastos Administrativos",
+    "date_joined": "2021-11-12",
+    "valor": "500.00"
+  }
+},
+{
+  "model": "pos.promotions",
+  "pk": 1,
+  "fields": {
+    "start_date": "2021-11-20",
+    "end_date": "2021-11-22",
+    "state": false
+  }
+},
+{
+  "model": "pos.promotions",
+  "pk": 2,
+  "fields": {
+    "start_date": "2021-11-24",
+    "end_date": "2021-11-24",
+    "state": false
+  }
+},
+{
+  "model": "pos.promotionsdetail",
+  "pk": 1,
+  "fields": {
+    "promotion": 1,
+    "product": 87,
+    "price_current": "100.00",
+    "dscto": "0.10",
+    "total_dscto": "10.00",
+    "price_final": "90.00"
+  }
+},
+{
+  "model": "pos.promotionsdetail",
+  "pk": 3,
+  "fields": {
+    "promotion": 2,
+    "product": 86,
+    "price_current": "466.00",
+    "dscto": "0.10",
+    "total_dscto": "46.60",
+    "price_final": "419.40"
+  }
+},
+{
+  "model": "pos.promotionsdetail",
+  "pk": 4,
+  "fields": {
+    "promotion": 2,
+    "product": 87,
+    "price_current": "100.00",
+    "dscto": "0.10",
+    "total_dscto": "10.00",
+    "price_final": "90.00"
+  }
+},
+{
+  "model": "pos.purchaserequest",
+  "pk": 1,
+  "fields": {
+    "date_joined": "2021-11-19",
+    "state": "Enviado",
+    "sucursal": 1,
+    "concepto": null,
+    "provider": null,
+    "payment_condition": "Credito",
+    "end_credit": "2021-11-19",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.purchaserequest",
+  "pk": 2,
+  "fields": {
+    "date_joined": "2021-11-19",
+    "state": "Enviado",
+    "sucursal": 1,
+    "concepto": null,
+    "provider": null,
+    "payment_condition": "Credito",
+    "end_credit": "2021-11-19",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.purchaserequest",
+  "pk": 3,
+  "fields": {
+    "date_joined": "2021-11-19",
+    "state": "Enviado",
+    "sucursal": 1,
+    "concepto": null,
+    "provider": null,
+    "payment_condition": "Credito",
+    "end_credit": "2021-11-19",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.purchaserequest",
+  "pk": 4,
+  "fields": {
+    "date_joined": "2021-11-20",
+    "state": "Enviado",
+    "sucursal": 1,
+    "concepto": null,
+    "provider": null,
+    "payment_condition": "Credito",
+    "end_credit": "2021-11-20",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.purchaserequest",
+  "pk": 5,
+  "fields": {
+    "date_joined": "2021-11-20",
+    "state": "Enviado",
+    "sucursal": 1,
+    "concepto": null,
+    "provider": null,
+    "payment_condition": "Credito",
+    "end_credit": "2021-11-20",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.purchaserequest",
+  "pk": 6,
+  "fields": {
+    "date_joined": "2021-11-26",
+    "state": "Enviado",
+    "sucursal": 1,
+    "concepto": null,
+    "provider": null,
+    "payment_condition": "Credito",
+    "end_credit": "2021-11-26",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.purchaserequest",
+  "pk": 7,
+  "fields": {
+    "date_joined": "2021-11-30",
+    "state": "Enviado",
+    "sucursal": 1,
+    "concepto": null,
+    "provider": null,
+    "payment_condition": "Credito",
+    "end_credit": "2021-11-30",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.purchaserequestdetail",
+  "pk": 1,
+  "fields": {
+    "purchaserequest": 1,
+    "product": 86,
+    "cant": 1,
+    "price": "200.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.purchaserequestdetail",
+  "pk": 2,
+  "fields": {
+    "purchaserequest": 2,
+    "product": 86,
+    "cant": 1,
+    "price": "200.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.purchaserequestdetail",
+  "pk": 3,
+  "fields": {
+    "purchaserequest": 3,
+    "product": 86,
+    "cant": 1,
+    "price": "200.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.purchaserequestdetail",
+  "pk": 4,
+  "fields": {
+    "purchaserequest": 4,
+    "product": 87,
+    "cant": 1,
+    "price": "100.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.purchaserequestdetail",
+  "pk": 5,
+  "fields": {
+    "purchaserequest": 5,
+    "product": 87,
+    "cant": 2,
+    "price": "100.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.purchaserequestdetail",
+  "pk": 6,
+  "fields": {
+    "purchaserequest": 6,
+    "product": 86,
+    "cant": 1,
+    "price": "200.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.purchaserequestdetail",
+  "pk": 7,
+  "fields": {
+    "purchaserequest": 7,
+    "product": 86,
+    "cant": 10,
+    "price": "200.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovement",
+  "pk": 1,
+  "fields": {
+    "date_joined": "2021-11-20",
+    "state": "Realizada",
+    "borigen": 1,
+    "bodestino": 1,
+    "provider": null,
+    "concepto": null,
+    "payment_condition": "credito",
+    "end_credit": "2021-11-20",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovement",
+  "pk": 2,
+  "fields": {
+    "date_joined": "2021-11-23",
+    "state": "Realizada",
+    "borigen": 1,
+    "bodestino": 1,
+    "provider": null,
+    "concepto": null,
+    "payment_condition": "credito",
+    "end_credit": "2021-11-23",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovement",
+  "pk": 3,
+  "fields": {
+    "date_joined": "2021-11-23",
+    "state": "Realizada",
+    "borigen": 1,
+    "bodestino": 3,
+    "provider": null,
+    "concepto": null,
+    "payment_condition": "credito",
+    "end_credit": "2021-11-23",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovement",
+  "pk": 4,
+  "fields": {
+    "date_joined": "2021-11-23",
+    "state": "Realizada",
+    "borigen": 1,
+    "bodestino": 4,
+    "provider": null,
+    "concepto": null,
+    "payment_condition": "credito",
+    "end_credit": "2021-11-23",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovement",
+  "pk": 5,
+  "fields": {
+    "date_joined": "2021-11-23",
+    "state": "Realizada",
+    "borigen": 1,
+    "bodestino": 1,
+    "provider": null,
+    "concepto": "aaaaaaaaaaa",
+    "payment_condition": "credito",
+    "end_credit": "2021-11-23",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovement",
+  "pk": 6,
+  "fields": {
+    "date_joined": "2021-11-23",
+    "state": "Realizada",
+    "borigen": 1,
+    "bodestino": 4,
+    "provider": null,
+    "concepto": "Por reposicion de cocina ",
+    "payment_condition": "credito",
+    "end_credit": "2021-11-23",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovement",
+  "pk": 7,
+  "fields": {
+    "date_joined": "2021-11-23",
+    "state": "Realizada",
+    "borigen": 1,
+    "bodestino": 5,
+    "provider": null,
+    "concepto": "aaaaaaaaaaa",
+    "payment_condition": "credito",
+    "end_credit": "2021-11-23",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovement",
+  "pk": 8,
+  "fields": {
+    "date_joined": "2021-11-23",
+    "state": "Realizada",
+    "borigen": 1,
+    "bodestino": 2,
+    "provider": null,
+    "concepto": "",
+    "payment_condition": "credito",
+    "end_credit": "2021-11-23",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovement",
+  "pk": 9,
+  "fields": {
+    "date_joined": "2021-11-26",
+    "state": "Realizada",
+    "borigen": 1,
+    "bodestino": 3,
+    "provider": null,
+    "concepto": "Solicitado por : Henry",
+    "payment_condition": "credito",
+    "end_credit": "2021-11-26",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovement",
+  "pk": 10,
+  "fields": {
+    "date_joined": "2021-11-27",
+    "state": "Realizada",
+    "borigen": 1,
+    "bodestino": 4,
+    "provider": null,
+    "concepto": "Solicitado por Katherine",
+    "payment_condition": "credito",
+    "end_credit": "2021-11-27",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovement",
+  "pk": 11,
+  "fields": {
+    "date_joined": "2021-11-27",
+    "state": "Realizada",
+    "borigen": 4,
+    "bodestino": 1,
+    "provider": null,
+    "concepto": "xssss",
+    "payment_condition": "credito",
+    "end_credit": "2021-11-27",
+    "subtotal": "0.00",
+    "plazo": null,
+    "employee": 1,
+    "dscto": "0.00",
+    "total_dscto": "0.00",
+    "iva": "0.00",
+    "total_iva": "0.00",
+    "subtotaldos": "0.00",
+    "total": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovementdetail",
+  "pk": 1,
+  "fields": {
+    "stockmovement": 1,
+    "product": 86,
+    "cant": 1,
+    "price": "200.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovementdetail",
+  "pk": 2,
+  "fields": {
+    "stockmovement": 2,
+    "product": 86,
+    "cant": 1,
+    "price": "200.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovementdetail",
+  "pk": 3,
+  "fields": {
+    "stockmovement": 3,
+    "product": 87,
+    "cant": 2,
+    "price": "100.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovementdetail",
+  "pk": 4,
+  "fields": {
+    "stockmovement": 4,
+    "product": 86,
+    "cant": 2,
+    "price": "200.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovementdetail",
+  "pk": 5,
+  "fields": {
+    "stockmovement": 5,
+    "product": 86,
+    "cant": 1,
+    "price": "200.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovementdetail",
+  "pk": 6,
+  "fields": {
+    "stockmovement": 6,
+    "product": 86,
+    "cant": 1,
+    "price": "200.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovementdetail",
+  "pk": 7,
+  "fields": {
+    "stockmovement": 7,
+    "product": 86,
+    "cant": 1,
+    "price": "200.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovementdetail",
+  "pk": 8,
+  "fields": {
+    "stockmovement": 8,
+    "product": 86,
+    "cant": 2,
+    "price": "200.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovementdetail",
+  "pk": 9,
+  "fields": {
+    "stockmovement": 9,
+    "product": 86,
+    "cant": 1,
+    "price": "200.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovementdetail",
+  "pk": 10,
+  "fields": {
+    "stockmovement": 10,
+    "product": 86,
+    "cant": 1,
+    "price": "200.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.stockmovementdetail",
+  "pk": 11,
+  "fields": {
+    "stockmovement": 11,
+    "product": 87,
+    "cant": 1,
+    "price": "100.00",
+    "subtotal": "0.00"
+  }
+},
+{
+  "model": "pos.pricelist",
+  "pk": 1,
+  "fields": {
+    "name": "24 meses",
+    "dia": 24,
+    "tiemp": "meses",
+    "desc": "0.00",
+    "tipo": "credito"
+  }
+},
+{
+  "model": "pos.pricelist",
+  "pk": 2,
+  "fields": {
+    "name": "18 meses",
+    "dia": 18,
+    "tiemp": "meses",
+    "desc": "13.42",
+    "tipo": "credito"
+  }
+},
+{
+  "model": "pos.pricelist",
+  "pk": 3,
+  "fields": {
+    "name": "15 meses",
+    "dia": 15,
+    "tiemp": "meses",
+    "desc": "20.46",
+    "tipo": "credito"
+  }
+},
+{
+  "model": "pos.pricelist",
+  "pk": 4,
+  "fields": {
+    "name": "12 meses",
+    "dia": 12,
+    "tiemp": "meses",
+    "desc": "24.23",
+    "tipo": "credito"
+  }
+},
+{
+  "model": "pos.pricelist",
+  "pk": 5,
+  "fields": {
+    "name": "9 meses",
+    "dia": 9,
+    "tiemp": "meses",
+    "desc": "28.17",
+    "tipo": "credito"
+  }
+},
+{
+  "model": "pos.pricelist",
+  "pk": 6,
+  "fields": {
+    "name": "6 meses",
+    "dia": 6,
+    "tiemp": "meses",
+    "desc": "31.98",
+    "tipo": "credito"
+  }
+},
+{
+  "model": "pos.pricelist",
+  "pk": 7,
+  "fields": {
+    "name": "3 meses",
+    "dia": 3,
+    "tiemp": "meses",
+    "desc": "36.80",
+    "tipo": "credito"
+  }
+},
+{
+  "model": "pos.pricelist",
+  "pk": 8,
+  "fields": {
+    "name": "Contado General",
+    "dia": 0,
+    "tiemp": "meses",
+    "desc": "54.11",
+    "tipo": "contado"
+  }
+},
+{
+  "model": "pos.pricelist",
+  "pk": 9,
+  "fields": {
+    "name": "Contado Especial 3 Meses",
+    "dia": 0,
+    "tiemp": "meses",
+    "desc": "49.78",
+    "tipo": "contado"
+  }
+},
+{
+  "model": "pos.pricelist",
+  "pk": 10,
+  "fields": {
+    "name": "Contado Tecnologia",
+    "dia": 0,
+    "tiemp": "meses",
+    "desc": "48.91",
+    "tipo": "contado"
+  }
+},
+{
+  "model": "pos.pricelist",
+  "pk": 11,
+  "fields": {
+    "name": "Tarjeta de Credito",
+    "dia": 0,
+    "tiemp": "meses",
+    "desc": "49.78",
+    "tipo": "contado"
+  }
+}
+]

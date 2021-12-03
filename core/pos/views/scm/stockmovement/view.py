@@ -74,6 +74,7 @@ class StockMovementCreateView(PermissionMixin, CreateView):
                     print('d',stockmovement.date_joined)
                     #purchaserequest.reference = request.POST['reference']
                     stockmovement.state = "Realizada"
+                    stockmovement.concepto = request.POST['concepto'] 
                     stockmovement.borigen_id = request.POST['borigen']
                     stockmovement.bodestino_id = request.POST['bodestino']
                     print('cv',stockmovement.borigen_id)
