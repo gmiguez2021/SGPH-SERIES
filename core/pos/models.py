@@ -6,7 +6,7 @@ from datetime import datetime
 from django.db import models
 from django.db.models import FloatField
 from django.db.models import Sum
-from django.db.models.fields import CharField
+from django.db.models.fields import CharField, DecimalField
 from django.db.models.functions import Coalesce
 from django.forms import model_to_dict
 
@@ -199,6 +199,8 @@ class Product(models.Model):
         item['pvp'] = format(self.pvp, '.2f')
         item['image'] = self.get_image()
         item['stock'] = self.get_stock()
+
+        
         return item
 
     def get_price_promotion(self):
@@ -993,6 +995,24 @@ class StockMovementDetail(models.Model):
         ordering = ['-id']
 
 
-    
+class Pricelist(models.Model):
+    name = models.CharField(max_length=200, null=True, blank=True, verbose_name='Titulo')
+    dia = models.IntegerField(null=True, blank=True, verbose_name='Plazo de Pago')
+    tiemp = models.CharField(max_length=100, null=True, blank=True, verbose_name='Tiempo Diferido')
+    desc = models.DecimalField(blank=True, default=0.00, max_digits=9, decimal_places=2, verbose_name='Descuento %' )
+    tipo = models.CharField(max_length=100, choices=payment_condition, verbose_name='Tipo de Pago', blank=False, null=False)        
 
+    def __str__(self):
+        return self.name
+
+    def toJSON(self):
+        item = model_to_dict(self)
+        item['desc']=format(self.desc, '.2f')
+
+        return item
+
+    class Meta:
+        verbose_name = 'Pricelist'
+        verbose_name_plural = 'PriceList'
+        ordering = ['-id']
 

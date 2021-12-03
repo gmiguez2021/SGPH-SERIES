@@ -86,7 +86,7 @@ function getData() {
         }
     });
 }
-
+//Informacion del Modal de Detalle de Productos
 $(function () {
     getData();
 
