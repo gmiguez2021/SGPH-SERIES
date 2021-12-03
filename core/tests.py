@@ -528,11 +528,11 @@ for m in Module.objects.filter(url__in=['/pos/crm/client/update/profile/', '/pos
     gm.save()
 
 u = User()
-u.first_name = 'William Dávila'
-u.last_name = 'Dávila Vargas'
+u.first_name = 'Henry Alexander'
+u.last_name = 'Wila Espinoza'
 u.username = 'admin'
-u.dni = '0928363993'
-u.email = 'davilawilliam93@gmail.com'
+u.dni = '0950576728'
+u.email = 'gndxec@gmail.com'
 u.is_active = True
 u.is_superuser = True
 u.is_staff = True

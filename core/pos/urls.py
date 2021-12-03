@@ -29,6 +29,7 @@ from core.pos.views.scm.stockmovement.print.views import *
 from core.pos.views.scm.stockmovement.view import *
 from core.pos.views.scm.authorizepurchase.views import *
 from core.pos.views.scm.authorizepurchase.print.views import *
+from core.pos.views.crm.pricelist.views import *
 
 urlpatterns = [
     # SCM
@@ -70,6 +71,8 @@ urlpatterns = [
     path('scm/product/update/<int:pk>/', ProductUpdateView.as_view(), name='product_update'),
     path('scm/product/delete/<int:pk>/', ProductDeleteView.as_view(), name='product_delete'),
     path('scm/product/stock/adjustment/', ProductStockAdjustmentView.as_view(), name='product_stock_adjustment'),
+    path('scm/product/stockbywarehouse/', ProductStockByWarehouse.as_view(), name='product_stockbywarehouse'),
+    path('scm/product/stockbysucursal/', ProductStockByWarehouse.as_view(), name='product_stockbysucursal'),
     path('scm/product/export/excel/', ProductExportExcelView.as_view(), name='product_export_excel'),
     # purchase
     path('scm/purchase/', PurchaseListView.as_view(), name='purchase_list'),
@@ -144,6 +147,15 @@ urlpatterns = [
     path('crm/sale/admin/delete/<int:pk>/', SaleAdminDeleteView.as_view(), name='sale_admin_delete'),
     path('crm/sale/print/voucher/<int:pk>/', SalePrintVoucherView.as_view(), name='sale_print_ticket'),
     path('crm/sale/client/', SaleClientListView.as_view(), name='sale_client_list'),
+
+   
+    #pricelist
+    path('crm/pricelist/', PriceListListView.as_view(), name='pricelist_list'),
+    path('crm/pricelist/add/', PriceListCreateView.as_view(), name='pricelist_create'),
+    path('crm/pricelist/update/<int:pk>/', PriceListUpdateView.as_view(), name='pricelist_update'),
+    path('crm/pricelist/delete/<int:pk>/', PriceListDeleteView.as_view(), name='pricelist_delete'),
+
+
     # devolution
     path('crm/devolution/', DevolutionListView.as_view(), name='devolution_list'),
     path('crm/devolution/add/', DevolutionCreateView.as_view(), name='devolution_create'),

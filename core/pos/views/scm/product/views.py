@@ -274,3 +274,34 @@ class ProductExportExcelView(LoginRequiredMixin, View):
         except:
             pass
         return HttpResponseRedirect(reverse_lazy('product_list'))
+
+class ProductStockByWarehouse(PermissionMixin,TemplateView):
+    template_name = 'scm/product/stockbywarehouse.html'
+    permission_required = 'view_product'
+
+    def post(self, request, *args,**kwargs):
+        data = {}
+        action = request.POST['action']
+        try:
+            if action=='search':
+                data = []
+                for p in Product.objects.filter():
+                    data.append(p.toJSON())
+            elif action =='search_series':
+                data = []
+                for detail in PurchaseDetail.objects.filter(product_id=request.POST['id']):
+                    item = detail.toJSON()
+                    item['purchase'] = detail.purchase.toJSON()
+                    data.append(item)
+
+            else:
+                data['error']='No ha ingresado una opcion'
+        except Exception as e:
+            data['error']=str(e)
+        return HttpResponse(json.dumps(data), content_type='application/json')
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["create_url"] = reverse_lazy('product_list')
+        context['title']='Listado de series por Sucursal'
+        return context
+

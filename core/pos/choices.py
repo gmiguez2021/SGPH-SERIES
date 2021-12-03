@@ -20,7 +20,9 @@ state_request=(
 )
 state_transfer=(
     ('Realizada', 'Realizada'),
-    ('Rechazada', 'Rechazada')
+    ('Rechazada', 'Rechazada'),
+    ('Recibida', 'Recibida')
+
 )
 tipodocumento=(
     ('Guia de Remision','Guia de Remision'),
