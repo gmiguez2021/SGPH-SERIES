@@ -1,7 +1,7 @@
 import math
 import os
 import re
-from datetime import datetime
+from datetime import date, datetime
 
 from django.db import models
 from django.db.models import FloatField
@@ -315,7 +315,53 @@ class PurchaseDetail(models.Model):
         permissions = ()
         ordering = ['-id']
 
+class RecepcionProductosCompras(models.Model):
+    numfactura = models.CharField(max_length=100, unique=True, verbose_name="Numero de Factura")
+    provider = models.ForeignKey(Provider, on_delete=models.PROTECT)
+    sucursal = models.ForeignKey(Sucursal, on_delete=models.PROTECT)
+    date_joined = models.DateField(default=datetime.now)
+    subtotal = models.DecimalField(max_digits=9, decimal_places=2, default=0.00)
+    def __str__(self):
+        return self.provider.name
+    def calculate_invoice(self):
+        subtotal = 0.00
+        for d in self.recepcionproductosdetail_set.all():
+            subtotal += float(d.price)*int(d.cant)
+        self.subtotal = subtotal
+        self.save()
 
+    def delete(self, using=None, keep_parents=False):
+        try:
+            for i in self.recepcionproductoscomprasdetail_set.all():
+                i.product.stock -= i.cant
+                i.product.save()
+                i.delete()
+        except:
+            pass
+        super(Purchase, self).delete()
+        
+    def toJSON(self):
+        item = model_to_dict(self)
+        item['nro']= format(self.id, '06d')
+        item['date_joined']= self.date_joined.strftime('%Y-%m-%d')
+        item['provider']=self.provider.toJSON()
+        item['sucursal']=self.toJSON()
+        item['numfactura']=self.toJSON()
+        item['subtotal']=format(self.subtotal, '.2f')
+        return item
+    
+    class Meta:
+        verbose_name = 'Recepcion Productos'
+        verbose_name_plural = 'Recepcion Productos'
+        default_permissions = ()
+        permissions = ()
+        ordering = ['-id']
+
+
+
+
+            
+    
 class Client(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     mobile = models.CharField(max_length=10, unique=True, verbose_name='Teléfono')
@@ -719,7 +765,7 @@ class Devolution(models.Model):
 class PurchaseRequest(models.Model):
     date_joined = models.DateField(default=datetime.now)
     state = models.CharField(choices=state_request, max_length=50, default='Enviado')
-    sucursal=models.ForeignKey(Sucursal, on_delete=models.PROTECT, null=True, blank=True)
+    sucursal=models.ForeignKey(Sucursal, on_delete=models.PROTECT)
     concepto = models.CharField(max_length=150, verbose_name='Concepto', null=True, blank=True)
     provider = models.ForeignKey(Provider, on_delete=models.PROTECT,null=True, blank=True )
     payment_condition = models.CharField(choices=payment_condition, max_length=150, default='Credito')
@@ -736,15 +782,11 @@ class PurchaseRequest(models.Model):
 
     def __str__(self):
         return self.provider.name
-    
-
-    def __str__(self):
-        return self.concepto
 
     def nro(self):
         return format(self.id, '06d')
     
-    def calculate_invoice_(self):
+    def calculate_invoice(self):
         subtotal = 0.00
         for d in self.purchaserequestdetail_set.all():
             subtotal += float(d.price)*int(d.cant)
@@ -779,10 +821,6 @@ class PurchaseRequest(models.Model):
         item['plazo'] = {} if self.plazo is None else self.plazo.toJSON()
 
         return item
-
-
-
-
 
     def delete(self, using=None, keep_parents=False):
         try:
@@ -1049,3 +1087,88 @@ class ProductBySucursalDetail(models.Model):
         verbose_name_plural='Lista de Productos Stock'
         default_permissions=()
         ordering = ['-id']
+
+class RecepcionMercaderia(models.Model):
+    numfact = models.CharField(max_length=150, verbose_name="NumeroFactura")
+    state = models.CharField(choices=state_request, max_length=150, default='Recibido')
+    date_joined = models.DateField(default=datetime.now)
+    demanda = models.IntegerField(default=0)
+    cantrecibida = models.IntegerField(default=0)
+    proveedor = models.ForeignKey(Provider, on_delete=models.CASCADE)
+    concepto = models.CharField(max_length=100, verbose_name="Concepto")
+    employee = models.ForeignKey(User, on_delete=models.CASCADE)
+    sucursal = models.ForeignKey(Sucursal, on_delete=models.CASCADE)
+    subtotal = models.DecimalField(max_digits=9, decimal_places=2, default=0.00)
+
+    def __str__(self):
+        return self.provider.name
+
+
+    def calculate_invoice(self):
+        subtotal = 0.00
+        for d in self.recepcionmercaderiadetail_set.all():
+            subtotal += float(d.price)* int(d.cant)
+        self.subtotal = subtotal
+        self.save()
+    
+    def nro(self):
+        return format(self.id, '06d')
+
+    def delete(self, using=None, keep_parents=False):
+        try:
+            for i in self.recepcionmercaderiadetail_set.all():
+                i.product.stock -= i.cant
+                i.product.save()
+                i.delete()
+        except:
+            pass
+        super(RecepcionMercaderia, self).delete()
+    
+    def toJSON(self):
+        item = model_to_dict(self)
+        item['nro']=format(self.id, '06d')
+        item['date_joined']=self.date_joined.strftime('%Y-%m-%d')
+        item['sucursal']=self.sucursal.toJSON()
+        item['proveedor']= {} if self.proveedor is None else self.proveedor.toJSON()
+        item['numfact']=self.numfact.toJSON()
+        item['demanda']=self.demanda.toJSON()
+        item['cantrecibida']=self.cantrecibida.toJSON()
+        item['concepto']=self.concepto.toJSON()
+        item['state']=self.state.toJSON()
+
+        return item
+
+    class Meta:
+        verbose_name = 'Recepcion Mercaderia'
+        verbose_name_plural = 'Recepcion Mercaderia'
+
+        ordering = ['-id']
+
+class RecepcionMercaderiaDetail(models.Model):
+    recepcionmercaderia = models.ForeignKey(RecepcionMercaderia, on_delete=models.PROTECT)
+    product = models.ForeignKey(Product, on_delete=models.PROTECT)
+    cant = models.IntegerField(default=0)
+    price = models.DecimalField(max_digits=9, decimal_places=2, default=0.00)
+
+    def __str__(self):
+        return self.product.name
+    
+    def toJSON(self):
+        item = model_to_dict(self,)
+        item['product']=self.product.toJSON()
+        return item
+    class Meta:
+        verbose_name = 'Detalle de Recepcion'
+        verbose_name_plural = 'Detalle de Recepcion'
+        ordering = ['-id']
+
+
+        
+    
+
+    
+
+
+    
+
+    

@@ -116,6 +116,8 @@ $(function() {
             scrollX: true,
             scrollCollapse: true,
             columns: [
+
+                { data: "product.code" },
                 { data: "product.name" },
                 { data: "product.category.name" },
                 //{data: "price"},

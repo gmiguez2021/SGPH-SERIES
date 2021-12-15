@@ -15,16 +15,18 @@ voucher = (
 )
 state_request=(
     ('Enviado', 'Enviado'),
-    ('Aprobar', 'Aprobar')
+    ('Aprobar', 'Aprobar'),
+    ('Recibir', 'Recibido'),
+
 
 )
 state_transfer=(
     ('Realizada', 'Realizada'),
     ('Rechazada', 'Rechazada'),
-    ('Recibida', 'Recibida')
+    ('Recibida', 'Recibida'),
 
 )
 tipodocumento=(
     ('Guia de Remision','Guia de Remision'),
-    ('Facturador','Facturador')
+    ('Facturador','Facturador'),
 )

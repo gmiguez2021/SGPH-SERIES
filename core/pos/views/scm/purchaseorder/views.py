@@ -4,13 +4,8 @@ from django.db import transaction
 from django.http import JsonResponse, HttpResponse
 from django.urls import reverse_lazy
 from django.views.generic import CreateView, DeleteView, FormView, UpdateView
-
 from core.reports.forms import ReportForm
 from core.security.mixins import PermissionMixin
-
-
-
-
 from django.contrib.auth.models import Group
 from django.db.models import Q
 from django.template.loader import get_template
@@ -141,7 +136,7 @@ class PurchaseOrderCreateView(PermissionMixin, CreateView):
 
                     purchaseorder.calculate_invoice()
 
-                    if purchaseorder.payment_condition == 'credito':
+                    if  purchaseorder.payment_condition == 'credito':
                         purchaseorder.end_credit = request.POST['end_credit']
                         purchaseorder.save()
                         #debtspay = DebtsPay()
@@ -218,7 +213,7 @@ class PurchaseAdminUpdateView(PermissionMixin, UpdateView):
     template_name = 'scm/purchaseorder/create.html'
     form_class = PurchaseRequestForm
     success_url = reverse_lazy('purchaseorder_list')
-    permission_required = 'change_purchase'
+    permission_required = 'change_purchaseorder'
 
     def validate_provider(self):
         data = {'valid': True}
@@ -306,9 +301,7 @@ class PurchaseAdminUpdateView(PermissionMixin, UpdateView):
                         det.product.save()
 
                     #purchaserequest.calculate_invoice()
-
-                  
-                       
+    
                     data = {'id': purchaseorder.id}
             elif action == 'search_products':
                 data = []

@@ -32,7 +32,7 @@ class AuthorizePurchaseListView(PermissionMixin, FormView):
                 data = []
                 start_date = request.POST['start_date']
                 end_date = request.POST['end_date']
-                search = PurchaseRequest.objects.filter(Q(state='Aprobar')|Q(state='Aprobado'))
+                search = PurchaseRequest.objects.filter(Q(state='Aprobar')|Q(state='Aprobado')|Q(state='Rechazado'))
 
                 #search = PurchaseRequest.objects.filter()
                 if len(start_date) and len(end_date):
@@ -62,7 +62,7 @@ class AuthorizePurchaseCreateView(PermissionMixin, CreateView):
     template_name = 'scm/authorizepurchase/create.html'
     form_class = PurchaseRequestForm
     success_url = reverse_lazy('authorizepurchase_list')
-    permission_required = 'add_purchaseorderx'
+    permission_required = 'add_purchaseorder'
 
     def validate_provider(self):
         data = {'valid': True}
@@ -215,7 +215,7 @@ class AuthorizePurchaseUpdView(PermissionMixin, UpdateView):
     template_name = 'scm/authorizepurchase/create.html'
     form_class = PurchaseRequestForm
     success_url = reverse_lazy('authorizepurchase_list')
-    permission_required = 'change_purchase'
+    permission_required = 'change_purchaseorder'
 
     def validate_provider(self):
         data = {'valid': True}
@@ -369,4 +369,3 @@ class AuthorizePurchaseUpdView(PermissionMixin, UpdateView):
         #context['iva'] = Company.objects.first().get_iva()
         context['det'] = json.dumps(self.get_details_product())
         return context
-
